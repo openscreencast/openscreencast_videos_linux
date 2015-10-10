@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1280"
+   height="720"
+   id="svg7831"
+   sodipodi:version="0.32"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="gimp_rahmen_ziehen.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.0"
+   inkscape:export-filename="/home/paul/todo/klassen_o.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs7833">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 384 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="1024 : 384 : 1"
+       inkscape:persp3d-origin="512 : 256 : 1"
+       id="perspective7839" />
+    <inkscape:perspective
+       id="perspective2848"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.76"
+     inkscape:cx="763.78116"
+     inkscape:cy="335.27432"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:window-width="1378"
+     inkscape:window-height="886"
+     inkscape:window-x="331"
+     inkscape:window-y="212"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7836">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer">
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       id="rect7841"
+       width="1280"
+       height="720"
+       x="0"
+       y="0"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:31.23046303px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="676.96014"
+       y="71.414345"
+       id="text7843"
+       transform="scale(0.9454028,1.0577502)"><tspan
+         sodipodi:role="line"
+         x="676.96014"
+         y="71.414345"
+         id="tspan4096"
+         style="font-size:22px" /><tspan
+         sodipodi:role="line"
+         x="676.96014"
+         y="98.914345"
+         style="font-size:22px"
+         id="tspan3252">Jugend hackt 2014</tspan><tspan
+         sodipodi:role="line"
+         x="676.96014"
+         y="126.41434"
+         style="font-size:22px"
+         id="tspan3258" /><tspan
+         sodipodi:role="line"
+         x="676.96014"
+         y="153.91435"
+         style="font-size:22px"
+         id="tspan3260">CC-BY http://creativecommons.org/licenses/by/3.0/de/</tspan><tspan
+         sodipodi:role="line"
+         x="676.96014"
+         y="181.41435"
+         style="font-size:22px"
+         id="tspan3254">02.06.2014</tspan><tspan
+         sodipodi:role="line"
+         x="676.96014"
+         y="208.91435"
+         style="font-size:22px"
+         id="tspan3256" /><tspan
+         sodipodi:role="line"
+         x="676.96014"
+         y="236.41435"
+         style="font-size:22px"
+         id="tspan3248" /><tspan
+         sodipodi:role="line"
+         x="676.96014"
+         y="263.91434"
+         style="font-size:22px"
+         id="tspan3250">Musik:</tspan><tspan
+         sodipodi:role="line"
+         x="676.96014"
+         y="291.41434"
+         id="tspan3220"
+         style="font-size:22px">Break-A-Leg CC-BY RoccoW</tspan><tspan
+         sodipodi:role="line"
+         x="676.96014"
+         y="318.91434"
+         id="tspan3222"
+         style="font-size:22px">http://freemusicarchive.org/music/RoccoW/~/Break-A-Leg</tspan><tspan
+         sodipodi:role="line"
+         x="676.96014"
+         y="346.41434"
+         id="tspan3224"
+         style="font-size:22px">Honeys Pie CC-BY Wake</tspan><tspan
+         sodipodi:role="line"
+         x="676.96014"
+         y="373.91434"
+         id="tspan3226"
+         style="font-size:22px">http://freemusicarchive.org/music/Wake/Bonus_Beat_Blast_2011/69_wake-honeys_pie</tspan><tspan
+         sodipodi:role="line"
+         x="676.96014"
+         y="401.41434"
+         id="tspan3228"
+         style="font-size:22px">Something Elated CC-BY Broke For Free</tspan><tspan
+         sodipodi:role="line"
+         x="676.96014"
+         y="428.91434"
+         id="tspan3230"
+         style="font-size:22px">http://freemusicarchive.org/music/broke_for_free/something_ep/broke_for_free_-_something_ep_-_05_something_elated</tspan><tspan
+         sodipodi:role="line"
+         x="676.96014"
+         y="456.41434"
+         id="tspan3232"
+         style="font-size:22px" /><tspan
+         sodipodi:role="line"
+         x="676.96014"
+         y="483.91434"
+         id="tspan3234"
+         style="font-size:22px">Video:  Jugend hackt - Young Rewired State kommt nach Berlin - http://www.youtube.com/watch?v=9ln9egZoksg</tspan><tspan
+         sodipodi:role="line"
+         x="676.96014"
+         y="511.41437"
+         id="tspan3238"
+         style="font-size:22px">by Sam Muirhead www.yearofopensource.net</tspan><tspan
+         sodipodi:role="line"
+         x="676.96014"
+         y="538.91437"
+         id="tspan3242"
+         style="font-size:22px" /><tspan
+         sodipodi:role="line"
+         x="676.96014"
+         y="566.41437"
+         id="tspan3244"
+         style="font-size:22px">CC-BY Open Knowledge Foundation Deutschland e.V.</tspan><tspan
+         sodipodi:role="line"
+         x="676.96014"
+         y="593.91437"
+         id="tspan3246"
+         style="font-size:22px">http://creativecommons.org/licenses/by/3.0/de/</tspan></text>
+  </g>
+</svg>
