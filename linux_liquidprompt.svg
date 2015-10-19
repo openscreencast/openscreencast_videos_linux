@@ -14,7 +14,7 @@
    id="svg7831"
    sodipodi:version="0.32"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="linux_ack.svg"
+   sodipodi:docname="linux_liquidprompt.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.0"
    inkscape:export-filename="/home/paul/todo/klassen_o.png"
@@ -46,14 +46,14 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.76"
      inkscape:cx="645.35464"
-     inkscape:cy="416.32966"
+     inkscape:cy="418.96124"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
      showgrid="false"
      inkscape:window-width="1378"
      inkscape:window-height="886"
-     inkscape:window-x="335"
-     inkscape:window-y="190"
+     inkscape:window-x="853"
+     inkscape:window-y="206"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata7836">
@@ -89,7 +89,7 @@
          sodipodi:role="line"
          x="674.16541"
          y="73.126503"
-         id="tspan3007">Screencast: Suchen und Finden mit Ack, statt grep</tspan><tspan
+         id="tspan3007">Screencast: Linux - Liquid prompt</tspan><tspan
          sodipodi:role="line"
          x="674.16541"
          y="112.16458"
@@ -105,7 +105,7 @@
          sodipodi:role="line"
          x="674.16541"
          y="229.27882"
-         id="tspan7855">Ausgangspunkt: Linux Mint 16</tspan><tspan
+         id="tspan7855">Ausgangspunkt: Linux Mint 15</tspan><tspan
          sodipodi:role="line"
          x="674.16541"
          y="268.31689"
@@ -113,7 +113,7 @@
          sodipodi:role="line"
          x="674.16541"
          y="307.35498"
-         id="tspan2836">Datum: 30.04.2014</tspan><tspan
+         id="tspan2836">Datum: 12.10.2013</tspan><tspan
          sodipodi:role="line"
          x="674.16541"
          y="346.39307"
@@ -138,31 +138,36 @@
          x="674.16541"
          y="541.58344"
          id="tspan3012"
-         style="font-size:31.23046303px">http://svij.org/blog/2014/04/27/suchen-und-finden-mit-ack-statt-grep/</tspan><tspan
+         style="font-size:31.23046303px">http://www.freiesmagazin.de/freiesMagazin-2013-09</tspan><tspan
          sodipodi:role="line"
          x="674.16541"
          y="580.62152"
          style="font-size:31.23046303px"
-         id="tspan3009">&quot;Suchen und Finden mit Ack, statt grep&quot; by Sujeevan Vijayakumaran (http://svij.org)</tspan><tspan
+         id="tspan3009">&quot;Liquid prompt - Eine erweiterte Prompt für Bash und zsh&quot;</tspan><tspan
+         sodipodi:role="line"
+         x="674.16541"
+         y="619.65961"
+         style="font-size:31.23046303px"
+         id="tspan3356">by Sujeevan Vijayakumaran (http://svij.org)</tspan><tspan
          sodipodi:role="line"
          x="679.13666"
-         y="619.65961"
+         y="658.69769"
          id="tspan3014">Lizenz: http://creativecommons.org/licenses/by-sa/3.0/ </tspan><tspan
          sodipodi:role="line"
          x="674.16541"
-         y="658.69769"
+         y="697.73578"
          id="tspan3004" /><tspan
          sodipodi:role="line"
          x="674.16541"
-         y="697.73578"
+         y="736.77386"
          id="tspan3057" /><tspan
          sodipodi:role="line"
          x="674.16541"
-         y="736.77386"
+         y="775.81195"
          id="tspan7861" /><tspan
          sodipodi:role="line"
          x="674.16541"
-         y="775.81195"
+         y="814.84998"
          id="tspan4096" /></text>
   </g>
 </svg>
