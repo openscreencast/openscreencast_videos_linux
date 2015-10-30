@@ -1,0 +1,55 @@
+1
+00:00:05,000 --> 00:00:10,900
+Hallo, in diesem Video möchte ich den Server SimpleHTTPServer vorstellen
+
+2
+00:00:11,000 --> 00:00:18,900
+SimpleHTTPServer ist in Python geschrieben und für den einfachen, schnellen, temporären Einsatz gedacht
+
+3
+00:00:19,000 --> 00:00:26,900
+um z.B. Dateien oder statische Webseiten per World Wide Web abrufbereit zu machen
+
+4
+00:00:27,000 --> 00:00:33,900
+SimpleHTTPServer muss bei den meisten grossen Linux-Distribution nicht nachinstalliert werden
+
+5
+00:00:34,000 --> 00:00:36,900
+der Server ist ein Modul von Python
+
+6
+00:00:37,000 --> 00:00:46,900
+Ich gehe auf Aktivitäten und starte ein Terminal. Ich bin im Persönlichen Ordner
+
+7
+00:00:47,000 --> 00:01:07,900
+Gestartet wird der Webserver mittels Befehl python -m SimpleHTTPServer im jeweiligen Verzeichnis
+
+8
+00:01:08,000 --> 00:01:13,900
+Dieses Verzeichnis wird gewissermassen zum Wurzelverzeichnis des Webservers
+
+9
+00:01:14,000 --> 00:01:42,900
+Im Browser tippt man nunmehr http://localhost:8000 ein um auf die Dateien zugreifen zu können
+
+10
+00:01:43,000 --> 00:01:56,900
+8000 ist die Standardportnummer. Die Portnummer kann man auch abändern indem man eine andere beim Start angibt
+
+11
+00:01:57,000 --> 00:02:10,900
+mit Strg+C beenden und jetzt einfach neu starten mit dem Port 8002 (python -m SimpleHTTPServer 8002)
+
+12
+00:02:11,000 --> 00:02:19,900
+8000 funktioniert nicht mehr, sondern 8002
+
+13
+00:02:20,000 --> 00:02:22,900
+Tschau und viel Glueck
+
+14
+00:02:23,000 --> 00:02:23,001
+Dieses Untertitel-Dokument steht unter der Lizenz: http://creativecommons.org/publicdomain/zero/1.0/

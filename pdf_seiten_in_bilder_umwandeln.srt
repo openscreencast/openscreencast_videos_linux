@@ -1,0 +1,83 @@
+1
+00:00:02,000 --> 00:00:04,900
+Hallo - PDF-Seiten in Bilder umwandeln
+
+2
+00:00:05,000 --> 00:00:07,900
+In diesem Video moechte ich 3 Tools vorstellen
+
+3
+00:00:08,000 --> 00:00:12,900
+Ich bin im Persoenlichen Ordner, im Verzeichnis Dokumente, ich starte ein Terminal
+
+4
+00:00:13,000 --> 00:00:23,900
+und wechsle ins Verzeichnis Dokumente mittels cd Dokumente ENTER
+
+5
+00:00:24,000 --> 00:00:28,900
+ls - es gibt eine pdf-Datei namens acta.pdf im Verzeichnis
+
+6
+00:00:29,000 --> 00:00:33,900
+als erstes moechte ich das Tool pdftoppm vorstellen
+
+7
+00:00:34,000 --> 00:00:37,900
+dieses Tool verwandelt Seiten von einem pdf-Dokument in Bilder
+
+8
+00:00:38,000 --> 00:00:47,900
+moegliche Optionen werden nach der Eingabe pdftoppm --help aufgelistet
+
+9
+00:00:48,000 --> 00:01:06,900
+pdftoppm acta.pdf acta (ppm Filemuster) konvertiert jede Seite zu einem ppm-Bild
+
+10
+00:01:07,000 --> 00:01:19,900
+im pdf-Dokument existieren 4 Seiten also gibt es auch 4 Bilder
+
+11
+00:01:20,000 --> 00:01:40,900
+mittels Option -png koennen png-Bilder erstellt werden und mit -jpeg kommt es zur Ausgabe von jpg-Bildern 
+
+12
+00:01:45,000 --> 00:01:53,900
+ausserdem existiert noch das Tool pdftocairo mit aehnlichen Funktionen
+
+13
+00:01:54,000 --> 00:02:01,900
+durch den Befehl pdftocairo --help werden alle Optionen sichtbar
+
+14
+00:02:02,000 --> 00:02:25,900
+pdftocairo acta.pdf -png acta2 (Filemuster) generiert png-Bilder
+
+15
+00:02:26,000 --> 00:02:37,900
+ebenso gibt es noch die Schaffungsoptionen -jpeg, -ps, -eps, -pdf und -svg
+
+16
+00:02:38,000 --> 00:02:51,900
+durch das Tool pdfimages koennen Bilder innerhalb einer PDF-Datei extrahiert werden
+
+17
+00:02:52,000 --> 00:02:53,900
+das klappt aber nicht immer so gut
+
+18
+00:02:54,000 --> 00:03:06,900
+anhand der Optionen -f und -l kann eine Selection (Auswahl) durchgefuehrt werden
+ 
+19
+00:03:07,000 --> 00:03:15,900
+bei allen 3 Tools uebrigens, z.B. beachte nur die Seiten 2 bis 4
+
+20
+00:03:18,000 --> 00:03:20,900
+Tschau und viel Glueck
+
+21
+00:03:21,000 --> 00:03:21,001
+Dieses Dokument steht unter der Lizenz http://creativecommons.org/licenses/by/3.0/

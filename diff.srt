@@ -1,0 +1,79 @@
+1
+00:00:11,000 --> 00:00:14,900
+Hallo - In diesem Screencast ein paar Tipps
+
+2
+00:00:15,000 --> 00:00:21,900
+Ich oeffne ein Terminal - in meinem persoenlichen Ordner befinden sich 3 Textdateien
+
+3
+00:00:22,000 --> 00:00:34,900
+und zwar a.txt b.txt und c.txt
+
+4
+00:00:35,000 --> 00:00:49,900
+der Inhalt der Dateien sieht wie folgt aus: cat a.txt, cat b.txt, cat c.txt
+
+5
+00:00:50,000 --> 00:00:54,900
+nun moechte ich die Dateien vergleichen
+
+6
+00:00:55,000 --> 00:00:59,900
+diff ist das Standardtool um den Inhalt von 2 Dateien zu vergleichen
+
+7
+00:01:00,000 --> 00:01:11,900
+welche Optionen zur Verfuegung stehen wird nach der Eingabe diff --help deutlich
+
+8
+00:01:14,000 --> 00:01:30,900
+diff Datei1 Datei2, also diff a.txt b.txt listet die Unterschiede zwischen den 2 Dateien auf
+
+9
+00:01:31,000 --> 00:01:36,900
+-y initiiert einen Detailvergleich
+
+10
+00:01:37,000 --> 00:01:41,900
+mittels -r koennen ganze Verzeichnisse verglichen werden
+
+11
+00:01:42,000 --> 00:01:49,900
+per Tool diff3 kann man sogar einen Vergleich von 3 Dateien anstossen
+
+12
+00:01:50,000 --> 00:02:06,900
+so z.B. diff3 a.txt b.txt c.txt
+
+13
+00:02:08,000 --> 00:02:24,900
+cmp a.txt b.txt ermittelt ab dem wievielten Zeichen sich 2 Dateien unterscheiden
+
+14
+00:02:25,000 --> 00:02:33,900
+mit -l werden alle Stellen aufgelistet (cmp a.txt b.txt -l)
+
+15
+00:02:34,000 --> 00:02:52,900
+comm Datei1 Datei2, also comm a.txt b.txt vergleicht die Dateien zeilenweise
+
+16
+00:02:53,000 --> 00:03:04,900
+mit der Option -1 werden Zeilen unterdrueckt die nur in Datei1 auftauchen
+
+17
+00:03:05,000 --> 00:03:12,900
+durch Option -2 werden Zeilen unterdrueckt die nur in Datei2 auftauchen
+
+18
+00:03:13,000 --> 00:03:19,900
+und mit Option -3 kann man veranlassen dass Zeilen die in beiden Dateien auftauchen unterdrueckt werden
+
+19
+00:03:24,000 --> 00:03:26,900
+Tschau und viel Glueck
+
+20
+00:03:27,000 --> 00:03:27,001
+Lizenz der Untertitel-Datei: http://creativecommons.org/licenses/by/3.0/
