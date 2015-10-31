@@ -1,0 +1,59 @@
+1
+00:00:05,000 --> 00:00:13,900
+Hallo - Ziel dieses Video-Tutorial ist es zu zeigen mit welchen Kommandos man mehrere PDF-Dateien verbinden kann
+
+2
+00:00:14,000 --> 00:00:19,900
+Ich bin im persoenlichen Ordner, im Verzeichnis Dokumente und habe hier 4 PDF-Dateien
+
+3
+00:00:20,000 --> 00:00:23,900
+und die moechte ich jetzt zusammenfuegen zu einer PDF-Datei
+
+4
+00:00:24,000 --> 00:00:27,900
+und das geht wie folgt: Ich oeffne ein Terminal
+
+5
+00:00:28,000 --> 00:00:35,900
+gehe ins Verzeichnis Dokumente mit cd Dokumente ENTER
+
+6
+00:00:36,000 --> 00:00:37,900
+ls ENTER, hier sind meine 4 PDF-Dateien
+
+7
+00:00:38,000 --> 00:00:46,900
+und jetzt gebe ich ein pdftk (das ist das eigentliche Tool) und jetzt folgen die einzelnen PDF-Dateien
+
+8
+00:00:47,000 --> 00:01:03,900
+1.pdf 2.pdf 3.pdf 4.pdf, abschliessend kommt noch output und der Name der Ergebnisdatei z.B. g.pdf
+
+9
+00:01:04,000 --> 00:01:11,900
+Um sich das Ergebnis anzuschauen klickt man einfach auf die Datei mit einem Doppelklick
+
+10
+00:01:12,000 --> 00:01:17,900
+und schon oeffnet sich der Dokumentenbetrachter
+
+11
+00:01:20,000 --> 00:01:25,900
+OK, ebenso kann man das Tool pdfunite zum Einsatz bringen
+
+12
+00:01:26,000 --> 00:01:40,900
+man tippt ein: pdfunite, nun folgen ebenfalls wieder die pdf-Dateien 1.pdf 2.pdf 3.pdf 4.pdf
+
+13
+00:01:41,000 --> 00:01:53,900
+am Ende kommt nur noch der Name der Ergebnisdatei z.B. g2.pdf
+
+14
+00:02:00,000 --> 00:02:02,900
+Tschau und viel Glueck
+
+15
+00:02:03,000 --> 00:02:03,001
+Dieses Dokument steht unter der Lizenz http://creativecommons.org/licenses/by/3.0/
