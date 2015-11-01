@@ -1,0 +1,187 @@
+1
+00:00:05,000 --> 00:00:08,900
+Hallo - Hier und jetzt moechte ich das Programm Webcamstudio vorstellen
+
+2
+00:00:09,000 --> 00:00:14,900
+Dieses Tool findet man auf dieser Seite und es wird wie folgt installiert
+
+3
+00:00:15,000 --> 00:00:19,900
+Man laedt sich das jeweilige Paket herunter - klickt drauf - klickt nochmal drauf
+
+4
+00:00:20,000 --> 00:00:22,900
+Datei speichern - OK
+
+5
+00:00:23,000 --> 00:00:29,900
+Dann landet das Paket im Verzeichnis Downloads - man macht einen Doppelklick drauf
+
+6
+00:00:30,000 --> 00:00:36,900
+dann wird das Ubuntu Software-Center gestartet fuer die Installation
+
+7
+00:00:42,000 --> 00:00:46,900
+Abschliessend macht man einen Klick auf den Button installieren
+
+8
+00:00:48,000 --> 00:00:55,900
+Dann gibt man sein Passwort ein und schon ist das Paket verfuegbar
+
+9
+00:01:01,000 --> 00:01:07,900
+OK - Fertig - alle Fenster schliessen
+
+10
+00:01:11,000 --> 00:01:16,900
+Das Programm startet man jetzt mit Webcamstudio
+
+11
+00:01:26,000 --> 00:01:29,900
+Dieses Programm simuliert eine Webcam
+
+12
+00:01:32,000 --> 00:01:39,900
+Man kann gewisse Quellen z.B. Bilder, Text, Animationen oder auch den Bildschirminhalt senden
+
+13
+00:01:40,000 --> 00:01:42,900
+den ganzen Bildschirm oder auch nur einen Teil davon
+
+14
+00:01:43,000 --> 00:01:51,900
+Hier sind z.B. die Quellen - ich klicke mal auf Desktop - OK
+
+15
+00:01:52,000 --> 00:01:56,900
+Hier gibt es mehrere Einstellungen die man machen kann
+
+16
+00:01:57,000 --> 00:02:07,900
+die Groesse usw. - bei der Ausgabe kann man Framerate und Groesse der Ausgabe einstellen usw.
+
+17
+00:02:09,000 --> 00:02:16,900
+OK - und jetzt kann man sich den Inhalt den man sendet anschauen
+
+18
+00:02:17,000 --> 00:02:21,900
+mit irgend einem Webcamprogramm z.B. mit cheese
+
+19
+00:02:22,000 --> 00:02:27,900
+das gehoert aber nicht zum Standard bei Ubuntu - muss also erst nachinstalliert werden
+
+20
+00:02:34,000 --> 00:02:47,900
+OK - Jetzt aendere ich einfach mal die Einstellungen - die Groesse 640x480
+
+21
+00:02:48,000 --> 00:03:03,900
+OK - Format 0 0 640x480 - so wird nur ein Teil vom Bildschirm gesendet
+
+22
+00:03:08,000 --> 00:03:15,900
+OK - Nun kann man noch z.B. wie schon gesagt Text und Bilder hinzufuegen oder Animationen
+
+23
+00:03:16,000 --> 00:03:25,900
+so kann man z.B. Wasser hinzufuegen und auch wieder entfernen
+
+24
+00:03:27,000 --> 00:04:09,900
+oder z.B. Text - oder ein Bild usw. - wie man halt moechte
+
+25
+00:04:10,000 --> 00:04:13,900
+Dann kann man das Ganze eventuell aufnehmen
+
+26
+00:04:14,000 --> 00:04:17,900
+ist vielleicht ein bisschen umstaendlicher als recordmydesktop
+
+27
+00:04:18,000 --> 00:04:28,900
+ich wuerde immer noch recordmydesktop nehmen - da ist die Qualitaet sicherlich besser
+
+28
+00:04:29,000 --> 00:04:34,900
+den Bildschirminhalt kann man jetzt im Internet zeigen
+
+29
+00:04:34,000 --> 00:04:39,900
+mit diversen Webcamdiensten - das geht aber auch nicht bei allen Diensten
+
+30
+00:04:40,000 --> 00:04:44,900
+und man sollte auf die Groesse achten - denn die Groesse ist eigentlich sehr klein
+
+31
+00:04:45,000 --> 00:04:47,900
+und am Ende erkennt man gar nichts mehr
+
+32
+00:04:48,000 --> 00:04:51,900
+deswegen sollte man vielleicht nur einen Teil senden
+
+33
+00:04:52,000 --> 00:04:54,900
+oder mit Zoom arbeiten
+
+34
+00:04:55,000 --> 00:05:00,900
+das geht aber auch nicht bei allen Diensten
+
+35
+00:05:01,000 --> 00:05:07,900
+bei Google Plus Hangouts da funktioniert es
+
+36
+00:05:08,000 --> 00:05:10,900
+aber das braucht man da eigentlich gar nicht mehr
+
+37
+00:05:11,000 --> 00:05:15,900
+denn jetzt gibt es Hangouts mit erweiterten Funktionen
+
+38
+00:05:16,000 --> 00:05:17,900
+und da kann man den Bildschirm freischalten
+
+39
+00:05:18,000 --> 00:05:23,900
+aber wenn man das doch moechte mit den Hangouts arbeiten
+
+40
+00:05:24,000 --> 00:05:29,900
+dann muss man darauf achten das das Bild von Google gespiegelt wird
+
+41
+00:05:30,000 --> 00:05:34,900
+und dann muss man einen bestimmten Effekt hinzufuegen um das wieder rueckgaengig zu machen
+
+42
+00:05:35,000 --> 00:05:43,900
+das ist der Effekt FlipVertical - einfach hinzufuegen - auch bei allen Quellen uebrigens
+
+43
+00:05:44,000 --> 00:05:47,900
+und dann muesste das eigentlich funktionieren
+
+44
+00:05:51,000 --> 00:05:55,900
+es gibt natuerlich noch viel mehr was man hier einstellen kann 
+
+45
+00:05:56,000 --> 00:06:01,900
+mehrere Effekte usw. - einfach alles mal ausprobieren
+
+46
+00:06:04,000 --> 00:06:05,900
+Tschau und viel Glueck
+
+47
+00:06:07,000 --> 00:06:07,001
+Dieses Untertitel-Dokument steht unter der Lizenz: http://creativecommons.org/publicdomain/zero/1.0/

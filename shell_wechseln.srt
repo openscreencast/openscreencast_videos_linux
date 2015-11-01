@@ -1,0 +1,71 @@
+1
+00:00:05,000 --> 00:00:09,900
+Hallo - Herzlich Willkommen - zu einer anderen Shell wechseln
+
+2
+00:00:10,000 --> 00:00:15,900
+Ich oeffne ein Terminal - gehe auf Aktivitaeten und wechsle in den Uebersichtsmodus
+
+3
+00:00:16,000 --> 00:00:22,900
+klicke auf Terminal in der Favoritenleiste und starte so gnome-terminal
+
+4
+00:00:23,000 --> 00:00:29,900
+bash - die bourne again shell ist meistens die Standard-Shell in Linux-Distributionen
+
+5
+00:00:30,000 --> 00:00:32,900
+Eine Shell ist ein Kommandointerpreter
+
+6
+00:00:33,000 --> 00:00:37,900
+also eine Schnittstelle zwischen Benutzer und dem Linux-Betriebssystem
+
+7
+00:00:38,000 --> 00:00:48,900
+Es gibt aber auch andere Shells wie z.B. sh ksh csh tcsh usw.
+
+8
+00:00:49,000 --> 00:00:53,900
+Um zu einer anderen Shell zu wechseln gibt man einfach den Namen und ENTER ein
+
+9
+00:00:54,000 --> 00:01:01,900
+z.B. sh ENTER - so kann man jetzt mit der Shell sh arbeiten
+
+10
+00:01:02,000 --> 00:01:04,900
+Hinweis: Diese Shell muss installiert sein
+
+11
+00:01:05,000 --> 00:01:16,900
+In welcher Shell man sich gerade befindet verraet einen die Eingabe echo $0 ENTER
+
+12
+00:01:17,000 --> 00:01:21,900
+exit beendet die aktuelle Shell
+
+13
+00:01:22,000 --> 00:01:33,900
+also da ich in diesem Fall vorher in der bash war und jetzt in der sh, beende ich die Shell sh
+
+14
+00:01:34,000 --> 00:01:36,900
+und kann jetzt wieder mit der bash arbeiten 
+
+15
+00:01:37,000 --> 00:01:46,900
+echo $0 ENTER - in dieser Shell befinde ich mich gerade - in der bash
+
+16
+00:01:47,000 --> 00:01:58,900
+Die Version von bash wird durch echo $BASH_VERSION ENTER angezeigt
+
+17
+00:02:02,000 --> 00:02:04,900
+Tschau und viel Glueck
+
+18
+00:02:05,000 --> 00:02:05,001
+Dieses Untertitel-Dokument steht unter der Lizenz: http://creativecommons.org/publicdomain/zero/1.0/

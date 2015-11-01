@@ -1,0 +1,67 @@
+1
+00:00:05,000 --> 00:00:09,900
+Hallo - In diesem Video moechte ich das Tool pwgen vorstellen
+
+2
+00:00:10,000 --> 00:00:16,900
+pwgen kann wie folgt nachinstalliert werden - Ich oeffne ein Terminal und gebe ein
+
+3
+00:00:17,000 --> 00:00:29,900
+su -c "yum install pwgen" - ENTER - Passwort eingeben
+
+4
+00:00:30,000 --> 00:00:47,900
+OK - und jetzt wird das Paket heruntergeladen und installiert
+
+5
+00:00:58,000 --> 00:01:00,900
+OK - soweit so gut
+
+6
+00:01:01,000 --> 00:01:05,900
+pwgen ist ein Kommandozeilen-Programm
+
+7
+00:01:06,000 --> 00:01:09,900
+das eingesetzt werden kann um Passwoerter zu generieren
+
+8
+00:01:10,000 --> 00:01:19,900
+moegliche Funktionen werden nach der Eingabe pwgen --help aufgelistet
+
+9
+00:01:20,000 --> 00:01:32,900
+pwgen bringt 120 Passwoerter mit jeweils 8 Zeichen hervor
+
+10
+00:01:33,000 --> 00:01:44,900
+pwgen -N 1 erzeugt ein Passwort
+
+11
+00:01:45,000 --> 00:01:52,900
+pwgen -N 5 erzeugt 5 Passwoerter usw.
+
+12
+00:01:53,000 --> 00:02:06,900
+-s steht fuer generiere sehr sichere Passwoerter z.B. pwgen -s -N 1
+
+13
+00:02:07,000 --> 00:02:23,900
+Die Zahl nach den Parametern bestimmt die Laenge der Passwoerter z.B. pwgen -s -N 1 20
+
+14
+00:02:27,000 --> 00:02:39,900
+Ein weiteres Programm das man zum Generieren von Passwoertern benutzen kann ist das Programm apg
+
+15
+00:02:40,000 --> 00:02:49,900
+Dieses Programm muss nicht nachinstalliert werden - es gehoert zum Standard
+
+16
+00:03:07,000 --> 00:03:08,900
+Tschau und viel Glueck
+
+17
+00:03:09,000 --> 00:03:09,001
+Dieses Untertitel-Dokument (.srt) steht unter der Lizenz: http://creativecommons.org/publicdomain/zero/1.0/
