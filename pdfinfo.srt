@@ -1,0 +1,67 @@
+1
+00:00:05,000 --> 00:00:10,900
+Hallo - Informationen bzw. die Metadaten ueber ein PDF-Dokument
+
+2
+00:00:11,000 --> 00:00:15,900
+Um Naeheres ueber eine PDF-Datei in Erfahrung zu bringen gibt es mehrere Varianten
+
+3
+00:00:16,000 --> 00:00:18,900
+Ich moechte hier mal 3 vorstellen
+
+4
+00:00:19,000 --> 00:00:25,900
+Zum einen, man kann das PDF-Dokument mit der rechten Maustaste anklicken
+
+5
+00:00:26,000 --> 00:00:33,900
+so oeffnet sich ein Kontextmenue - und geht dann ganz unten auf den Eintrag Eigenschaften
+
+6
+00:00:34,000 --> 00:00:38,900
+und klickt auf den Reiter Dokument - die 1. Variante
+
+7
+00:00:39,000 --> 00:00:44,900
+die zweite - man oeffnet das PDF-Dokument mit einem Doppelklick
+
+8
+00:00:45,000 --> 00:00:48,900
+so startet man den Dokumentenbetrachter
+
+9
+00:00:49,000 --> 00:00:55,900
+geht ins Menue Datei und klickt hier auf den Eintrag Eigenschaften
+
+10
+00:00:57,000 --> 00:01:01,900
+und die dritte Variante - das ist ein Kommando im Terminal
+
+11
+00:01:02,000 --> 00:01:07,900
+Ich gehe auf Aktivitaeten und starte ein Terminal, hier mal gnome-terminal
+
+12
+00:01:08,000 --> 00:01:15,900
+jetzt liste ich alle PDF-Dokumente auf
+
+13
+00:01:16,000 --> 00:01:31,900
+und Informationen ueber ein PDF-Dokument gibt mir der Befehl pdfinfo pdf-Datei
+
+14
+00:01:32,000 --> 00:01:39,900
+da kann ich *pdf nehmen weil es nur ein PDF-Dokument im Verzeichnis gibt
+
+15
+00:01:41,000 --> 00:01:49,900
+die Optionen des Kommandos werden aufgelistet durch pdfinfo --help
+
+16
+00:01:52,000 --> 00:01:53,900
+Tschau und viel Glueck
+
+17
+00:01:54,000 --> 00:01:54,001
+Dieses Dokument steht unter der Lizenz http://creativecommons.org/licenses/by/3.0/
