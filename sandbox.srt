@@ -1,0 +1,67 @@
+1
+00:00:05,000 --> 00:00:09,900
+Hallo - Anwendungen in einer Sandbox starten
+
+2
+00:00:10,000 --> 00:00:13,900
+In der von SELinux bereitgestellten Sandbox werden Anwendungen
+
+3
+00:00:14,000 --> 00:00:15,900
+vom Rest des Betriebssystem abgeschirmt
+
+4
+00:00:16,000 --> 00:00:19,900
+Die Programme laufen in einer extra gesicherten Umgebung
+
+5
+00:00:20,000 --> 00:00:25,900
+so dass beim eigentlichen System falls Probleme vorkommen kein Schaden entstehen kann
+
+6
+00:00:26,000 --> 00:00:30,900
+Ich oeffne ein Terminal - druecke gleichzeitig die Tasten Alt und F2
+
+7
+00:00:31,000 --> 00:00:38,900
+gebe ein gnome-terminal ENTER - OK
+
+8
+00:00:39,000 --> 00:00:42,900
+Um ein pdf-Dokument in dieser isolierten Umgebung zu oeffnen
+
+9
+00:00:43,000 --> 00:01:04,900
+nutzt man folgendes Kommando: sandbox -X evince x.pdf - OK
+
+10
+00:01:07,000 --> 00:01:37,900
+Firefox wird mittels sandbox -X -t sandbox_web_t -W metacity firefox ausgefuehrt
+
+11
+00:01:38,000 --> 00:01:48,900
+-t sandbox_web_t fuer den Webzugriff und -W metacity um den Window-Manager zu bestimmen
+
+12
+00:01:51,000 --> 00:01:54,900
+Um Firefox mit einem vorhandenen Profil zu starten
+
+13
+00:01:55,000 --> 00:02:25,900
+gibt man folgendes ein: sandbox -X -t sandbox_web_t -W metacity -i /home/paul/.mozilla firefox
+
+14
+00:02:30,000 --> 00:02:55,900
+durch -w kann man die Groesse des Fensters bestimmen z.B. -w 1280x1024
+
+15
+00:02:56,000 --> 00:03:03,900
+Hilfe bekommt man nach der Eingabe sandbox --help
+
+16
+00:03:05,000 --> 00:03:09,900
+Tschau und viel Glueck
+
+17
+00:03:10,000 --> 00:03:10,001
+Dieses Untertitel-Dokument steht unter der Lizenz: http://creativecommons.org/publicdomain/zero/1.0/
