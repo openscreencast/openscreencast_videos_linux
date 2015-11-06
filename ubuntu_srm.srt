@@ -1,0 +1,79 @@
+1
+00:00:05,000 --> 00:00:10,900
+Hallo - In diesem Screencast ein kleiner Tipp - Dateien richtig loeschen
+
+2
+00:00:11,000 --> 00:00:16,900
+Werden Dateien mittels Befehl rm, der Entf-Taste oder der Papierkorb-Funktion geloescht
+
+3
+00:00:17,000 --> 00:00:20,900
+kann man die Dateien durch die Anwendung diverser Tools wiederherstellen
+
+4
+00:00:21,000 --> 00:00:27,900
+Mehrfaches ueberschreiben der Daten erschwert die Rekonstruktion der geloeschten Dateien erheblich
+
+5
+00:00:28,000 --> 00:00:32,900
+Die Tools shred und wipe ueberschreiben Dateien vielfach
+
+6
+00:00:33,000 --> 00:00:43,900
+shred gehoert zum Standard und wipe muss per sudo apt-get install wipe
+
+7
+00:00:44,000 --> 00:00:48,900
+oder mittels Ubuntu Software-Center nachinstalliert werden
+
+8
+00:00:49,000 --> 00:00:53,900
+shred und wipe wurden schon in einem anderen Video-Tutorial vorgestellt
+
+9
+00:00:54,000 --> 00:00:58,900
+Deswegen moechte ich hier das Paket secure-delete vorstellen
+
+10
+00:00:59,000 --> 00:01:13,900
+Die Installation beginnt nach der Eingabe von sudo apt-get install secure-delete - ENTER - Passwort
+
+11
+00:01:14,000 --> 00:01:19,900
+Eine Alternative waere das Ubuntu Software-Center
+
+12
+00:01:20,000 --> 00:01:23,900
+4 neue Tools stehen nun zur Verfuegung
+
+13
+00:01:24,000 --> 00:01:30,900
+sdmem fuer das ueberschreiben des Arbeitsspeichers
+
+14
+00:01:31,000 --> 00:01:37,900
+sswap fuer das ueberschreiben des Swap-Partition
+
+15
+00:01:38,000 --> 00:01:44,900
+sfill fuer das ueberschreiben des freien Speicherplatzes
+
+16
+00:01:45,000 --> 00:01:50,900
+und srm fuer das ueberschreiben einer Datei
+
+17
+00:01:51,000 --> 00:02:04,900
+srm datei (a.txt als Beispiel) loescht die angegebene Datei sicher, -v zeigt den Fortschritt an
+
+18
+00:02:08,000 --> 00:02:26,900
+srm -r Verzeichnis (a als Beispiel) loescht den ganzen Verzeichnisinhalt, -v zeigt den Fortschritt an
+
+19
+00:02:31,000 --> 00:02:33,900
+Tschau und Viel Glueck
+
+20
+00:02:34,000 --> 00:02:34,001
+Dieses Untertitel-Dokument (.srt) steht unter der Lizenz: http://creativecommons.org/publicdomain/zero/1.0/
