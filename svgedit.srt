@@ -1,0 +1,83 @@
+1
+00:00:05,000 --> 00:00:08,900
+Hallo, in diesem Screencast nur ein kleiner Tipp
+
+2
+00:00:09,000 --> 00:00:13,900
+Wenn zum Zeichnen kein SVG-Editor wie Inkscape zur Verfuegung steht
+
+3
+00:00:14,000 --> 00:00:16,900
+ein Webbrowser und Internet aber vorhanden sind
+
+4
+00:00:17,000 --> 00:00:45,900
+kann man folgende Seite in seinem Browser aufrufen http://code.google.com/p/svg-edit/
+
+5
+00:00:46,000 --> 00:00:53,900
+Hier gibt es einen Web SVG-Editor namens svg-edit
+
+6
+00:00:54,000 --> 00:01:06,900
+Um damit zu arbeiten klickt man geradewegs nur noch auf svg-edit 2.5.1 hier unter Demos
+
+7
+00:01:08,000 --> 00:01:14,900
+Javascript muss hierbei aber verfuegbar sein
+
+8
+00:01:15,000 --> 00:01:19,900
+denn sonst passiert folgendes - ich schalte hier mal Javascript aus
+
+9
+00:01:20,000 --> 00:01:29,900
+Bearbeiten - Einstellungen - Inhalt - Javascript aktivieren das Haekchen weg - Schliessen
+
+10
+00:01:30,000 --> 00:01:35,900
+Seite neu starten (Strg+R) - dann passiert naemlich gar nichts
+
+11
+00:01:36,000 --> 00:01:50,900
+Javascript wieder aktivieren - Seite neu laden - und schon funktioniert wieder alles
+
+12
+00:01:54,000 --> 00:01:59,900
+Die gaengisten Grundfunktionalitaeten zum Zeichnen stehen nun bereit
+
+13
+00:02:00,000 --> 00:02:07,900
+Ich kann ein Viereck zeichnen - Ich kann mit Ebenen arbeiten
+
+14
+00:02:08,000 --> 00:02:17,900
+Neue Ebene - Ebene 2 - OK - Ebene 1 verstecken
+
+15
+00:02:18,000 --> 00:02:30,900
+Ich kann einen Kreis zeichnen - usw.
+
+16
+00:02:48,000 --> 00:02:56,900
+Und ausserdem gibt es noch die Funktionen Neues Bild - Bild oeffnen - Importiere SVG
+
+17
+00:02:57,000 --> 00:03:02,900
+Bild speichern - Als PNG exportieren - Dokument-Eigenschaften
+
+18
+00:03:03,000 --> 00:03:10,900
+Und man kann sich auch noch den Quellcode anzeigen lassen
+
+19
+00:03:15,000 --> 00:03:28,900
+Ich mache jetzt hier mal Bild speichern - OK - Datei - Speichern unter - Speichern
+
+20
+00:03:29,000 --> 00:03:34,900
+OK - da ist das Bild
+
+21
+00:03:37,000 --> 00:03:39,900
+Tschau und viel Glueck

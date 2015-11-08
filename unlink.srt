@@ -1,0 +1,75 @@
+1
+00:00:05,000 --> 00:00:08,900
+eine Datei mit unlink loeschen
+
+2
+00:00:09,000 --> 00:00:12,900
+Es gibt viele Moeglichkeiten um eine Datei zu loeschen
+
+3
+00:00:13,000 --> 00:00:16,900
+Man kann die Datei anklicken und die ENTF-Taste druecken
+
+4
+00:00:17,000 --> 00:00:20,900
+Man kann eine Datei mit der rechten Maustaste anklicken
+
+5
+00:00:21,000 --> 00:00:22,900
+und dann in den Muell verschieben
+
+6
+00:00:23,000 --> 00:00:25,900
+Man kann eine Datei anklicken
+
+7
+00:00:26,000 --> 00:00:32,900
+die linke Maustaste gedrueckt halten und dann in den Muelleimer verschieben
+
+8
+00:00:33,000 --> 00:00:35,900
+oder man kann auch im Terminal
+
+9
+00:00:36,000 --> 00:00:40,900
+mit dem Befehl rm eine Datei loeschen
+
+10
+00:00:41,000 --> 00:00:49,900
+vorher gehe ich erst per cd ins Verzeichnis Dokumente wo meine Datei zum loeschen ist
+
+11
+00:00:50,000 --> 00:00:58,900
+und jetzt kann ich mit rm Name der Datei, die Datei loeschen die ich moechte
+
+12
+00:00:59,000 --> 00:01:03,900
+Dann gibt es noch den Befehl unlink
+
+13
+00:01:04,000 --> 00:01:11,900
+wobei unlink so gut wie keine Moeglichkeiten hat
+
+14
+00:01:12,000 --> 00:01:14,900
+wahrscheinlich wird unlink keiner benutzen
+
+15
+00:01:15,000 --> 00:01:19,900
+aber der Vollstaendigkeit halber moechte ich unlink hier nochmal erwaehnen
+
+16
+00:01:20,000 --> 00:01:25,900
+unlink hat nur die zwei Optionen --help und --version
+
+17
+00:01:26,000 --> 00:01:31,900
+und mit unlink kann man auch nur eine einzige Datei loeschen
+
+18
+00:01:32,000 --> 00:01:41,900
+das geht dann so: unlink Name der Datei, OK
+
+19
+00:01:44,000 --> 00:01:47,900
+Tschau und viel Glueck
