@@ -1,0 +1,67 @@
+1
+00:00:05,000 --> 00:00:08,900
+Hallo - bei Ubuntu html in pdf umwandeln
+
+2
+00:00:09,000 --> 00:00:15,900
+In einem anderen Screencast habe ich schon gezeigt wie das bei Fedora funktioniert
+
+3
+00:00:16,000 --> 00:00:23,900
+Im Uebrigen die Varianten Firefox und htmldoc existieren auch bei Ubuntu
+
+4
+00:00:24,000 --> 00:00:27,900
+Aber in diesem Screencast moechte ich zwei andere Moeglichkeiten vorstellen
+
+5
+00:00:28,000 --> 00:00:34,900
+Und zwar einmal das Tool wkhtmltopdf
+
+6
+00:00:35,000 --> 00:00:49,900
+das installiert wird per sudo apt-get install wkhtmltopdf - ENTER - Passwort eingeben
+
+7
+00:00:50,000 --> 00:00:57,900
+Die Installation funktioniert auch mittels Ubuntu Software-Center
+
+8
+00:00:58,000 --> 00:01:03,900
+Und jetzt kann man das Tool einsetzen
+
+9
+00:01:04,000 --> 00:01:17,900
+man gibt ein: wkhtmltopdf URL-Angabe (diese Seite mal als Beispiel)
+
+10
+00:01:18,000 --> 00:01:26,900
+jetzt der Name der zu erstellenden PDF-Datei - hier mal 1.pdf - ENTER
+
+11
+00:01:27,000 --> 00:01:34,900
+Und warten bis die PDF-Datei erzeugt wurde
+
+12
+00:01:35,000 --> 00:01:45,900
+OK - Fertig - und im Ordner Dokumente ist die PDF-Datei - einfach drauf klicken und dann wird sie geoeffnet
+
+13
+00:01:46,000 --> 00:02:01,900
+Die zweite Moeglichkeit ist die Website www.pdfmyurl.com
+
+14
+00:02:02,000 --> 00:02:11,900
+OK - die URL angeben (www.radiotux.de als Beispiel) - auf den Button klicken
+
+15
+00:02:12,000 --> 00:02:15,900
+und warten bis die PDF erzeugt wurde
+
+16
+00:02:16,000 --> 00:02:24,900
+OK - und dann einfach entweder Datei speichern oder oeffnen mit Dokumentenbetrachter
+
+17
+00:02:29,000 --> 00:02:32,900
+Tschau und viel Glueck

@@ -1,0 +1,47 @@
+1
+00:00:05,000 --> 00:00:07,900
+Hallo - In diesem Screencast ein kleiner Tipp
+
+2
+00:00:08,000 --> 00:00:15,900
+Und zwar bei Ubuntu 11.04 befinden sich die Anwendungsmenues oben im Panel
+
+3
+00:00:16,000 --> 00:00:19,900
+Wer sein Menue wieder im jeweiligen Fenster sehen moechte
+
+4
+00:00:20,000 --> 00:00:23,900
+der kann das Paket indicator-appmenu loeschen
+
+5
+00:00:24,000 --> 00:00:26,900
+dazu startet man das Ubuntu Software-Center
+
+6
+00:00:27,000 --> 00:00:32,900
+sucht nach indicator-appmenu
+
+7
+00:00:33,000 --> 00:00:36,900
+klickt das Paket an - klickt auf den Button entfernen
+
+8
+00:00:37,000 --> 00:00:42,900
+gibt sein Passwort ein und wartet bis das Paket geloescht wurde
+
+9
+00:00:43,000 --> 00:00:49,900
+dann meldet man sich ab und neu an - dann muesste das Menue im Fenster sein
+
+10
+00:00:50,000 --> 00:00:53,900
+oder die Loeschung des Pakets geht auch per Befehl
+
+11
+00:00:54,000 --> 00:01:00,900
+sudo apt-get remove indicator-appmenu
+
+12
+00:01:02,000 --> 00:01:04,900
+Tschau und viel Glueck
