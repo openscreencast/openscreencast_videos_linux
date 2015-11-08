@@ -1,0 +1,35 @@
+1
+00:00:01,000 --> 00:00:04,500
+Um sein Passwort zu aendern geht man folgende Schritte
+
+2
+00:00:05,000 --> 00:00:07,500
+Man tippt gleichzeitig die Tasten Alt und F2
+
+3
+00:00:08,000 --> 00:00:14,500
+und gibt ein passwd, klickt auf Im Terminal ausfuehren und dann auf den Button Ausfuehren
+
+4
+00:00:15,000 --> 00:00:21,500
+Oder man sucht sich ein Terminal zu finden unter Anwendungen - Zubehoer - Terminal
+
+5
+00:00:21,600 --> 00:00:24,500
+oder eventuell auch unter Systemwerkzeuge
+
+6
+00:00:25,000 --> 00:00:31,500
+und gibt dann den Befehl passwd ein, ENTER
+
+7
+00:00:32,000 --> 00:00:39,500
+gibt nun sein altes Passwort ein und danach zweimal das neue Passwort
+
+8
+00:00:40,000 --> 00:00:44,500
+zur Absicherung falls man sich mal vertippt
+
+9
+00:00:45,000 --> 00:00:51,500
+Das Passwort sollte man aus Sicherheitsgruenden oefters mal aendern und ein sicheres Passwort sollte man waehlen

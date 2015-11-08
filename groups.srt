@@ -1,0 +1,43 @@
+1
+00:00:05,000 --> 00:00:12,500
+Dieses Screencast zeigt die Wege die man gehen kann um herauszufinden zu welchen Benutzergruppen man eigentlich dazugehört
+
+2
+00:00:13,000 --> 00:00:20,500
+Zum einen ich klicke auf System - Administration, klicke auf Benutzer und Gruppen
+
+3
+00:00:21,000 --> 00:00:24,500
+oder führe Kommando system-config-users aus
+
+4
+00:00:25,000 --> 00:00:29,500
+gebe das Admin-Passwort ein, OK
+
+5
+00:00:30,000 --> 00:00:41,500
+markiere meinen Benutzer, klicke auf Eigenschaften und anschließend auf den Reiter Gruppen
+
+6
+00:00:42,000 --> 00:00:51,500
+die Gruppen die mit einem Häkchen markiert sind, zu den Gruppen gehöre ich dazu
+
+7
+00:00:52,000 --> 00:01:02,500
+oder ich benutze ein Terminal, klicke auf Anwendungen - Systemwerkzeuge, klicke auf Terminal
+
+8
+00:01:03,000 --> 00:01:16,500
+und gebe ein groups ENTER, ganz simple, oder id -nG ENTER
+
+9
+00:01:17,000 --> 00:01:22,500
+möchte ich Auskunft über einen bestimmten, ganz anderen Benutzer vielleicht
+
+10
+00:01:23,000 --> 00:01:30,500
+gebe ich nach den beiden Kommandos die ich hier schon gerade gezeigt habe
+
+11
+00:01:31,000 --> 00:01:37,500
+ein Leerzeichen ein und danach den Benutzernamen und danach drücke ich ENTER
