@@ -1,0 +1,67 @@
+1
+00:00:01,000 --> 00:00:05,500
+Wie finde ich heraus wieviel MB ein Verzeichnis auffrisst
+
+2
+00:00:06,000 --> 00:00:08,500
+Dabei hilft mir das Programm du
+
+3
+00:00:09,000 --> 00:00:12,500
+Ich klicke auf Anwendungen - Systemwerkzeuge, klicke auf Terminal
+
+4
+00:00:13,000 --> 00:00:15,500
+und gebe ein du ENTER
+
+5
+00:00:16,000 --> 00:00:23,500
+Hier wird angezeigt wieviel Speicher im aktuellen Verzeichnis und in den jeweiligen Unterverzeichnissen steckt
+
+6
+00:00:24,000 --> 00:00:28,500
+oder ich gebe nach du einen bestimmten Pfad an (Bsp. du /etc ENTER)
+
+7
+00:00:29,000 --> 00:00:38,500
+du --help ENTER zeigt mir an welche Optionen ich anwenden kann
+
+8
+00:00:39,000 --> 00:00:45,500
+Option -a zeigt zusätzlich noch die Dateien mit an (du -a ENTER)
+
+9
+00:00:46,000 --> 00:00:53,500
+Option -h macht es dem Menschen einfacher die Daten zu erfassen (du -h ENTER)
+
+10
+00:00:54,000 --> 00:01:01,500
+Option -s gibt nur die Endsumme an (du -s ENTER)
+
+11
+00:01:02,000 --> 00:01:06,500
+Außerdem gibt es noch ein weiteres Programm
+
+12
+00:01:07,000 --> 00:01:13,500
+zu finden unter Anwendungen - Systemwerkzeuge - Festplattenbelegung analysieren
+
+13
+00:01:14,000 --> 00:01:21,500
+das Programm kann man auch starten mit dem Befehl baobab ENTER
+
+14
+00:01:22,000 --> 00:01:28,500
+Hier kann man den Persönlichen Ordner einlesen, das ganze Dateisystem oder einen bestimmten Ordner
+
+15
+00:01:29,000 --> 00:01:32,500
+Ich klicke mal auf den Button Persönlichen Ordner einlesen
+
+16
+00:01:33,000 --> 00:01:39,500
+so wird jedes Unterverzeichnis analysiert, die Größe wird angegeben
+
+17
+00:01:40,000 --> 00:01:48,500
+und es gibt eine schöne grafische Darstellung mit den jeweiligen Verzeichnisebenen

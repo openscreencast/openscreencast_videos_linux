@@ -1,0 +1,39 @@
+1
+00:00:01,000 --> 00:00:06,500
+Um mich darüber zu informieren wieviel Platz auf meinen Dateisystemen noch frei ist
+
+2
+00:00:07,000 --> 00:00:14,500
+und wieviel schon belegt ist, klicke ich auf System - Administration, und klicke auf Systemüberwachung
+
+3
+00:00:15,000 --> 00:00:18,500
+und ich gehe zum Reiter Dateisysteme
+
+4
+00:00:20,000 --> 00:00:29,500
+oder ich klicke auf Anwendungen - Zubehör, klicke auf Terminal und gebe den Befehl df ENTER ein
+
+5
+00:00:30,000 --> 00:00:38,500
+Um eine besser erfassbare Anzeige erscheinen zu lassen gibt es die Option -h (df -h ENTER)
+
+6
+00:00:39,000 --> 00:00:45,500
+die Option -T zeigt zusätzlich die Typen der Dateisysteme an (df -T ENTER)
+
+7
+00:00:46,000 --> 00:00:54,500
+Hilfe erscheint bei der Option --help (df --help ENTER)
+
+8
+00:00:55,000 --> 00:01:04,500
+um die Ausgabe des Befehls df in einem Fenster erscheinen zu lassen gehe ich wie folgt vor
+
+9
+00:01:05,000 --> 00:01:09,500
+Ich drücke gleichzeitig die Tasten ALT und F2
+
+10
+00:01:10,000 --> 00:01:44,500
+und gebe jetzt ein zenity --info --text "$(df -h)" und klicke auf den Button Ausführen

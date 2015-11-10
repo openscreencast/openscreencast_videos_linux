@@ -1,0 +1,31 @@
+1
+00:00:01,000 --> 00:00:06,500
+Um mir Informationen darüber zu verschaffen was die Arbeitsspeicherauslastung angeht
+
+2
+00:00:07,000 --> 00:00:08,500
+möchte ich heute drei Möglichkeiten vorstellen
+
+3
+00:00:09,000 --> 00:00:14,500
+Zum einen ich klicke auf System, gehe auf Administration und klicke auf Systemüberwachung
+
+4
+00:00:15,000 --> 00:00:20,500
+dort findet man unter dem Reiter Ressourcen die Speicher- und Auslagerungschronik
+
+5
+00:00:21,000 --> 00:00:28,500
+Zum zweiten ich klicke auf Anwendungen, gehe auf Systemwerkzeuge, klicke auf Terminal
+
+6
+00:00:29,000 --> 00:00:30,500
+und gebe den Befehl free ENTER ein
+
+7
+00:00:31,000 --> 00:00:40,500
+Um ans Tageslicht zu bringen welche Optionen es beim Tool free noch gibt, gebe ich ein free -h ENTER
+
+8
+00:00:41,000 --> 00:01:04,500
+Und zum dritten ich gebe ein cat /proc/meminfo ENTER (cat datei ENTER - Inhalt einer Datei anzeigen)
