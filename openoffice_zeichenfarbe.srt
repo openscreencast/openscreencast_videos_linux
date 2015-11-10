@@ -1,0 +1,35 @@
+1
+00:00:00,000 --> 00:00:02,500
+OpenOffice - die Zeichenfarbe ändern
+
+2
+00:00:02,600 --> 00:00:05,500
+ich markiere den Text, gehe mit dem Mauspfeil zum Startpunkt
+
+3
+00:00:05,600 --> 00:00:08,500
+klicke mit der linken Maustaste, behalte den Klick bei
+
+4
+00:00:08,600 --> 00:00:12,500
+ziehe zum Endpunkt, lasse die Maustaste wieder los
+
+5
+00:00:12,600 --> 00:00:17,500
+klicke auf den Pfeil vom Symbol Zeichenfarbe und wähle eine Farbe aus
+
+6
+00:00:17,600 --> 00:00:24,500
+oder ich markiere den Text, klicke auf das Menü Format
+
+7
+00:00:24,600 --> 00:00:30,500
+klicke auf Zeichen und wähle den Reiter Schrifteffekt
+
+8
+00:00:30,600 --> 00:00:35,500
+und wähle unter Schriftfarbe eine Farbe aus, klicke die Farbe an
+
+9
+00:00:35,600 --> 00:00:40,500
+und klicke abschließend auf den Button OK

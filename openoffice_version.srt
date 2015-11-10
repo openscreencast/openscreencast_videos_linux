@@ -1,0 +1,23 @@
+1
+00:00:00,000 --> 00:00:03,500
+OpenOffice - mit welcher Version arbeite ich eigentlich
+
+2
+00:00:03,600 --> 00:00:08,500
+um das herauszufinden klicke ich mit dem Mauspfeil auf Menü Hilfe
+
+3
+00:00:08,600 --> 00:00:11,500
+und anschließend auf Info über OpenOffice.org
+
+4
+00:00:11,600 --> 00:00:17,500
+oder ich drücke gleichzeitig die Tasten Alt und h
+
+5
+00:00:17,600 --> 00:00:20,500
+und anschließend die Taste i
+
+6
+00:00:20,600 --> 00:00:30,500
+hier kann ich nun die Version ablesen, das wäre in diesem Fall 2.0.4

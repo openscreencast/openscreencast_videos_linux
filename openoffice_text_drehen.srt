@@ -1,0 +1,51 @@
+1
+00:00:00,000 --> 00:00:02,000
+OpenOffice - den Text drehen
+
+2
+00:00:02,100 --> 00:00:04,500
+Ich markiere den Text, gehe zum Startpunkt
+
+3
+00:00:04,600 --> 00:00:07,500
+klicke mit der linken Maustaste, behalte den Klick bei
+
+4
+00:00:07,600 --> 00:00:12,500
+ziehe zum Endpunkt, lasse die Maustaste wieder los
+
+5
+00:00:12,600 --> 00:00:14,500
+klicke auf das Menü Format
+
+6
+00:00:14,600 --> 00:00:18,500
+dann Zeichen, wähle den Reiter Position
+
+7
+00:00:18,600 --> 00:00:23,500
+und klicke auf z.B. 90 Grad unter Rotation / Skalierung
+
+8
+00:00:23,600 --> 00:00:26,500
+abschließend klicke ich auf den Button OK
+
+9
+00:00:27,600 --> 00:00:30,500
+Oder ich markiere den Text
+
+10
+00:00:30,600 --> 00:00:36,500
+drücke gleichzeitig die Tasten Alt und f um das Menü Format zu wählen
+
+11
+00:00:36,600 --> 00:00:41,500
+drücke dann die Taste c, gehe zum Reiter Position
+
+12
+00:00:41,600 --> 00:00:48,500
+und drücke z.B. 9 um 90 Grad auszuwählen
+
+13
+00:00:48,600 --> 00:00:52,500
+abschließend drücke ich die Taste ENTER

@@ -1,0 +1,35 @@
+1
+00:00:00,000 --> 00:00:02,500
+OpenOffice - Die Schriftgrösse ändern
+
+2
+00:00:02,600 --> 00:00:05,500
+Ich markiere den Text, gehe zum Startpunkt
+
+3
+00:00:05,600 --> 00:00:08,500
+klicke mit der linken Maustaste, behalte den Klick bei
+
+4
+00:00:08,600 --> 00:00:12,500
+ziehe zum Endpunkt, lasse die Maustaste wieder los
+
+5
+00:00:12,600 --> 00:00:15,500
+und klicke auf den Pfeil Schriftgrösse
+
+6
+00:00:15,600 --> 00:00:19,500
+wähle eine Zahl aus (Schriftgrösse) und klicke darauf
+
+7
+00:00:19,600 --> 00:00:25,500
+oder ich markiere den Text, gehe mit den Mauspfeil auf den markierten Text
+
+8
+00:00:25,600 --> 00:00:27,500
+klicke mit der rechten Maustaste
+
+9
+00:00:28,600 --> 00:00:32,500
+gehe auf Grösse und wähle hier eine Schriftgrösse aus und klicke darauf

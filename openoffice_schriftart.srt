@@ -1,0 +1,35 @@
+1
+00:00:00,000 --> 00:00:02,500
+OpenOffice - Die Schriftart ändern
+
+2
+00:00:02,600 --> 00:00:04,500
+Ich markiere den Text, gehe zum Startpunkt
+
+3
+00:00:04,600 --> 00:00:08,500
+klicke mit der linken Maustaste, behalte den Klick bei
+
+4
+00:00:08,600 --> 00:00:13,500
+ziehe zum Endpunkt, lasse die Maustaste wieder los
+
+5
+00:00:13,600 --> 00:00:17,500
+und klicke auf den Pfeil Schriftname
+
+6
+00:00:17,600 --> 00:00:20,500
+wähle eine Schriftart aus und klicke darauf
+
+7
+00:00:20,600 --> 00:00:26,500
+oder ich markiere den Text, gehe mit den Mauspfeil auf den markierten Text
+
+8
+00:00:26,600 --> 00:00:29,500
+klicke mit der rechten Maustaste
+
+9
+00:00:29,600 --> 00:00:33,500
+gehe auf Schrift und wähle dort eine Schriftart aus

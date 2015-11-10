@@ -1,0 +1,43 @@
+1
+00:00:00,000 --> 00:00:04,500
+OpenOffice - Was steckt eigentlich hinter den Symbolen
+
+2
+00:00:05,600 --> 00:00:11,500
+Um das herauszufinden gehe ich mit dem Mauspfeil auf ein Symbol und es gibt einen kurzen Kommentar
+
+3
+00:00:11,600 --> 00:00:16,500
+einen noch etwas längeren Kommentar gibt es indem ich auf Menü Hilfe klicke
+
+4
+00:00:16,600 --> 00:00:21,500
+und anschließend auf Direkthilfe und gehe wieder auf das Symbol
+
+5
+00:00:21,600 --> 00:00:25,500
+und es gibt einen etwas längeren Kommentar
+
+6
+00:00:25,600 --> 00:00:27,500
+Außerdem gibt es die OpenOffice Hilfe
+
+7
+00:00:27,600 --> 00:00:33,500
+dazu merke ich mir den kurzen Kommentar
+
+8
+00:00:33,600 --> 00:00:38,500
+gehe anschließen auf Menü Hilfe, klicke auf OpenOffice.org Hilfe
+
+9
+00:00:38,600 --> 00:00:41,500
+oder drücke die Taste F1
+
+10
+00:00:41,600 --> 00:00:49,500
+gebe jetzt hier den kurzen Kommentar ein und anschließen klicke ich auf den Button Anzeigen
+
+11
+00:00:49,600 --> 00:00:52,500
+und es gibt einen kurzen Text dazu

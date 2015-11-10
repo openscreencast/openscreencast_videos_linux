@@ -1,0 +1,31 @@
+1
+00:00:00,000 --> 00:00:02,500
+OpenOffice - die Zeichenhintergrundfarbe ändern
+
+2
+00:00:02,600 --> 00:00:06,500
+Ich markiere den Text, gehe zum Startpunkt
+
+3
+00:00:06,600 --> 00:00:09,500
+klicke mit der linken Maustaste, behalte den Klick bei
+
+4
+00:00:09,600 --> 00:00:13,500
+ziehe zum Endpunkt, lasse die Maustaste wieder los
+
+5
+00:00:13,600 --> 00:00:20,500
+und klicke auf den Pfeil vom Symbol Zeichenhintergrund und wähle eine Farbe aus
+
+6
+00:00:23,600 --> 00:00:27,500
+oder ich klicke auf das Menü Format
+
+7
+00:00:27,600 --> 00:00:32,500
+klicke auf Zeichen, gehe auf den Reiter Hintergrund
+
+8
+00:00:32,600 --> 00:00:39,500
+und wähle eine Farbe aus, klicke darauf und klicke anschließend auf den Button OK

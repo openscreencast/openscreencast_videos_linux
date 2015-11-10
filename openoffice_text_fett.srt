@@ -1,0 +1,47 @@
+1
+00:00:00,000 --> 00:00:04,500
+OpenOffice - Zeichen fett formatieren
+
+2
+00:00:04,600 --> 00:00:09,500
+Ich markiere den Text, gehe zum Startpunkt mit dem Mauspfeil
+
+3
+00:00:09,600 --> 00:00:13,500
+klicke mit der linken Maustaste, behalte den Klick bei
+
+4
+00:00:13,600 --> 00:00:17,500
+ziehe zum Endpunkt, lasse wieder los
+
+5
+00:00:17,600 --> 00:00:21,500
+und klicke anschließend auf das Symbol Fett
+
+6
+00:00:24,600 --> 00:00:26,500
+oder ich markiere den Text
+
+7
+00:00:26,600 --> 00:00:29,500
+klicke auf das Menü Format
+
+8
+00:00:29,600 --> 00:00:33,500
+dann auf Zeichen, gehe zum Reiter Schrift
+
+9
+00:00:33,600 --> 00:00:37,500
+klicke unter Schriftschnitt Fett an
+
+10
+00:00:37,600 --> 00:00:41,500
+und klicke anschließend auf den Button OK
+
+11
+00:00:44,600 --> 00:00:47,500
+oder ich markiere den Text
+
+12
+00:00:47,600 --> 00:00:53,500
+und drücke gleichzeitig die Tasten Strg, Shift und f

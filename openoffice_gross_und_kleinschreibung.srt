@@ -1,0 +1,43 @@
+1
+00:00:00,000 --> 00:00:05,500
+OpenOffice - Buchstaben und Kleinbuchstaben oder Grossbuchstaben umwandeln
+
+2
+00:00:05,600 --> 00:00:09,500
+Ich markiere den Text, gehe mit dem Mauspfeil zum Startpunkt
+
+3
+00:00:09,600 --> 00:00:12,500
+klicke mit der linken Maustaste, behalte den Klick bei
+
+4
+00:00:12,600 --> 00:00:15,500
+ziehe zum Endpunkt, lasse wieder los
+
+5
+00:00:15,600 --> 00:00:22,500
+klicke auf das Menü Format, gehe auf Groß-/Kleinschreibung
+
+6
+00:00:22,600 --> 00:00:27,500
+und klicke auf Grossbuchstaben oder Kleinbuchstaben
+
+7
+00:00:28,600 --> 00:00:33,500
+oder ich markiere den Text, gehe mit dem Mauspfeil auf den markierten Text
+
+8
+00:00:33,600 --> 00:00:36,500
+klicke mit der rechten Maustaste
+
+9
+00:00:36,600 --> 00:00:44,500
+gehe auf Groß-/Kleinschreibung und klicke entweder auf Grossbuchstaben oder Kleinbuchstaben
+
+10
+00:00:45,600 --> 00:00:52,500
+oder ich drücke gleichzeitig die Tasten Alt und f
+
+11
+00:00:52,600 --> 00:00:52,500
+drücke dann die Taste o und dann g für Grossbuchstaben und k für Kleinbuchstaben

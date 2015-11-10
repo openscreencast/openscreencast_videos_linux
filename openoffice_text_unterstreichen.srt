@@ -1,0 +1,43 @@
+1
+00:00:00,000 --> 00:00:03,500
+OpenOffice - den Text unterstreichen
+
+2
+00:00:03,600 --> 00:00:07,500
+ich markiere den Text, gehe zum Startpunkt
+
+3
+00:00:07,600 --> 00:00:10,500
+klicke mit der linken Maustaste, behalte den Klick bei
+
+4
+00:00:10,600 --> 00:00:12,500
+ziehe zum Endpunkt, lasse die Maustaste wieder los
+
+5
+00:00:12,600 --> 00:00:16,500
+und klicke anschließend auf das Symbol Unterstrichen
+
+6
+00:00:16,600 --> 00:00:24,500
+oder ich markiere den Text, klicke auf das Menü Format
+
+7
+00:00:24,600 --> 00:00:28,500
+und dann anschließend auf Zeichen
+
+8
+00:00:28,600 --> 00:00:38,500
+gehe zum Reiter Schrifteffekt und wähle mir unter Unterstreichung ein Format aus
+
+9
+00:00:38,600 --> 00:00:45,500
+das als Beispiel unten angezeigt wird, wie es dann im Endeffekt aussehen wird
+
+10
+00:00:50,600 --> 00:00:57,500
+oder ich markiere den Text, gehe mit dem Mauspfeil auf den markierten Text, klicke mit der rechten Maustaste
+
+11
+00:00:57,600 --> 00:01:03,500
+gehe auf Stil und klicke anschließend auf Unterstreichen

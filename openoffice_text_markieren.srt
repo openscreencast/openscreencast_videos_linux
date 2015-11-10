@@ -1,0 +1,47 @@
+1
+00:00:00,000 --> 00:00:02,500
+OpenOffice - den Text markieren
+
+2
+00:00:02,600 --> 00:00:08,500
+vor einer Aktion z.B. einer Formatierung muss ich dem Programm klar machen welche Zeichen davon betroffen sind
+
+3
+00:00:08,600 --> 00:00:10,500
+dazu markiere ich diese Zeichen
+
+4
+00:00:10,600 --> 00:00:13,500
+ich gehe mit dem Mauspfeil zum Startpunkt
+
+5
+00:00:13,600 --> 00:00:17,500
+mache einen Klick mit der linken Maustaste, behalte den Klick bei
+
+6
+00:00:17,600 --> 00:00:21,500
+und ziehe zum Endpunkt und lasse dann wieder los
+
+7
+00:00:21,600 --> 00:00:26,500
+so ist der Text markiert und ich kann mit der Aktion starten
+
+8
+00:00:27,600 --> 00:00:33,500
+oder ohne Maus, ich gehe mit den Cursortasten zum Startpunkt
+
+9
+00:00:33,600 --> 00:00:41,500
+drücke die Taste Shift, gehe mit den Cursortasten zum Endpunkt
+
+10
+00:00:41,600 --> 00:00:46,500
+lasse die Shift-Taste dann wieder los, und der Text ist markiert
+
+11
+00:00:46,600 --> 00:00:49,500
+oder wenn ich alles markieren will, den ganzen Text
+
+12
+00:00:49,600 --> 00:00:58,500
+drücke ich gleichzeitig die Taste Strg und die Taste a

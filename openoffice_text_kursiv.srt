@@ -1,0 +1,35 @@
+1
+00:00:00,000 --> 00:00:03,500
+OpenOffice - Zeichen kursiv formatieren
+
+2
+00:00:03,600 --> 00:00:07,500
+Ich markiere den Text, gehe zum Startpunkt mit dem Mauspfeil
+
+3
+00:00:07,600 --> 00:00:11,500
+klicke mit der linken Maustaste, behalte den Klick bei
+
+4
+00:00:11,600 --> 00:00:13,500
+ziehe zum Endpunkt, lasse wieder los
+
+5
+00:00:13,600 --> 00:00:17,500
+und klicke anschließend auf das Symbol kursiv
+
+6
+00:00:17,600 --> 00:00:25,500
+oder ich markiere den Text, bringe den Mauspfeil auf den markierten Text
+
+7
+00:00:25,600 --> 00:00:27,500
+klicke mit der rechten Maustaste
+
+8
+00:00:27,600 --> 00:00:32,500
+gehe auf Stil und anschließend klicke ich auf kursiv
+
+9
+00:00:34,600 --> 00:00:41,500
+oder ich drücke gleichzeitig die Tasten Strg, Shift und k

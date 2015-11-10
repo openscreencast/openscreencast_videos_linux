@@ -1,0 +1,27 @@
+1
+00:00:00,000 --> 00:00:02,500
+OpenOffice - blinkender Text
+
+2
+00:00:02,600 --> 00:00:06,500
+Ich markiere den Text, gehe zum Startpunkt
+
+3
+00:00:06,600 --> 00:00:10,500
+klicke mit der linken Maustaste, behalte den Klick bei
+
+4
+00:00:10,600 --> 00:00:13,500
+ziehe zum Endpunkt, lasse die Maustaste wieder los
+
+5
+00:00:13,600 --> 00:00:19,500
+klicke auf das Menü Format, klicke auf Zeichen, wähle den Reiter Schrifteffekt
+
+6
+00:00:19,600 --> 00:00:26,500
+und mache ein Häckchen in das Kästchen neben Blinkend
+
+7
+00:00:26,600 --> 00:00:30,500
+und klicke anschließend auf den Button OK

@@ -1,0 +1,47 @@
+1
+00:00:00,000 --> 00:00:02,500
+OpenOffice - Text durchstreichen
+
+2
+00:00:02,600 --> 00:00:06,500
+Ich markiere den Text, gehe mit dem Mauspfeil zum Startpunkt
+
+3
+00:00:06,600 --> 00:00:09,500
+klicke mit der linken Maustaste, behalte den Klick bei
+
+4
+00:00:09,600 --> 00:00:13,500
+ziehe zum Endpunkt, lasse die linke Maustaste wieder los
+
+5
+00:00:13,600 --> 00:00:16,500
+und klicke anschließend auf das Menü Format
+
+6
+00:00:16,600 --> 00:00:22,500
+und dann klicke ich auf Zeichen, wähle den Reiter Schrifteffekt
+
+7
+00:00:22,600 --> 00:00:26,500
+und wähle mir unter Durchstreichung ein Format aus
+
+8
+00:00:26,600 --> 00:00:31,500
+wie es im Endeffekt aussieht kann man sich als Beispiel unten nochmal anschauen
+
+9
+00:00:31,600 --> 00:00:34,500
+und zum Ende klicke ich auf den Button OK
+
+10
+00:00:34,600 --> 00:00:38,500
+oder ich markiere einen Text
+
+11
+00:00:38,600 --> 00:00:43,500
+gehe mit dem Mauspfeil auf den markierten Text, klicke mit der rechten Maustaste
+
+12
+00:00:43,600 --> 00:00:48,500
+gehe aus Stil und klicke auf Durchstreichen

@@ -1,0 +1,35 @@
+1
+00:00:00,000 --> 00:00:02,500
+OpenOffice - Die Textbreite skalieren
+
+2
+00:00:02,600 --> 00:00:06,500
+Ich markiere den Text, gehe zum Startpunkt
+
+3
+00:00:06,600 --> 00:00:08,500
+klicke mit der linken Maustaste, behalte den Klick bei
+
+4
+00:00:08,600 --> 00:00:12,500
+ziehe zum Endpunkt, lasse die Maustaste wieder los
+
+5
+00:00:12,600 --> 00:00:15,500
+gehe auf das Menü Format
+
+6
+00:00:15,600 --> 00:00:20,500
+klicke auf Zeichen, gehe zum Reiter Position
+
+7
+00:00:20,600 --> 00:00:26,500
+und unter Rotation/Skalierung kann ich hier die Breite skalieren
+
+8
+00:00:26,600 --> 00:00:31,500
+Wie es im Endeffekt aussieht wird unten als Beispiel angezeigt
+
+9
+00:00:31,600 --> 00:00:38,500
+Wenn ich mit der Breite einverstanden bin, klicke ich abschließend auf den Button OK

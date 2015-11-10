@@ -1,0 +1,43 @@
+1
+00:00:00,000 --> 00:00:03,500
+OpenOffice - den Text Hochstellen oder Tiefstellen
+
+2
+00:00:03,600 --> 00:00:06,500
+Ich markiere den Text, gehe zum Startpunkt
+
+3
+00:00:06,600 --> 00:00:09,500
+klicke mit der linken Maustaste, behalte den Klick bei
+
+4
+00:00:09,600 --> 00:00:12,500
+ziehe zum Endpunkt, lasse die Maustaste wieder los
+
+5
+00:00:12,600 --> 00:00:17,500
+klicke auf das Menü Format, klicke auf Zeichen
+
+6
+00:00:17,600 --> 00:00:23,500
+gehe zum Reiter Position und wähle hier entweder hoch oder tief
+
+7
+00:00:23,600 --> 00:00:28,500
+und klicke abschließend auf den Button OK
+
+8
+00:00:28,600 --> 00:00:31,500
+oder ich markiere den Text
+
+9
+00:00:31,600 --> 00:00:34,500
+gehe mit dem Mauspfeil auf den markierten Text
+
+10
+00:00:34,600 --> 00:00:38,500
+klicke mit der rechten Maustaste, gehe aus Stil
+
+11
+00:00:38,600 --> 00:00:44,500
+und klicke abschließend entweder auf Hochstellen oder Tiefstellen

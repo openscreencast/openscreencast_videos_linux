@@ -1,0 +1,31 @@
+1
+00:00:00,000 --> 00:00:03,500
+OpenOffice - den Text linksbündig ausrichten
+
+2
+00:00:03,600 --> 00:00:06,500
+linksbündig schreiben ist voreingestellt
+
+3
+00:00:06,600 --> 00:00:10,500
+sollte dies nicht der Fall sein, geht man in die jeweilige Zeile
+
+4
+00:00:10,600 --> 00:00:13,500
+und klickt auf das Symbol linksbündig
+
+5
+00:00:13,600 --> 00:00:21,500
+oder man geht in die jeweilige Zeile, klickt auf das Menü Format
+
+6
+00:00:21,600 --> 00:00:24,500
+geht auf Ausrichtung und klickt auf Links
+
+7
+00:00:24,600 --> 00:00:30,500
+oder ich drücke gleichzeitig die Tasten Alt und f
+
+8
+00:00:30,600 --> 00:00:37,500
+drücke die Taste t und abschließend die Taste l
