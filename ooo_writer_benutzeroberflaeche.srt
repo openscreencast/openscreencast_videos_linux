@@ -1,0 +1,191 @@
+1
+00:00:10,000 --> 00:00:13,500
+OpenOffice.org - Textverarbeitung - Menues
+
+2
+00:00:14,000 --> 00:00:17,500
+Die Menues befinden sich im Writer-Fenster ganz oben
+
+3
+00:00:18,000 --> 00:00:28,500
+Die Hauptmenueeintraege sind Datei, Bearbeiten, Ansicht, Einfuegen, Format, Tabelle, Extras, Fenster und Hil­fe
+
+4
+00:00:29,000 --> 00:00:35,500
+Wenn Sie auf einen der Menuenamen klicken, wird eine Liste mit den dazu gehoeren­den Optionen angezeigt
+
+5
+00:00:36,000 --> 00:00:48,500
+Datei enthaelt Kommandos, die sich auf das ganze Dokument beziehen, wie z. B. oeffnen, Speichern und Exportieren als PDF
+
+6
+00:00:49,000 --> 00:00:57,500
+Bearbeiten enthaelt Kommandos fuer die Bearbeitung von Dokumenten wie z. B. Rueckgaengig und Suchen & Ersetzen
+
+7
+00:00:58,000 --> 00:01:06,500
+Ansicht enthaelt Kommandos fuer die Anzeige eines Dokuments wie z. B. Massstab und Web-Layout
+
+8
+00:01:07,000 --> 00:01:16,500
+Einfuegen enthaelt Kommandos zum Einfuegen von Elementen in ein Dokument wie z. B. Kopf- und Fusszeilen und Bilder
+
+9
+00:01:17,000 --> 00:01:22,500
+Format enthaelt Kommandos zur Formatierung Ihres Dokuments 
+
+10
+00:01:23,000 --> 00:01:30,500
+wie z. B. For­matvorlagen, Absatz und Nummerierung und Aufzaehlungszeichen
+
+11
+00:01:31,000 --> 00:01:38,500
+Tabelle zeigt Kommandos zum Einfuegen und Bearbeiten einer Tabelle in einem Textdokument
+
+12
+00:01:39,000 --> 00:01:48,500
+Extras enthaelt Funktionen wie Rechtschreibpruefung, Anpassen und Optionen
+
+13
+00:01:49,000 --> 00:01:53,500
+Fenster enthaelt Kommandos fuer das Anzeigefenster
+
+14
+00:01:54,000 --> 00:02:02,500
+Hilfe enthaelt Links zur Programmhilfe und Informationen ueber Writer
+
+15
+00:02:05,000 --> 00:02:09,500
+OpenOffice.org - Textverarbeitung - Symbolleisten
+
+16
+00:02:10,000 --> 00:02:15,500
+Writer besitzt verschiedene Typen von Symbolleisten: andockende oder schwebende und Abreiss-Symbolleisten
+
+17
+00:02:16,000 --> 00:02:18,500
+Schwebende Symbolleisten koennen an andere Stellen im
+
+18
+00:02:19,000 --> 00:02:22,500
+Fenster verschoben werden oder am Fensterrand angedockt werden
+
+19
+00:02:23,000 --> 00:02:29,500
+Die oben im Programmfenster angedockte Symbolleiste (Standardposition) wird als Standard-Symbolleiste bezeichnet
+
+20
+00:02:30,000 --> 00:02:34,500
+Diese Standard-Symbolleiste finden Sie in allen OpenOffice.org- Anwendungen
+
+21
+00:02:35,000 --> 00:02:42,500
+Die Symbolleiste, die sich direkt darunter befindet (Standardposition), wird Format-Symbolleiste genannt
+
+22
+00:02:43,000 --> 00:02:49,500
+Schwebende Symbolleisten - Writer enthaelt mehrere kontextsensitive Symbolleisten
+
+23
+00:02:50,000 --> 00:02:53,500
+die standardmaessig als schwe­bende Symbolleisten konzipiert sind
+
+24
+00:02:54,000 --> 00:02:58,500
+abhaengig von der aktuellen Cursorposition oder Markierung
+
+25
+00:02:59,000 --> 00:03:05,500
+Wenn sich z. B. der Cursor in einer Tabelle befindet, erscheint die schwe­bende Symbolleiste Tabelle
+
+26
+00:03:06,000 --> 00:03:11,500
+und wenn sich der Cursor in einer nummerierten Liste befindet
+
+27
+00:03:12,000 --> 00:03:17,500
+wird die Symbolleiste Nummerierung und Aufzaehlungszeichen ange­zeigt
+
+28
+00:03:18,000 --> 00:03:38,500
+Sie koennen diese Symbolleisten oben, unten oder seitlich im Fenster andocken
+
+29
+00:03:39,000 --> 00:03:43,500
+Langklick-Schaltflaechen und AbreissSymbolleisten
+
+30
+00:03:44,000 --> 00:03:49,500
+Schaltflaechen mit einem kleinen Dreieck auf der rechten Seite zeigen Ihnen Unter­menues
+
+31
+00:03:50,000 --> 00:03:56,500
+Abreiss-Symbolleisten und andere Moeglichkeiten der Auswahl durch einen Langklick jeweils abhaengig von der Schaltflaeche
+
+32
+00:04:05,000 --> 00:04:11,500
+Die Abreiss-Symbolleisten sind immer frei schwebend und koennen in keiner Ecke ange­dockt werden
+
+33
+00:04:12,000 --> 00:04:24,500
+Um eine Abreiss-Symbolleiste zu verschieben, klicken Sie sie in der Ti­telzeile an und ziehen sie mit gedrueckter Maustaste
+
+34
+00:04:30,000 --> 00:04:34,500
+Anzeigen oder Verbergen von Symbolleisten 
+
+35
+00:04:35,000 --> 00:04:43,500
+Um Symbolleisten anzuzeigen oder zu verbergen, waehlen Sie Ansicht > Symbolleisten
+
+36
+00:04:44,000 --> 00:04:55,500
+Eine aktive Symbolleiste besitzt einen Haken neben ihrem Namen
+
+37
+00:04:56,000 --> 00:04:59,500
+Symbolleisten verschieben - Um eine Symbolleiste zu verschieben
+
+38
+00:05:00,000 --> 00:05:07,500
+platzieren Sie den Mauszeiger ueber dem Sym­bolleisten-Griff 
+
+39
+00:05:08,000 --> 00:05:20,500
+halten die linke Maustaste gedrueckt und ziehen die Symbolleiste an eine neue Position
+
+40
+00:05:21,000 --> 00:05:24,500
+Um die Symbolleiste in einem anderen Bereich anzudocken
+
+41
+00:05:25,000 --> 00:05:33,500
+platzieren Sie den Maus­zeiger ueber dem Symbolleisten-Griff, halten die linke Maustaste gedrueckt
+
+42
+00:05:34,000 --> 00:05:37,500
+ziehen die Symbolleiste an ihre neue Position
+
+43
+00:05:38,000 --> 00:05:45,500
+Wenn ein grauer Rahmen die neue, angedockte Po­sition anzeigt, lassen Sie die Maustaste los
+
+44
+00:05:46,000 --> 00:05:49,500
+Die Symbolleiste dockt an ihrer neuen Po­sition an
+
+45
+00:06:00,000 --> 00:06:04,500
+OpenOffice.org - Textverarbeitung - Lineale
+
+46
+00:06:05,000 --> 00:06:15,500
+Um die Anzeige der Lineale zu aktivieren bzw. deaktivieren waehlen Sie Ansicht > Li­neal
+
+47
+00:06:16,000 --> 00:06:32,500
+Oder waehlen Sie Exras > Optionen > OpenOffice.org Writer > Ansicht > Lineal, OK
+
+48
+00:06:33,000 --> 00:06:36,500
+Tschau und Viel Glueck

@@ -1,0 +1,95 @@
+1
+00:00:10,000 --> 00:00:14,900
+OpenOffice.org - Textverarbeitung Writer - Gallery - Ein neues Thema anlegen
+
+2
+00:00:15,000 --> 00:00:17,900
+Um ein neues Thema in der Gallery anzulegen
+
+3
+00:00:18,000 --> 00:00:24,900
+Oeffnen Sie die Gallery und klicken Sie auf die Schaltflaeche Neues Thema
+
+4
+00:00:25,000 --> 00:00:30,900
+Waehlen Sie im auftauchenden Menue den Reiter Dateien
+
+5
+00:00:31,000 --> 00:00:37,900 
+Klicken Sie auf Dateien suchen. Es oeffnet sich das Fenster Pfad auswaehlen
+
+6
+00:00:38,000 --> 00:00:46,900 
+Suchen Sie den Ordner, der die Dateien fuer das neue Thema enthaelt und klicken Sie auf OK
+
+7
+00:00:50,000 --> 00:01:02,900 
+Wieder auf dem Reiter Dateien, benutzen Sie Dateityp und/oder waehlen Sie eine Datei aus der angezeigten Liste aus
+
+8
+00:01:03,000 --> 00:01:07,900 
+um eine oder alle Dateien hinzuzufuegen
+
+9
+00:01:14,000 --> 00:01:25,900   
+Wechseln Sie zum Reiter Allgemein und geben Sie ihrem Thema einen Namen
+
+10
+00:01:26,000 --> 00:01:31,900  
+Um die Erstellung des neuen Themas abzuschliessen, klicken Sie auf OK
+
+11
+00:01:35,000 --> 00:01:36,900  
+Ein Thema loeschen
+
+12
+00:01:37,000 --> 00:01:41,900  
+Um ein Thema aus der Gallery zu loeschen, klicken Sie in der geoeffneten Gallery
+
+13
+00:01:42,000 --> 00:01:48,900 
+mit der rechten Maustaste auf ein Thema und waehlen Sie Loeschen aus dem Kontextmenue
+
+14
+00:01:57,000 --> 00:02:01,900 
+Speicherort der Gallery und ihrer Objekte
+
+15
+00:02:02,000 --> 00:02:09,900 
+Die in der Gallery angezeigten Grafiken und Objekte koennen an jedem beliebigen Ort auf der Festplatte ihres Computers
+
+16
+00:02:10,000 --> 00:02:15,900 
+auf einem Netzlaufwerk oder auf einer CD-ROM gespeichert sein
+
+17
+00:02:16,000 --> 00:02:20,900
+Die Auflistungen in der Gallery beziehen sich auf den Speicherort jedes Objektes
+
+18
+00:02:21,000 --> 00:02:26,900
+Wenn Sie der Gallery Grafiken hinzufuegen, werden die Dateien nicht verschoben oder kopiert
+
+19
+00:02:27,000 --> 00:02:31,900
+nur der Speicherort jedes neuen Objektes wird als Referenz hinzugefuegt
+
+20
+00:02:32,000 --> 00:02:39,900
+Wenn Sie in einer Arbeitsgruppe zusammenarbeiten, koennen Sie Zugang zu einer gemeinsamen Gallery
+
+21
+00:02:40,000 --> 00:02:47,900
+(wo Sie den Inhalt nicht veraendern koennen, es sei denn, Sie haben die Rechte dazu) und zu einer BenutzerGallery haben
+
+22
+00:02:48,000 --> 00:02:50,900
+in der Sie Objekte hinzufuegen, veraendern oder loeschen koennen
+
+23
+00:02:51,000 --> 00:03:11,900
+Der Speicherort der Gallery ist in Extras > Optionen > OpenOffice.org > Pfade festgelegt
+
+24
+00:03:12,000 --> 00:03:14,900
+Tschau und viel Glueck

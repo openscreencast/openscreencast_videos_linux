@@ -1,0 +1,75 @@
+1
+00:00:10,000 --> 00:00:12,900
+OpenOffice.org - Textverarbeitung - Ein Dokument schliessen
+
+2
+00:00:13,000 --> 00:00:19,900
+Um ein Dokument zu schliessen, klicken Sie auf Datei > Schliessen
+
+3
+00:00:20,000 --> 00:00:28,900
+Sie koennen ein Dokument auch durch einen Klick auf das Schliessen-Symbol im Dokumentfenster schliessen
+
+4
+00:00:29,000 --> 00:00:33,900
+In vielen Betriebssystemen sieht diese Schaltflaeche wie ein „X“ aus
+
+5
+00:00:34,000 --> 00:00:40,900
+Wenn mehr als ein Ooo-Fenster geoeffnet ist, sehen sie in jedem Fenster rechts oben ein kleines Kreuz
+
+6
+00:00:41,000 --> 00:00:46,900
+Wenn Sie hier klicken, wird dieses Fenster geschlossen, die anderen bleiben jedoch geoeffnet
+
+7
+00:00:47,000 --> 00:00:53,900
+Wenn das Dokument seit der letzten Aenderung nicht gespeichert worden ist, erscheint ein Hinweisfenster
+
+8
+00:00:54,000 --> 00:00:57,900
+Waehlen Sie hier, ob die Aenderungen gespeichert oder verworfen werden sollen
+
+9
+00:00:58,000 --> 00:01:02,900
+Speichern: Das Dokument wird gespeichert und dann geschlossen
+
+10
+00:01:03,000 --> 00:01:11,900
+Verwerfen: Das Dokument wird geschlossen und alle Aenderungen seit der letzten Speicherung gehen verloren
+
+11
+00:01:12,000 --> 00:01:18,900
+Abbrechen: Es passiert nichts und Sie gelangen wieder zu Ihrem Dokument zurueck
+
+12
+00:01:20,000 --> 00:01:24,900
+Das Nichtspeichern Ihres Dokuments koennte zu einem Verlust
+
+13
+00:01:25,000 --> 00:01:30,900
+der gerade gemachten Aenderungen fuehren oder Ihr ganzes Dokument beschaedigen
+
+14
+00:01:31,000 --> 00:01:33,900
+Writer schliessen
+
+15
+00:01:34,000 --> 00:01:44,900
+Um Writer komplett zu schliessen, klicken Sie auf Datei > Beenden oder druecken gleichzeitig die Tasten Strg und Q
+
+16
+00:01:46,000 --> 00:01:52,900
+oder schliessen das letzte geoeffnete Dokument
+
+17
+00:01:53,000 --> 00:01:58,900
+Wenn alle Dokumente gespeichert worden sind, wird Writer sofort geschlossen
+
+18
+00:01:59,000 --> 00:02:06,900
+Wenn irgendein Dokument geaendert, aber nicht gespeichert worden ist, erscheint ein Warnhinweis
+
+19
+00:02:15,000 --> 00:02:18,900
+Tschau und viel Glueck

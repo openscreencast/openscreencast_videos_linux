@@ -1,0 +1,87 @@
+1
+00:00:09,000 --> 00:00:11,500
+Den Navigator verwenden
+
+2
+00:00:12,000 --> 00:00:16,500
+Der Navigator zeigt alle Objekte an, die in einem Dokument enthalten sind
+
+3
+00:00:17,000 --> 00:00:18,500
+Er bietet eine sehr komfortable Methode
+
+4
+00:00:19,000 --> 00:00:22,500
+durch ein Dokument zu navigieren und Eintraege darin zu finden
+
+5
+00:00:23,000 --> 00:00:32,500
+Die Navigator-Schaltflaeche befindet sich in der Standard-Symbolleiste, das waere diese
+
+6
+00:00:33,000 --> 00:00:41,500
+Sie koennen den Navigator aber auch ueber Bearbei­ten > Navigator anzeigen
+
+7
+00:00:42,000 --> 00:00:49,500
+oder noch schneller, indem Sie die Funktionstaste F5 druecken
+
+8
+00:00:50,000 --> 00:00:56,500
+Der Navigator zeigt listenmaessig geordnet Ueberschriften, Tabellen
+
+9
+00:00:57,000 --> 00:01:01,500
+Textrahmen, Grafiken, Lesezeichen und andere Eintraege an
+
+10
+00:01:02,000 --> 00:01:08,500
+Klicken Sie auf das +-Zeichen, um den In­halt einer Liste anzuzeigen
+
+11
+00:01:09,000 --> 00:01:14,500
+Wenn Sie nur den Inhalt einer bestimmten Kategorie sehen moechten
+
+12
+00:01:15,000 --> 00:01:22,500
+markieren Sie die Kategorie und klicken dann auf das Symbol Inhaltsansicht
+
+13
+00:01:28,000 --> 00:01:33,500
+Der Navigator hilft Ihnen, Objekte schnell zu erreichen
+
+14
+00:01:34,000 --> 00:01:36,500
+Ein Doppelklick auf ein Objekt im Navigator
+
+15
+00:01:37,000 --> 00:01:40,500
+bringt Sie direkt an die Position des Objekts im Dokument
+
+16
+00:01:53,000 --> 00:01:56,500
+Kapitel mit dem Navigator anordnen
+
+17
+00:01:57,000 --> 00:02:00,500
+Sie koennen in einen Dokument mit dem Navigator ganze Kapitel anordnen
+
+18
+00:02:01,000 --> 00:02:04,500
+oder auch nur Ueberschriften auf eine andere Ebene verschieben
+
+19
+00:02:05,000 --> 00:02:12,500
+Klicken Sie auf das Inhaltsansicht-Symbol, um die Liste der Ueberschriften aufzu­klappen
+
+20
+00:02:13,000 --> 00:02:18,500
+Klicken Sie auf die in Frage kommende ueberschrift
+
+21
+00:02:19,000 --> 00:02:53,500
+und klicken dann auf eine der Schalt­flaechen Kapitel hoch, Kapitel hinunter oder Ebene hoch, Ebene senken
+
+22
+00:03:09,000 --> 00:03:13,500
+Tschau und viel Glueck

@@ -1,0 +1,47 @@
+1
+00:00:10,000 --> 00:00:11,500
+OpenOffice.org - Textverarbeitung - Ein bestehendes Dokument oeffnen
+
+2
+00:00:12,000 --> 00:00:16,500
+Eine Moeglichkeit, ein bestehendes Dokument in Writer zu oeffnen ist folgende
+
+3
+00:00:17,000 --> 00:00:25,500
+Klicken Sie auf Datei - oeffnen oder druecken Sie gleichzeitig die Tasten Strg+O
+
+4
+00:00:26,000 --> 00:00:30,500
+Oder klicken Sie auf das Symbol oeffnen
+
+5
+00:00:31,000 --> 00:00:38,500
+In der Dateiauswahl koennen Sie die Liste der Dateien verkleinern indem Sie den
+
+6
+00:00:39,000 --> 00:00:40,500
+Dateityp markieren, den Sie suchen
+
+7
+00:00:41,000 --> 00:00:50,500
+Wenn Sie hier Textdokumente als Dateityp waehlen, werden Ihnen nur Dokumente die Writer kennt angezeigt
+
+8
+00:00:51,000 --> 00:00:57,500
+Markieren Sie die gewuenschte Datei und klicken dann auf oeffnen
+
+9
+00:00:58,000 --> 00:01:02,500
+Sie koennen ein OpenOffice.org-Writer-Dokument auch mit den Methoden oeffnen
+
+10
+00:01:03,000 --> 00:01:07,500
+die Sie in Ihrem Betriebssystem verwenden, um Ihre Dateien zu oeffnen
+
+11
+00:01:08,000 --> 00:01:12,500
+z.B. oeffnen durch Anklicken in einem Dateimanager
+
+12
+00:01:13,000 --> 00:01:15,500
+Tschau und Viel Glueck

@@ -1,0 +1,39 @@
+1
+00:00:09,000 --> 00:00:11,500
+OpenOffice.org - Textverarbeitung - Ein Dokument speichern
+
+2
+00:00:12,000 --> 00:00:15,500
+Es gibt drei Moeglichkeiten ein Writer-Dokument zu speichern
+
+3
+00:00:16,000 --> 00:00:19,500
+Mit der gleichzeitigen Betaetigung der Tasten Strg+S
+
+4
+00:00:20,000 --> 00:00:25,500
+Oder waehlen Sie Datei - Speichern
+
+5
+00:00:26,000 --> 00:00:34,500
+Oder Klicken Sie auf die Schaltflaeche Speichern der Standardsymbolleiste
+
+6
+00:00:35,000 --> 00:00:42,500
+Sie koennen Writer auch so einstellen dass Ihr Dokument automatisch in bestimmten Intervallen gespeichert wird
+
+7
+00:00:43,000 --> 00:00:48,500
+Waehlen Sie Extras - Optionen
+
+8
+00:00:49,000 --> 00:00:53,500
+Waehlen Sie Laden/Speichern - Allgemein
+
+9
+00:00:54,000 --> 00:00:59,500
+Bei Speichern von AutoWiederherstellungsinfo alle 15 Minuten
+
+10
+00:01:00,000 --> 00:01:10,500
+legen Sie das Intervall fest, der Standardwert ist 15 Minuten, geben Sie den gewuenschten Wert ein

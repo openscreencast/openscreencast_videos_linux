@@ -1,0 +1,75 @@
+1
+00:00:10,000 --> 00:00:14,500
+OpenOffice.org - Textverarbeitung - Die Dokumentenansicht aendern
+
+2
+00:00:15,000 --> 00:00:17,500
+OpenOffice.org besitzt verschiedene Moeglichkeiten der Dokumentenansicht
+
+3
+00:00:18,000 --> 00:00:24,500
+Drucklay­out, Weblayout, Ganzer Bildschirm und Massstab
+
+4
+00:00:25,000 --> 00:00:29,500
+Sie koennen diese Moeglichkeiten ueber das Ansicht-Menue aufrufen
+
+5
+00:00:30,000 --> 00:00:35,500
+Das einzige Dokumentansicht-Menue mit einem Unterme­nue ist das Massstab-Menue
+
+6
+00:00:36,000 --> 00:00:41,500
+Wenn Sie Ansicht > Massstab waehlen, wird die folgende Dialogbox angezeigt
+
+7
+00:00:42,000 --> 00:00:45,500                  
+Ganze Seite: Zeigt die ganze Seite auf dem Bildschirm
+
+8
+00:00:46,000 --> 00:00:50,500 
+Seitenbreite: Zeigt die komplette Seitenbreite des Dokuments
+
+9
+00:00:51,000 --> 00:00:55,500
+Optimal: Passt die Anzeige an die Textbreite des Dokuments an
+
+10
+00:00:56,000 --> 00:00:59,500
+200%: Zeigt das Dokument zweimal so gross wie normal an
+
+11
+00:01:00,000 --> 00:01:05,500
+150%: Zeigt das Dokument eineinhalbmal so gross wie normal an
+
+12
+00:01:06,000 --> 00:01:09,500
+100%: Zeigt das Dokument in der wirklichen Groesse
+
+13
+00:01:10,000 --> 00:01:15,500
+75%: Zeigt das Dokument in 3⁄4 seiner normalen Groesse
+
+14
+00:01:16,000 --> 00:01:20,500
+50%: Zeigt das Dokument in der Haelfte seiner normalen Groesse
+
+15
+00:01:21,000 --> 00:01:24,500
+Variabel: Geben Sie den Zoomfaktor ein (Prozentwert)
+
+16
+00:01:25,000 --> 00:01:29,500
+den Sie fuer die Anzeige des Dokuments verwenden moechten
+
+17
+00:01:30,000 --> 00:01:36,500
+Ausserdem koennen Sie den Ansichtsmassstab jederzeit in 10%-Schritten veraendern
+
+18
+00:01:37,000 --> 00:01:40,500
+wenn Sie mit gedrueckter Strg-Taste das Mausrad bewegen
+
+19
+00:01:45,000 --> 00:01:48,500
+Tschau und viel Glueck

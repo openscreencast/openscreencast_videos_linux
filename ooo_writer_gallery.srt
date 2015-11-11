@@ -1,0 +1,35 @@
+1
+00:00:10,000 --> 00:00:14,500
+OpenOffice.org - Textverarbeitung Writer - Was ist die Gallery
+
+2
+00:00:15,000 --> 00:00:20,500
+Die Gallery beinhaltet Objekte (Grafiken und Klaenge), die Sie in Ihre Dokumente einfuegen koennen
+
+3
+00:00:21,000 --> 00:00:29,500
+Das vorgegebene Gallerymenue beinhaltet Hintergruende, Bullets, Homepage, Eigenes Thema, Begrenzungen und Klaenge
+
+4
+00:00:30,000 --> 00:00:33,500
+Wenn sie moechten, koennen Sie andere Gruppen oder „Themen“ erstellen
+
+5
+00:00:34,000 --> 00:00:49,500
+Um die Gallery zu oeffnen, gehen Sie auf Extras > Gallery oder Sie klicken auf das Symbol „Gallery“
+
+6
+00:00:50,000 --> 00:00:56,500
+Erneutes Ausfuehren dieser Aktion schliesst die Gallery wieder
+
+7
+00:00:57,000 --> 00:01:07,500
+Sie haben die Wahl zwischen der Symbolansicht und der Detailansicht
+
+8
+00:01:08,000 --> 00:01:23,500
+und Sie koennen die Gallery mit Hilfe des Ausblendbuttons ein- oder ausblenden
+
+9
+00:01:24,000 --> 00:01:26,500
+Tschau und Viel Glueck

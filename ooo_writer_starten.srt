@@ -1,0 +1,199 @@
+1
+00:00:10,000 --> 00:00:13,500
+OpenOffice.org - Writer - Textverarbeitung starten
+
+2
+00:00:14,000 --> 00:00:18,500
+Es stehen drei Moeglichkeiten zur Verfuegung - 1. aus dem Systemmenue
+
+3
+00:00:19,000 --> 00:00:23,500
+2. ueber ein existierendes Dokument, 3. von der Kommandozeile aus
+
+4
+00:00:24,000 --> 00:00:26,500
+aus dem Systemmenue starten
+
+5
+00:00:27,000 --> 00:00:30,500
+Die Verwendung des System-Menues ist eine haeufig benutzte Art
+
+6
+00:00:31,000 --> 00:00:34,500
+Programme und daher auch OpenOffice.org - Textverarbeitung zu starten
+
+7
+00:00:35,000 --> 00:00:37,500
+In Windows wird es als Start-Menue bezeichnet
+
+8
+00:00:38,000 --> 00:00:40,500
+In GNOME lautet die Bezeichnung Anwendungen
+
+9
+00:00:41,000 --> 00:00:43,500
+In KDE wird es durch das KDE-Logo darge­stellt
+
+10
+00:00:44,000 --> 00:00:47,500
+In Mac OS X wird es als Anwendungen bezeichnet
+
+11
+00:00:48,000 --> 00:00:53,500
+Wenn Sie OpenOffice.org installieren, wird Ihrem System-Menue ein Menueeintrag hin­zugefuegt
+
+12
+00:00:54,000 --> 00:00:58,500
+Die genaue Bezeichnung und der Ort dieses Menue haengt von der grafischen Umgebung ab
+
+13
+00:00:59,000 --> 00:01:04,500
+GNOME-Installationen unterscheiden sich von einer Distribution zur anderen
+
+14
+00:01:05,000 --> 00:01:10,500
+Die meisten modernen Distributionen besitzen bereits ein vorinstalliertes OpenOffice.org
+
+15
+00:01:11,000 --> 00:01:16,500
+Sie finden OpenOffice.org unter Anwendungen > Buero
+
+16
+00:01:17,000 --> 00:01:21,500
+Fedora / RedHat Enterprise Linux besitzt bereits ein vorinstalliertes OpenOffice.org
+
+17
+00:01:22,000 --> 00:01:27,500
+Auf dem GNOME-Desktop koennen Sie OOo im Hauptmenue unter Buero finden
+
+18
+00:01:28,000 --> 00:01:36,500
+Wenn Sie eine neuere Version von OOo installiert haben finden Sie es unter Hauptmenue > Buero > Weitere Bueroanwendungen
+
+19
+00:01:37,000 --> 00:01:42,500
+Wenn Sie OOo nach einem Download von der http://www.openoffice.org-Webseite
+
+20
+00:01:43,000 --> 00:01:45,500
+in­stalliert haben, finden Sie es unter Applications > Other
+
+21
+00:01:46,000 --> 00:01:53,500
+Unter KDE wird OpenOffice.org in einem eigenen Menue Bueroprogramme installiert.
+
+22
+00:01:54,000 --> 00:02:01,500
+Bei Ubuntu waehlen Sie Anwendungen - Buero - OpenOffice.org Textverarbeitung
+
+23
+00:02:02,000 --> 00:02:07,500
+um Writer mit einem leeren Dokument aufzurufen
+
+24
+00:02:12,000 --> 00:02:14,500
+Mit einem bestehenden Dokument starten
+
+25
+00:02:15,000 --> 00:02:23,500
+Wenn Sie OpenOffice.org korrekt installiert haben, werden alle Writer-Dokumente mit der Writer-Anwendung verknuepft
+
+26
+00:02:24,000 --> 00:02:29,500
+Das bedeutet, dass Sie OpenOffice.org automatisch durch einen Doppelklick auf ein Writer-Dokument
+
+27
+00:02:30,000 --> 00:02:36,500
+in Ihrem Lieblings-Dateimanager starten koennen (z. B. Nautilus bei Ubuntu - Gnome).
+
+28
+00:02:37,000 --> 00:02:48,500
+Sie koennen ein OpenOffice.org Writer-Dokument an diesem Symbol bzw. an der Dateiendung erkennen
+
+29
+00:02:49,000 --> 00:02:55,500
+Ein Doppelklick drauf und OpenOffice.org - Textverarbeitung wird gestartet
+
+30
+00:03:03,000 --> 00:03:05,500
+Von der Kommandozeile starten
+
+31
+00:03:06,000 --> 00:03:10,500
+Vielleicht moechten Sie Writer von der Kommandozeile aus starten (mit der Tastatur an­statt der Maus)
+
+32
+00:03:11,000 --> 00:03:16,500
+Warum? Bei der Verwendung der Kommandozeile haben Sie mehr Kontrolle ueber das was
+
+33
+00:03:17,000 --> 00:03:19,50
+geschehen soll, wenn Writer gestartet wird
+
+34
+00:03:20,000 --> 00:03:23,50
+Wenn Sie z. B. die Kommandozeile verwenden, koennen Sie Writer veranlassen
+
+35
+00:03:24,000 --> 00:03:29,50
+ein bestimmtes Dokument zu laden und dieses sofort auszudrucken oder festlegen
+
+36
+00:03:30,000 --> 00:03:33,50
+dass der Start ohne den Splash-Screen erfolgen soll.
+
+37
+00:03:34,000 --> 00:03:36,50
+Die meisten Anwender werden dies jedoch nie benoetigen.
+
+38
+00:03:37,000 --> 00:03:40,50
+Es gibt mehr als eine Moeglichkeit, Writer ueber die Kommandozeile zu starten
+
+39
+00:03:41,000 --> 00:03:47,50
+abhaen­gig davon, ob Sie eine angepasste Version oder den Standard-Download von der Ooo-Webseite verwenden
+
+40
+00:03:48,000 --> 00:03:51,50
+Wenn Sie die Standardversion besitzen, koennen Sie Writer starten
+
+41
+00:03:52,000 --> 00:04:16,50
+indem Sie in die Kommandozeile folgendes eingeben: soffice -writer oder swriter ENTER
+
+42
+00:04:17,000 --> 00:04:20,50
+Writer startet und erstellt ein neues Dokument
+
+43
+00:04:21,000 --> 00:04:26,50
+Eine Liste mit Optionen, die Sie verwenden koennen, wenn Sie Writer ueber die Kom­mandozeile aufrufen
+
+44
+00:04:27,000 --> 00:04:42,50
+erhalten Sie nach folgender Eingabe: soffice -?
+
+45
+00:04:43,000 --> 00:04:47,50
+Wenn Sie eine angepasste Version von OOo besitzen, koennen Sie Writer starten
+
+46
+00:04:48,000 --> 00:04:55,50
+indem Sie in die Kommandozeile oowriter ENTER eingeben
+
+47
+00:04:56,000 --> 00:05:02,50
+Obwohl die Kommando-Syntax unterschiedlich ist, ist der Effekt bei allen Moeglichkeiten identisch
+
+48
+00:05:03,000 --> 00:05:07,50
+OOo wird mit einem leeren Writer-Do­kument gestartet
+
+49
+00:05:08,000 --> 00:05:20,50
+Bei Ubuntu sind es die Kommandos oowriter oder soffice -writer ENTER
+
+50
+00:05:50,000 --> 00:05:53,50
+Tschau und viel Glueck

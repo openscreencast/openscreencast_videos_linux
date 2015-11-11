@@ -1,0 +1,107 @@
+1
+00:00:10,000 --> 00:00:14,500
+OpenOffice.org - Textverarbeitung - Ein Dokument drucken
+
+2
+00:00:15,000 --> 00:00:19,500
+Schnelldruck - Klicken Sie auf das Symbol Datei direkt drucken
+
+3
+00:00:20,000 --> 00:00:23,500
+um das ganze Dokument zum Stan­darddrucker Ihres Computers zu senden
+
+4
+00:00:24,000 --> 00:00:26,500
+Drucken ueber das Menue „Drucken“
+
+5
+00:00:27,000 --> 00:00:38,500
+Mehr Einflussmoeglichkeiten auf den Druck haben Sie ueber Datei > Drucken oder Sie druecken gleichzeitig die Tasten Strg+P
+
+6
+00:00:39,000 --> 00:00:43,500
+In diesem Menue koennen Sie folgende Optionen waehlen
+
+7
+00:00:44,000 --> 00:00:50,500
+Welchen Drucker Sie verwenden moechten und die Eigenschaften dieses Druckers – z. B. die Ausrichtung
+
+8
+00:00:51,000 --> 00:00:56,500
+welcher Papiereinzug verwendet werden und auf wel­che Papiergroeße gedruckt werden soll
+
+9
+00:00:57,000 --> 00:01:00,500
+Die verfuegbaren Eigenschaften sind ab­haengig vom ausgewaehlten Drucker
+
+10
+00:01:01,000 --> 00:01:09,500
+Welche Seiten und wie viele Kopien gedruckt werden sollen und in welcher Rei­henfolge gedruckt werden muss
+
+11
+00:01:10,000 --> 00:01:25,500
+Verwenden Sie Bindestriche, um Seitenbereiche festzulegen, und Kommas oder Strichpunkte, um einzelne Seiten festzulegen
+
+12
+00:01:26,000 --> 00:01:32,500 
+„Auswahl“ ist der markierte Teil einer Seite oder von Seiten
+
+13
+00:01:33,000 --> 00:01:43,500 
+Welche Eintraege gedruckt werden. Klicken Sie auf die Schaltflaeche Zusaetze, um die Dialogbox Drucker Zusaetze anzuzeigen
+
+14
+00:01:44,000 --> 00:01:48,500 
+Die Seitenansicht vor dem Ausdrucken verwenden
+
+15
+00:01:49,000 --> 00:01:54,500 
+Die normale Ansicht in Writer zeigt Ihnen jede Seite, wie sie gedruckt aussehen wird
+
+16
+00:01:55,000 --> 00:01:56,500
+zeigt aber immer nur eine Seite gleichzeitig an
+
+17
+00:01:57,000 --> 00:02:00,500
+Wenn Sie ein Dokument erstellen, das doppelseitig gedruckt werden soll
+
+18
+00:02:01,000 --> 00:02:05,500
+wollen Sie vielleicht die zusammengehoerigen Seiten gemeinsam sehen
+
+19
+00:02:06,000 --> 00:02:10,500
+OOo bietet Ihnen hier als Moeglichkeit die Seitenansicht
+
+20
+00:02:11,000 --> 00:02:24,500
+Klicken Sie auf Datei > Seitenansicht oder klicken Sie auf die Schaltflaeche Seitenansicht
+
+21
+00:02:25,000 --> 00:02:30,500
+Das Writer-Fenster aendert sich, um die aktuelle und die fol­gende Seite anzuzeigen
+
+22
+00:02:31,000 --> 00:02:39,500
+und erhaelt zusaetzlich die Symbolleiste Seitenansicht anstelle der Symbolleiste Format
+
+23
+00:02:40,000 --> 00:02:50,500
+Klicken Sie auf das Symbol Buchansicht, um linken und rechten Seiten in ihrer korrekten Ausrichtung anzuzeigen 
+
+24
+00:02:51,000 --> 00:02:59,500
+Um das Dokument aus dieser Ansicht zu drucken, klicken Sie auf das Symbol Seitenansicht drucken
+
+25
+00:03:00,000 --> 00:03:04,500
+Um die Seitenraender und andere Optionen fuer den Ausdruck festlegen zu koen­nen
+
+26
+00:03:05,000 --> 00:03:11,500
+klicken Sie auf das Symbol Druckoptionen Seitenansicht
+
+27
+00:03:15,000 --> 00:03:18,500
+Tschau und viel Glueck
