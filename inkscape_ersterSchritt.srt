@@ -1,0 +1,91 @@
+1
+00:00:01,000 --> 00:00:06,500
+Hallo Heute geht es um das vektorbasierende Open Source-Zeichenprogramm Inkscape
+
+2
+00:00:07,000 --> 00:00:13,500
+Die Internetpräsentationsseite lautet www.inkscape.org
+
+3
+00:00:14,000 --> 00:00:20,500
+Nützliche Tutorials kann man sich anschauen unter Dokumentation, in mehreren Sprachen
+
+4
+00:00:21,000 --> 00:00:34,500
+Ein weiteres Handbuch findet man unter de.wikibooks.org, im Regal EDV, unter Grafik Inkscape
+
+5
+00:00:37,000 --> 00:00:41,500
+Bei der Standard-Installation von Fedora Core ist Inkscape nicht mit dabei
+
+6
+00:00:42,000 --> 00:00:44,500
+Das heißt ich muß Inkscape nachinstallieren
+
+7
+00:00:42,000 --> 00:00:44,500
+Das heißt ich muß Inkscape nachinstallieren
+
+8
+00:00:45,000 --> 00:00:50,500
+Ich gehe auf Anwendungen - Add/Remove Software, oder ich führe den Befehl pirut aus
+
+9
+00:00:51,000 --> 00:00:55,500
+Gebe das Admin-Passwort ein, OK
+
+10
+00:00:59,000 --> 00:01:08,500
+Klicke auf Gruppen - Anwendungen - Grafik - Optionale Pakete, mache ein Häkchen bei Inkscape
+
+11
+00:01:09,000 --> 00:01:14,500
+Gehe auf Schließen, folge den weiteren Anweisungen bis zur vollständigen Installation
+
+12
+00:01:17,000 --> 00:01:20,500
+Nun kann ich Inkscape mit dem Befehl inkscape starten
+
+13
+00:01:21,000 --> 00:01:27,500
+oder ich bewege den Mauspfeil auf Anwendungen - Grafik, mache einen Klick auf Inkscape
+
+14
+00:01:30,000 --> 00:01:36,500
+Inkscape besteht aus der Menüleiste, ganz oben
+
+15
+00:01:38,000 --> 00:01:51,500
+der Befehlsleiste, darunter, der Werkzeugeinstellungsleiste, unter der Befehlsleiste
+
+16
+00:01:55,000 --> 00:02:03,500
+der Werkzeugsleiste, ganz links, den Linealen, links und oben
+
+17
+00:02:06,000 --> 00:02:33,500
+den Rollbalken, unten und rechts, der Farbpalette unten, und ganz unten der Statuszeile
+
+18
+00:02:40,000 --> 00:02:50,500
+Jedes Element kann ich einblenden und ausblenden, das ist machbar unter Ansicht - Anzeigen/Ausblenden
+
+19
+00:02:56,000 --> 00:03:10,500
+Die Werkzeugleiste beinhaltet das Auswahlwerkzeug, das Knotenwerkzeug, das Zoomwerkzeug
+
+20
+00:03:11,000 --> 00:03:25,500
+das Rechteckwerkzeug, das Ellipsenwerkzeug, das Sternwerkzeug, das Spiralenwerkzeug
+
+21
+00:03:26,000 --> 00:03:40,500
+das Malwerkzeug, das Zeichenwerkzeug, das Kalligrafiewerkzeug, das Textwerkzeug
+
+22
+00:03:41,000 --> 00:03:52,500
+den Objektverbinder, das Farbverlaufswerkzeug und ganz unten die Farbpipette
+
+23
+00:03:55,000 --> 00:04:01,500
+Gut, das wars für heute, bis zum nächsten mal

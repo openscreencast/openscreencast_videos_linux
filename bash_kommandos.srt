@@ -1,0 +1,167 @@
+1
+00:00:01,000 --> 00:00:04,500
+Willkommen beim Screencast bash - Kommandoausführung
+
+2
+00:00:05,000 --> 00:00:11,500
+Ich öffne ein Terminal, gehe auf Anwendungen - Zubehör - Terminal
+
+3
+00:00:12,000 --> 00:00:17,500
+Um ein Kommando auszuführen gibt man einfach den Befehl ein, drückt ENTER und wartet auf das Ergebnis
+
+4
+00:00:18,000 --> 00:00:26,500
+z.B. ls -l ENTER um den Inhalt des aktuellen Ordners anzuzeigen
+
+5
+00:00:27,000 --> 00:00:30,500
+Was aber wenn der Prozess sehr viel Zeit in Anspruch nimmt
+
+6
+00:00:31,000 --> 00:00:35,500
+und ich lange warten muss bevor ich den nächsten Befehl eingeben kann ?
+
+7
+00:00:36,000 --> 00:00:40,500
+Die Lösungen dazu, entweder ich öffne ein zweites Terminalfenster
+
+8
+00:00:41,000 --> 00:00:49,500
+springe mit der Maus auf Datei - Neues Terminal oder drücke Shift+Strg+N
+
+9
+00:00:50,000 --> 00:00:55,500
+so öffnet sich ein zweites Terminalfenster und ich gebe dort die weiteren Kommandos ein
+
+10
+00:00:56,000 --> 00:01:04,500
+oder ich gehe auf Datei - Neuer Reiter oder drücke die Tasten Shift+Strg+T
+
+11
+00:01:05,000 --> 00:01:10,500
+so öffnet sich ein zweiter Reiter und ich gebe dort die weiteren Befehle ein
+
+12
+00:01:14,000 --> 00:01:20,500
+Wenn ich vorher schon weiß das die Kommandoausführung sehr zeitaufwändig verläuft
+
+13
+00:01:21,000 --> 00:01:25,500
+kann ich das Kommando im Hintergrund ausführen lassen
+
+14
+00:01:26,000 --> 00:01:29,500
+Ich füge einfach ein &-Zeichen nach dem eigentlichen Kommando hinzu
+
+15
+00:01:30,000 --> 00:01:58,500
+Das sieht dann so aus, ogg123 -q musik.ogg & ENTER (ogg123 - OGG Vorbis abspielen, -q ohne Ausgabe)
+
+16
+00:01:59,000 --> 00:02:03,500
+so verläuft das ganze im Hintergrund und ich kann weitere Kommandos eingeben
+
+17
+00:02:04,000 --> 00:02:14,500
+Es wird die JobNr ganze vorne angezeigt und danach die Prozessidentifikationsnummer (PID)
+
+18
+00:02:15,000 --> 00:02:23,500
+Alle laufenden jobs listet man mit dem Befehl jobs ENTER auf
+
+19
+00:02:24,000 --> 00:02:38,500
+Soll ein Prozess wieder im Vordergrund laufen gibt man ein fg %(jobnr) ENTER (Bsp fg %1 ENTER)
+
+20
+00:02:39,000 --> 00:02:42,500
+So verläuft ogg123 wieder im Vordergrund
+
+21
+00:02:43,000 --> 00:02:52,500
+Wußte ich vorher noch nicht das der Prozess solange anhält kann ich den Prozess auch später noch in den Hintergrund verschieben
+
+22
+00:02:53,000 --> 00:03:03,500
+Ich stoppe den Prozess mit Strg+Z und tippe bg ENTER ein
+
+23
+00:03:05,000 --> 00:03:13,500
+Sollen die Kommandoausgaben nicht angezeigt werden leite ich die Ausgabe zur Schnittstelle null
+
+24
+00:03:14,000 --> 00:03:21,500
+mit > /dev/null
+
+25
+00:03:22,000 --> 00:03:31,500
+sind die Fehlermeldungen ebenfalls uninteressant füge ich nach dem > noch ein &-Zeichen hinzu
+
+26
+00:03:35,000 --> 00:04:15,500
+Das Ergebnis sieht folgendermaßen aus, ogg123 musik.ogg >& /dev/null & ENTER
+
+27
+00:04:16,000 --> 00:04:19,500
+so läuft der Prozess im Hintergrund ab (Ausgabe und Fehlermeldung werden ins Nichts verschoben)
+
+28
+00:04:21,000 --> 00:04:26,500
+Gebe ich nach dem &-Zeichen was das vorherstehende Kommando in den Hintergrund bringt
+
+29
+00:04:27,000 --> 00:04:31,500
+ein zweites Kommando an wird dieses im Vordergrund durchgeführt
+
+30
+00:04:32,000 --> 00:04:49,500
+als Beispiel uname & date ENTER (uname - Systeminfos, Hintergrund ; date - Zeitinfos, Vordergrund)
+
+31
+00:04:50,000 --> 00:04:58,500
+Gebe ich zwei Kommandos getrennt durch ein ; ein werden diese nacheinander im Vordergrund ausgeführt
+
+32
+00:04:59,000 --> 00:05:06,500
+Als Beispiel uname; date ENTER
+
+33
+00:05:07,000 --> 00:05:16,500
+Sollen zwei Kommandos von derselben Shell ausgeführt werden stecke ich die zwei Befehle im Klammern
+
+34
+00:05:17,000 --> 00:05:40,500
+Ich tippe ein (uname; date) > datei ENTER, Ausgabe von uname und date werden in eine Datei geschrieben
+
+35
+00:05:41,000 --> 00:05:49,500
+Ich kann mir den Inhalt der Datei nochmal anschauen mit cat datei ENTER
+
+36
+00:05:52,000 --> 00:06:08,500
+Bedingte Kommandoausführung ist durch die Zeichenkette && und || zwischen zwei Kommandos möglich
+
+37
+00:05:52,000 --> 00:06:08,500
+Bedingte Kommandoausführung ist durch die Zeichenkette && und || zwischen zwei Kommandos möglich
+
+38
+00:06:09,000 --> 00:06:32,500
+z.B. uname && date ENTER, so wird Kommando2 also date nur ausgeführt wenn Kommando1 uname erfolgreich war
+
+39
+00:06:33,000 --> 00:06:35,500
+Das ist hier der Fall
+
+40
+00:06:36,000 --> 00:06:57,500
+oder uname || date ENTER, Kommando2 date wird so nur ausgeführt wenn Kommando1 uname nicht erfolgreich war
+
+41
+00:06:58,000 --> 00:07:03,500
+aber uname war erfolgreich also wird Befehl date nicht ausgeführt
+
+42
+00:07:05,000 --> 00:07:12,500
+Gut, dann wünsche ich viel Erfolg beim Probieren, bis zum nächsten mal

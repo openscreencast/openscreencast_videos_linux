@@ -1,0 +1,139 @@
+1
+00:00:01,000 --> 00:00:04,500
+OpenOffice - das wohl bekannteste freie Office-Paket
+
+2
+00:00:05,000 --> 00:00:14,500
+Wer mehr darüber wissen möchte oder noch garnichts darüber weiß sucht am besten unter de.wikipedia.org nach OpenOffice
+
+3
+00:00:15,000 --> 00:00:21,500
+OpenOffice findet man im Internet unter de.openoffice.org
+
+4
+00:00:24,000 --> 00:00:28,500
+Möchte ich OpenOffice installieren muss ich vorher ein Paket herunterladen
+
+5
+00:00:29,000 --> 00:00:32,500
+Ich gehe auf Download - die aktuelle Version
+
+6
+00:00:34,000 --> 00:00:44,500
+Wähle das gewünschte Betriebssystem, die Version und den Download-Server, klicke dann abschließend auf Download starten
+
+7
+00:00:45,000 --> 00:00:52,500
+Sobald der Download-Vorgang beendet ist klickt man auf Installationsanleitung und folgt den Anweisungen
+
+8
+00:00:53,000 --> 00:01:06,500
+Handbücher die viele Fragen beantworten findet man unter Bereiche - Dokumentation - Dokumentationen zur Version 2.0
+
+9
+00:01:08,000 --> 00:01:14,500
+Zu erwähnen wäre noch die Seite www.prooo-box.org
+
+10
+00:01:15,000 --> 00:01:23,500
+Es gibt Erweiterungen, Tools, Vorlagen, Anleitungen, etc. rund um OpenOffice
+
+11
+00:01:24,000 --> 00:01:28,500
+Bei den meist genutzten Linux-Distributionen ist OpenOffice schon installiert
+
+12
+00:01:29,000 --> 00:01:32,500
+und die OpenOffice-Anwendungen können sofort zum Einsatz kommen
+
+13
+00:01:33,000 --> 00:01:37,500
+Steht OpenOffice doch nicht bei Fedora Core zur Verfügung muss ich es nachinstallieren
+
+14
+00:01:38,000 --> 00:01:46,500
+Ich gehe auf Anwendungen - Software hinzufügen/entfernen oder ich führe den Befehl pirut aus
+
+15
+00:01:47,000 --> 00:01:52,500
+Ich gebe das Admin-Passwort ein, OK
+
+16
+00:01:55,000 --> 00:02:01,500
+Ich klicke auf Anwendungen - Office/Produktivität - optionale Pakete
+
+17
+00:02:02,000 --> 00:02:07,500
+und markiere die OpenOffice-Pakete die ich installieren oder nachinstallieren möchte
+
+18
+00:02:08,000 --> 00:02:13,500
+Schließen, folge den weiteren Anweisungen bis die Installation beendet ist
+
+19
+00:02:14,000 --> 00:02:24,500
+OpenOffice enthält eine Textverarbeitung, Tabellenkalkulation, Vektorgrafik, ein Präsentationsprogramm, Datenbank und ein Formeleditor
+
+20
+00:02:25,000 --> 00:02:34,500
+Ich starte die Textverarbeitung, den Writer, bewege die Maus auf Anwendungen - Büro - Word Processor
+
+21
+00:02:35,000 --> 00:02:39,500
+oder ich klicke auf das Symbol rechts neben dem Briefumschlag
+
+22
+00:02:42,000 --> 00:02:47,500
+Das OpenOffice-Fenster besteht aus der Titelleiste ganz oben
+
+23
+00:02:48,000 --> 00:03:10,500
+der Menüleiste, den Symbolleisten, den Lineal, der Statusleiste ganz unten und den Bildlaufleisten
+
+24
+00:03:11,000 --> 00:03:19,500
+Es gibt mehrere Symbolleisten, momentan sind Standard und Format zu sehen
+
+25
+00:03:20,000 --> 00:03:27,500
+Ich kann Symbolleisten einblenden oder ausblenden, unter Ansicht - Symbolleisten
+
+26
+00:03:28,000 --> 00:03:37,500
+Ich füge Bild hinzu, mache ein Klick drauf, hier ist die neue Symbolleiste
+
+27
+00:03:39,000 --> 00:03:49,500
+Ich kann Symbolleisten verschieben, indem ich mit der Maus auf die vielen kleinen Striche untereinander gehe
+
+28
+00:03:50,000 --> 00:03:55,500
+klicke mit der linken Maustaste drauf, behalte den Klick bei
+
+29
+00:03:56,000 --> 00:04:01,500
+verschiebe nun die Symbolleiste in die Position meiner Wahl
+
+30
+00:04:02,000 --> 00:04:10,500
+entweder nach links, nach rechts, nach unten oder oben
+
+31
+00:04:12,000 --> 00:04:23,500
+Ich kann das Verschieben sperren, gehe ganz rechts auf den Pfeil und dann auf Symbolleistenposition sperren
+
+32
+00:04:24,000 --> 00:04:27,500
+Jetzt kann man die Leiste nicht mehr verschieben
+
+33
+00:04:28,000 --> 00:04:36,500
+Außerdem kann ich die Statusleiste und das Lineal ausschalten
+
+34
+00:04:37,000 --> 00:04:47,500
+indem ich auf Ansicht gehe und dann auf Statusleiste oder Lineal klicke, so das das Häckchen nicht mehr zu sehen ist
+
+35
+00:04:50,000 --> 00:05:00,500
+Das soll es schon wieder gewesen sein, bis zum nächsten Screencast, Tschau

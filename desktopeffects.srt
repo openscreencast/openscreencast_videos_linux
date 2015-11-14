@@ -1,0 +1,131 @@
+1
+00:00:01,000 --> 00:00:08,500
+Hallo Screencasts die 3D-Effekte auf dem Desktop präsentieren gibt es schon eine ganze Menge im Internet
+
+2
+00:00:09,000 --> 00:00:11,500
+Ab heute gibt es ein Screencast mehr
+
+3
+00:00:12,000 --> 00:00:19,500
+Beim neuen Ausgangspunkt Fedora Core 6 Gnome 2.16 ist das Aktivieren der Desktop Effects ein Kinderspiel
+
+4
+00:00:20,000 --> 00:00:28,500
+Ich gehe auf System - Einstellungen - Desktop Effects oder führe den Befehl desktop-effects aus
+
+5
+00:00:30,000 --> 00:00:36,500
+Jetzt klicke ich auf Enable Desktop Effects und das war es auch schon, Einstellungen beibehalten
+
+6
+00:00:38,000 --> 00:00:43,500
+Ich kann mit einem jeweiligen Häkchen bestimmen ob die Fenster schwanken sollen wenn ich sie bewege
+
+7
+00:00:44,000 --> 00:00:53,500
+Das erste Häkchen, und ob die Arbeitsflächen auf einem Würfel verteilt werden sollen, zweite Häkchen
+
+8
+00:00:59,000 --> 00:01:05,500
+Ebenso kann ich Einstellungen mit dem gconf-editor im Desktopmodus machen
+
+9
+00:01:06,000 --> 00:01:09,500
+und mit gconftool-2 im Textmodus
+
+10
+00:01:10,000 --> 00:01:12,500
+gconf-editor muss nachinstalliert werden
+
+11
+00:01:13,000 --> 00:01:22,500
+Ich gehe auf Anwendungen - Software hinzufügen/entfernen oder führe den Befehl pirut aus, gebe das Adminpasswort ein
+
+12
+00:01:29,000 --> 00:01:35,500
+Klicke auf Desktopumgebungen - Gnome Desktopumgebung - Optionale Pakete
+
+13
+00:01:36,000 --> 00:01:47,500
+Mache ein Häkchen bei gconf-editor, Schließen, Anwenden, folge den weiteren Anweisungen
+
+14
+00:02:04,000 --> 00:02:14,500
+Nun bewege ich den Mauspfeil auf Anwendungen - Systemwerkzeuge - Konfigurationseditor
+
+15
+00:02:15,000 --> 00:02:24,500
+Klicke auf apps - compiz - general - allscreens - options
+
+16
+00:02:25,000 --> 00:02:32,500
+Ganz oben unter active_plugins kann ich definieren welche plugins aktiv sein sollen
+
+17
+00:02:33,000 --> 00:02:40,500
+Plugin wobbly ist für den Effekt beim Fensterbewegen verantwortlich
+
+18
+00:02:41,000 --> 00:02:45,500
+Plugin cube für den Arbeitsflächenwürfel
+
+19
+00:02:46,000 --> 00:02:53,500
+Möchte ich z.B. den Effekt beim Fensterbewegen nicht mehr, mache ich einen Doppelklick auf den Wert
+
+20
+00:02:54,000 --> 00:03:02,500
+und entferne Plugin wobbly, merke mir aber an welcher Stelle wobbly steht
+
+21
+00:03:06,000 --> 00:03:10,500
+und der Effekt ist nicht mehr aktiv
+
+22
+00:03:12,000 --> 00:03:18,500
+Möchte ich den Effekt wieder hinzufügen, mache ich wieder einen Doppelklick auf den Wert
+
+23
+00:03:20,000 --> 00:03:37,500
+füge wobbly hinzu, bringe wobbly an die richtige Stelle und der Effekt funktioniert wieder
+
+24
+00:03:41,000 --> 00:03:54,500
+Feineinstellungen kann ich beim jeweiligen Plugin cube und wobbly machen
+
+25
+00:03:55,000 --> 00:04:04,500
+z.B. wobbly - screen0 - options, hier kann jeder die Werte ändern
+
+26
+00:04:05,000 --> 00:04:09,500
+aber vorher die Standardwerte merken, und schauen was beim Effekt anders ist
+
+27
+00:04:10,000 --> 00:04:25,500
+z.B. die Spring-Konstante spring_k, Wert 0.0-10.0 ist möglich
+
+28
+00:04:26,000 --> 00:04:39,500
+Ich ändere den Wert einfach mal von 8 auf 1 und das Fensterbewegen ist sehr träge geworden
+
+29
+00:04:47,000 --> 00:05:05,500
+oder cube - screen0 - options - color, das ist die Würfelfarbe die ich ändern kann
+
+30
+00:05:06,000 --> 00:05:17,500
+Momentan hat der Würfel die Farbe blau, das ändere ich mal auf schwarz
+
+31
+00:05:18,000 --> 00:05:32,500
+Mache einen Doppelklick auf den Wert, #000000ff ENTER, und die Würfelfarbe ist schwarz
+
+32
+00:05:40,000 --> 00:05:50,500
+Auch mal schauen was es für Einstellungen bei den anderen Plugins gibt, was man bewirken kann noch zusätzlich
+
+33
+00:05:51,000 --> 00:05:58,500
+Einfach mal ausprobieren und schauen was sich ändern, gut das war es auch schon

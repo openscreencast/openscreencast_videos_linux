@@ -1,0 +1,75 @@
+1
+00:00:02,000 --> 00:00:08,500
+Hallo Heute werden ich schnell die neuen Tastenkombinationen bezüglich den Desktop Effects vorführen, LOS GEHTS
+
+2
+00:00:09,000 --> 00:00:17,500
+Fenster einrollen und ausrollen steckt hinter der Tastenkombination Strg+Alt+s
+
+3
+00:00:21,000 --> 00:00:29,500
+Wenn der Ablauf auf dem Desktop zu schnell ist kann ich mit Shift+F10 in den Zeitlupenmodus umschalten
+
+4
+00:00:30,000 --> 00:00:33,500
+Dann verläuft alles sehr viel langsamer
+
+5
+00:00:37,000 --> 00:00:43,500
+Drücke ich nochmal Shift+F10 verläuft alles mit der normalen Geschwindigkeit
+
+6
+00:00:47,000 --> 00:00:59,500
+Eine Arbeitsflächenwürfeldrehung starte ich mit der Tastenkombination Strg+Alt+linke Maustaste, dabei bewege ich die Maus
+
+7
+00:01:05,000 --> 00:01:14,500
+Den Arbeitsflächenwürfel kann man aufklappen zu einem Streifen mit Strg+Alt+Cursortaste nach unten
+
+8
+00:01:15,000 --> 00:01:26,500
+Dabei drücke ich weiterhin Strg+Alt, nun kann ich mich auf den Streifen bewegen mit den Cursortasten links und rechts
+
+9
+00:01:30,000 --> 00:01:40,500
+Soll das aktive Fenster auf eine andere Würfelseite tätige ich Strg+Alt+Shift+Cursortasten
+
+10
+00:01:50,000 --> 00:01:59,500
+Zu einer anderen Arbeitsfläche auf einer anderen Würfelseite wandert man mit Strg+Alt+Cursortasten
+
+11
+00:02:05,000 --> 00:02:12,500
+Alle Fenster sind auf einmal vollständig zu sehen mit dem Drücken der Taste Pause
+
+12
+00:02:14,000 --> 00:02:17,500
+Nun klicke ich auf das Fenster das aktiv sein soll
+
+13
+00:02:20,000 --> 00:02:27,500
+oder ich bewege den Mauspfeil in die obere rechte Ecke
+
+14
+00:02:35,000 --> 00:02:47,500
+Ich springe von einem Fenster zum anderen wie üblich mit Alt+Tab, für alle Fenster auf der aktiven Würfelseite
+
+15
+00:02:35,000 --> 00:02:47,500
+Ich springe von einem Fenster zum anderen wie üblich mit Alt+Tab, für alle Fenster auf der aktiven Würfelseite
+
+16
+00:02:54,000 --> 00:03:04,500
+und Alt+Tab+Strg für alle Fenster auf allen Würfelseiten
+
+17
+00:03:12,000 --> 00:03:20,500
+Zoomen erfolgt nach dem Drücken der Windows- bzw. Linuxtaste und dem Mausrad bewegen
+
+18
+00:03:27,000 --> 00:03:34,500
+Mit Alt und Mausrad bewegen ist es möglich die Transparenz zu verändern
+
+19
+00:03:49,000 --> 00:03:56,500
+OK, das war es schon wieder, viel Spass beim Ausprobieren, bis zum nächsten mal

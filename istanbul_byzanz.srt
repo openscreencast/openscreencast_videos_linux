@@ -1,0 +1,175 @@
+1
+00:00:01,000 --> 00:00:05,500
+Hallo Wie macht man eigentlich ein Screencast ?
+
+2
+00:00:06,000 --> 00:00:11,500
+Ein Tool für das Verewigen der Bildschirmaktivitäten heisst Istanbul, ein anderes trägt den Namen byzanz
+
+3
+00:00:12,000 --> 00:00:16,500
+Es ist bei Fedora Core ganz einfach diese Programme zu installieren
+
+4
+00:00:17,000 --> 00:00:23,500
+Ich gehe auf Anwendungen - Software hinzufügen/entfernen oder ich führe den Befehl pirut aus
+
+5
+00:00:24,000 --> 00:00:28,500
+Gebe das Adminpasswort ein, OK
+
+6
+00:00:31,000 --> 00:00:37,500
+Klicke auf Desktopumgebungen - Gnome Desktopumgebung - Optionale Pakete
+
+7
+00:00:38,000 --> 00:00:48,500
+Mache ein Häkchen bei byzanz und ein weiteres Häkchen bei Istanbul, schliessen, Anwenden
+
+8
+00:00:49,000 --> 00:00:55,500
+folge den weiteren Anweisungen, ebenso ist es bei Ubuntu, man geht auf Anwendungen - Hinzufügen/Entfernen
+
+9
+00:00:56,000 --> 00:01:00,500
+sucht nach Istanbul, macht ein Häkchen und folgt den weiteren Anweisungen
+
+10
+00:01:03,000 --> 00:01:08,500
+Istanbul ist einsatzbereit nach dem Ausführen des Kommandos istanbul
+
+11
+00:01:09,000 --> 00:01:15,500
+oder ich wandere mit dem Mauszeiger auf Anwendungen - Unterhaltungsmedien - Istanbul
+
+12
+00:01:16,000 --> 00:01:21,500
+Sofort erscheint rechts oben im Panel ein roter Punkt
+
+13
+00:01:22,000 --> 00:01:26,500
+Aktuell ist die Version 0.2.1
+
+14
+00:01:28,000 --> 00:01:36,500
+Ein Einstellungsmenü kommt zum Vorschein wenn ich mit der rechten Maustaste auf den roten Punkt klicke
+
+15
+00:01:37,000 --> 00:01:48,500
+Ich kann mit einem Häkchen bekannt geben ob ich die 3D-Funktionen, den Mauszeiger und Sound mit aufnehmen möchte
+
+16
+00:01:49,000 --> 00:01:53,500
+Ich kann in voller Grösse, in halber Grösse oder in viertel Grösse aufnehmen
+
+17
+00:01:54,000 --> 00:02:01,500
+Außerdem gibt es eine Funktion um die Aufnahmefläche festzulegen
+
+18
+00:02:02,000 --> 00:02:16,500
+Ich klicke auf Select Area to Record, gehe zum Anfangspunkt und ziehe während ich die linke Maustaste gedrückt halte
+
+19
+00:02:17,000 --> 00:02:20,500
+über die Fläche die dann im Video zu sehen sein soll
+
+20
+00:02:25,000 --> 00:02:40,500
+Dann mal los, ich starte den Browser und nun Anfang der Aufnahme
+
+21
+00:02:41,000 --> 00:02:51,500
+Als erstes die Einstellungen, 3D brauche ich nicht, Sound brauche ich auch nicht, den Mauszeiger aber schon
+
+22
+00:02:52,000 --> 00:03:07,500
+Ich nehme in voller Grösse auf, jetzt wähle ich den Aufnahmebereich, ziehe über den Browser
+
+23
+00:03:08,000 --> 00:03:15,500
+Start der Aufnahme mit einem linken Mausklick auf den roten Punkt
+
+24
+00:03:16,000 --> 00:03:32,500
+Der rote Punkt wird umgehend zu einem STOP-Symbol, klicke ich auf das STOP-Symbol ist die Aufnahme beendet
+
+25
+00:03:33,000 --> 00:03:35,500
+Kann mit die Aufnahme nochmal anschauen
+
+26
+00:03:43,000 --> 00:03:49,500
+Um sicher zu gehen das es geklappt hat und speichere das Video in eine Datei meiner Wahl
+
+27
+00:03:50,000 --> 00:04:01,500
+Gebe ein x.ogg, gehe auf Speichern, das war es, Video gesichert
+
+28
+00:04:02,000 --> 00:04:09,500
+Ich kann mir das Video jetzt anschauen mit totem und anderen Video-Playern
+
+29
+00:04:10,000 --> 00:04:14,500
+oder ich kann das Video auch nachbearbeiten
+
+30
+00:04:15,000 --> 00:04:21,500
+Um mir das Video nochmal anzuschauen gehe ich auf Anwendungen - Unterhaltungsmedien - Video-Player
+
+31
+00:04:22,000 --> 00:04:30,500
+Film - Öffnen - klicke das Video an, Hinzufügen
+
+32
+00:04:44,000 --> 00:04:52,500
+Das zweite Tool byzanz nimmt Bildschirmaktivitäten in Animationen in gif-Dateien auf, ohne Sound aber
+
+33
+00:04:53,000 --> 00:04:55,500
+Geeignet für kleien Flächen und kurze Zeiten
+
+34
+00:04:56,000 --> 00:05:02,500
+Ich gehe auf Anwendungen - Zubehör - Terminal
+
+35
+00:05:03,000 --> 00:05:18,500
+Welche Optionen es gibt kriege ich raus mit byzanz-record --help ENTER
+
+36
+00:05:19,000 --> 00:05:26,500
+Als Beispiel, ich möchte 10 Sekunden lang die Arbeit auf dem Taschenrechner aufnehmen
+
+37
+00:05:27,000 --> 00:05:34,500
+Ich starte den Taschenrechner, bewege den Mauszeiger auf Anwendungen - Zubehör - Taschenrechner
+
+38
+00:05:39,000 --> 00:05:50,500
+Informiere mich vorerst über das Taschenrechnerfenster mit dem Befehl xwininfo ENTER
+
+39
+00:05:51,000 --> 00:06:04,500
+klicke den Taschenrechner an und bekomme so die Fenster-ID und die Koordinaten die ich zur Aufnahme brauche
+
+40
+00:06:05,000 --> 00:06:22,500
+Nun kann ich die Aufnahme durchführen mit dem Kommando byzanz-record -d 10 (10 Sekunden)
+
+41
+00:06:23,000 --> 00:07:10,500
+-c (mit Mauszeiger) -l (als Schleife) -x (x) -y (y) -w (Breite) -h (Höhe) dateiname.gif ENTER
+
+42
+00:07:11,000 --> 00:07:23,500
+Jetzt kann ich loslegen, mache irgendetwas auf dem Taschenrechner, 10 Sekunden lang
+
+43
+00:07:28,000 --> 00:07:42,500
+Am Ende kann ich mit das Ergebnis nochmal anschauen mit dem Browser, ich gebe ein firefox dateiname.gif ENTER
+
+44
+00:07:55,000 --> 00:08:06,500
+Gut, das war es, Tschau bis zum nächsten mal, viel Spass bei den Aufnahmen

@@ -1,0 +1,119 @@
+1
+00:00:01,000 --> 00:00:05,500
+Screencastname lautet heute bash - Umleitungen
+
+2
+00:00:06,000 --> 00:00:13,500
+Ich werde in der Konsole arbeiten, öffne also ein Terminal, gehe auf Anwendungen - Zubehör - Terminal
+
+3
+00:00:15,000 --> 00:00:20,500
+Zum ersten die Umleitung der Kommandoausgabe in eine neue Datei
+
+4
+00:00:21,000 --> 00:00:28,500
+Bei einem Kommando wie z.B. uname ENTER gibt es eine Ausgabe die auf dem Bildschirm erscheint
+
+5
+00:00:29,000 --> 00:00:33,500
+uname bringt übrigens ein paar Systeminformationen ans Tageslicht
+
+6
+00:00:34,000 --> 00:00:49,500
+Wer mehr über uname wissen möchte gibt ein man uname ENTER (Ende q-Taste) oder uname --help ENTER
+
+7
+00:00:50,000 --> 00:01:12,500
+Soll diese Kommandoausgabe in eine neue Datei geschrieben werden tippe ich ein uname -a > dateiname ENTER (-a für alle Informationen)
+
+8
+00:01:13,000 --> 00:01:26,500
+Es gibt dabei keine Bildschirmausgabe. Den Inhalt der Datei schaue ich mir an mit cat dateiname ENTER
+
+9
+00:01:27,000 --> 00:01:33,500
+Dieser Dateiinhalt ist die Ausgabe von uname -a ENTER
+
+10
+00:01:34,000 --> 00:01:39,500
+Umgekehrt ist es möglich den Inhalt einer Datei zu einem Kommando umzuleiten
+
+11
+00:01:40,000 --> 00:01:59,500
+z.B. wc < dateiname ENTER, Anzahl der Zeilen, Wörter und Zeichen der Datei wird ermittelt und ausgegeben
+
+12
+00:02:00,000 --> 00:02:10,500
+Wobei man < weglassen kann, dabei geht das ganze auch
+
+13
+00:02:13,000 --> 00:02:30,500
+Fehlermeldungen können wie folgt in eine Datei umgeleitet werden, mit kommando 2> dateiname ENTER
+
+14
+00:02:32,000 --> 00:02:47,500
+Es gibt 3 Standardkanäle, Standardeingabe 0, Standardausgabe 1, Standardfehlerausgabe 2, deswegen 2>
+
+15
+00:02:48,000 --> 00:03:09,500
+Fehlermeldung und Kommandoausgabe werden durch kommando >& dateiname ENTER in eine neue Datei geschrieben
+
+16
+00:03:11,000 --> 00:03:17,500
+Ein Pipe führt dazu das die Ausgabe von kommando1 zur Eingabe von kommando2 wird
+
+17
+00:03:18,000 --> 00:03:39,500
+Ein Bsp. ls -l | head ENTER Es werden nur die ersten 10 Zeilen der Ausgabe von ls -l ENTER aufgelistet
+
+18
+00:03:41,000 --> 00:03:53,500
+Ein doppeltes > lässt die Ausgabe nicht in eine neue Datei schreiben sondern hängt die Ausgabe an den Inhalt einer vorhandenen Datei an
+
+19
+00:03:54,000 --> 00:04:16,500
+Ich tippe ein date >> dateiname ENTER, schau mir den Inhalt nochmal an mit cat dateiname ENTER
+
+20
+00:04:17,000 --> 00:04:20,500
+Wie man sieht wurde hier das Datum noch hinzugefügt
+
+21
+00:04:23,000 --> 00:04:29,500
+Außerdem kann man veranlassen das die Ausgabe auf dem Bildschirm zu lesen ist
+
+22
+00:04:30,000 --> 00:04:33,500
+und gleichzeitig in eine neue Datei gestellt wird
+
+23
+00:04:34,000 --> 00:05:02,500
+Als Bsp. uname -a | tee dateiname1 ENTER, so gibt es eine Bildschirmausgabe und die Ausgabe wurde in eine neue Datei geschrieben
+
+24
+00:05:04,000 --> 00:05:12,500
+Ich schaue mir den Inhalt nochmal an mit cat dateiname1 ENTER
+
+25
+00:05:14,000 --> 00:05:23,500
+Zum Schluss möchte ich noch zeigen wie man die Ausgabe in ein anderes Terminal umlenkt
+
+26
+00:05:24,000 --> 00:05:30,500
+Ich öffne also ein 2. Terminal, gehe auf Anwendungen - Zubehör - Terminal
+
+27
+00:05:33,000 --> 00:05:46,500
+Führe im 2. Terminal den Befehl tty ENTER aus um die Schnittstelle des 2. Terminals herauszufinden
+
+28
+00:05:48,000 --> 00:06:16,500
+Jetzt tippe ich im 1. Terminal ein ls -l > /dev/pts/2 ENTER (Schnittstelle 2. Terminal)
+
+29
+00:06:18,000 --> 00:06:36,500
+Im 1. Terminal ist keine Ausgabe zu sehen aber im 2. Terminal sieht man jetzt die Ausgabe von ls -l ENTER
+
+30
+00:06:38,000 --> 00:06:45,500
+Gut, das wars, viel Spass beim ausprobieren, bis zum nächsten mal
