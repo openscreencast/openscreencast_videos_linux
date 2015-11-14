@@ -1,0 +1,167 @@
+1
+00:00:01,000 --> 00:00:04,500
+Hallo Heute ist das Thema: Packen und Entpacken
+
+2
+00:00:05,000 --> 00:00:10,500
+Wenn ich von Packen und Entpacken rede meine ich aber nicht Weihnachtsgeschenke sondern Dateien
+
+3
+00:00:11,000 --> 00:00:15,500
+Beim Packen, auch Archivieren genannt, werden mehrere Dateien in eine Datei geschrieben
+
+4
+00:00:16,000 --> 00:00:20,500
+bzw. werden die mehreren Dateien aus der Archivdatei dann wieder entpackt
+
+5
+00:00:21,000 --> 00:00:27,500
+Meist werden die Archive noch nebenbei oder danach komprimiert, ihre Speichergrösse wird reduziert
+
+6
+00:00:28,000 --> 00:00:31,500
+Im Desktopmodus bei Gnome geht man wie folgt vor
+
+7
+00:00:32,000 --> 00:00:36,500
+Man wählt die Dateien aus die archiviert werden sollen zu einer Datei
+
+8
+00:00:37,000 --> 00:00:41,500
+Ich öffne den Persönlichen Ordner, mache einen Doppelklick drauf
+
+9
+00:00:42,000 --> 00:00:45,500
+Gehe zum Ordner Bilder, mache ebenfalls einen Doppelklick drauf
+
+10
+00:00:46,000 --> 00:00:48,500
+und markiere meine Dateien
+
+11
+00:00:49,000 --> 00:00:56,500
+Klicke mit der rechten Maustaste auf eine markierte Datei und wähle Archiv anlegen...
+
+12
+00:00:57,000 --> 00:01:05,500
+Nun bestimme ich das Format, den Namen und den Speicherort der Archivdatei
+
+13
+00:01:06,000 --> 00:01:10,500
+Starte das Archivieren und Komprimieren mit dem Button Anlegen
+
+14
+00:01:11,000 --> 00:01:13,500
+Nun gibt es eine neue Datei
+
+15
+00:01:14,000 --> 00:01:24,500
+Die Archivdatei ist rund 750 KB gross, das sieht man in der Statuszeile, und dort stecken jetzt alle markierten Dateien drin
+
+16
+00:01:25,000 --> 00:01:33,500
+Die beiden markierten Dateien, die archiviert wurden, sind rund 870 KB gross
+
+17
+00:01:34,000 --> 00:01:39,500
+Das eigentliche Programm das fürs Packen und Entpacken zuständig ist heißt File-Roller
+
+18
+00:01:40,000 --> 00:01:45,500
+und ist zu finden unter Anwendungen - Zubehör - Archivmanager
+
+19
+00:01:47,000 --> 00:01:51,500
+Man kann es mit dem Befehl file-roller starten
+
+20
+00:01:52,000 --> 00:01:57,500
+Um ein neues Archiv anzulegen klick ich auf Neu
+
+21
+00:01:59,000 --> 00:02:22,500
+Wähle den Namen, den Speicherort und das Format der Archivdatei und klicke auf Neu
+
+22
+00:02:23,000 --> 00:02:29,500
+und füge anschließend die Dateien die verpackt werden sollen hinzu
+
+23
+00:02:30,000 --> 00:02:45,500
+Klicke auf Hinzufügen, Klicke eine Datei an, drücke die Steuerungstaste (STRG)
+
+24
+00:02:46,000 --> 00:02:59,500
+und klicke weitere Dateien an und lasse die Steuerungstaste wieder los und bestätige das ganze mit dem Button Hinzufügen
+
+25
+00:03:00,000 --> 00:03:13,500
+und das Archiv wird neu angelegt, nun schließe ich den File-Roller und es gibt ein weiteres Archiv
+
+26
+00:03:17,000 --> 00:03:25,500
+Nun zum Entpacken, dazu kopiere ich vorerst die beiden Archivdateien, markiere die beiden Dateien
+
+27
+00:03:26,000 --> 00:03:33,500
+gehe auf Bearbeiten - Kopieren, öffne den Ordner Entpacken, mache einen Doppelklick drauf
+
+28
+00:03:34,000 --> 00:03:38,500
+Gehe auf Bearbeiten - Einfügen
+
+29
+00:03:39,000 --> 00:03:49,500
+Ich klicke die Archivdatei mit der rechten Maustaste an und gehe auf Hier entpacken
+
+30
+00:03:50,000 --> 00:03:57,500
+So werden die Dateien aus dem Archiv in den aktuellen Ordner geschrieben
+
+31
+00:03:58,000 --> 00:04:05,500
+Es gibt einen neuen Ordner dort sind die Dateien drin
+
+32
+00:04:06,000 --> 00:04:20,500
+Oder ich mache einen Doppelklick auf die Archivdatei, die übrigens eindeutig an der Dateiendung bzw. am Symbol zu erkennen ist
+
+33
+00:04:21,000 --> 00:04:26,500
+so wird der File-Roller mit dem Archiv gestartet
+
+34
+00:04:27,000 --> 00:04:40,500
+Klicke nun auf Entpacken, wähle den Zielordner oder ob alle Dateien oder nur bestimmte Dateien entpackt werden sollen etc.
+
+35
+00:04:41,000 --> 00:04:51,500
+Gehe anschließend auf Entpacken, schließe den File-Roller wieder, Hier sind die entpackten Dateien
+
+36
+00:04:52,000 --> 00:04:59,500
+Ich kann Dateien im nachhinein aus dem Archiv entfernen oder hinzufügen
+
+37
+00:05:00,000 --> 00:05:03,500
+öffnet vorerst ein Archiv mit einem Doppelklick drauf
+
+38
+00:05:04,000 --> 00:05:14,500
+Ich klicke eine Datei im Archiv an und drücke die ENTF-Taste um die Datei aus dem Archiv zu löschen
+
+39
+00:05:15,000 --> 00:05:30,500
+Bestätigung mit OK, Um eine Datei schnell hinzuzufügen klicke ich sie an
+
+40
+00:05:31,000 --> 00:05:40,500
+behalte den Klick bei und ziehe die Datei auf den File-Roller
+
+41
+00:05:41,000 --> 00:05:50,500
+Warte ein bißchen, und die Datei wurde hinzugefügt zum Archiv
+
+42
+00:05:51,000 --> 00:06:00,500
+Das war es wieder, das nächste mal das ganze im Textmodus, Bis zum nächsten mal

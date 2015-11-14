@@ -1,0 +1,139 @@
+1
+00:00:01,000 --> 00:00:04,500
+Hallo Packen und Entpacken im Textmodus
+
+2
+00:00:05,000 --> 00:00:11,500
+Ich öffne ein Terminal, gehe auf Anwendungen - Zubehör, klicke auf Terminal
+
+3
+00:00:12,000 --> 00:00:17,500
+Als erstes überlege ich mir welche Dateien und Ordner archiviert und komprimiert werden sollen
+
+4
+00:00:12,000 --> 00:00:20,500
+In diesem Fall alle Dateien im aktuellen Ordner
+
+5
+00:00:21,000 --> 00:00:23,500
+Nun zu den Kommandos
+
+6
+00:00:24,000 --> 00:00:36,500
+Hilfe erscheint jeweils mit der Option --help (nach einem Kommando), den Befehl man Kommando ENTER oder info Kommando ENTER
+
+7
+00:00:37,000 --> 00:00:41,500
+Nach dem Drücken der Taste q verschwindet die Hilfe wieder
+
+8
+00:00:42,000 --> 00:00:48,500
+1. Punkt - Archivieren - mehrere Dateien werden in eine Archiv-Datei geschrieben
+
+9
+00:00:49,000 --> 00:00:52,500
+Das erfolgt mit dem Tool tar
+
+10
+00:00:53,000 --> 00:01:10,500
+Eingabe tar -cf archiv.tar * ENTER, Option -c für ein neues Archiv erzeugen
+
+11
+00:01:11,000 --> 00:01:17,500
+f für die Archiv-Datei bestimmen, * für alle Dateien im aktuellen Ordner
+
+12
+00:01:18,000 --> 00:01:24,500
+Die Dateiendung informiert einen darüber das die Datei eine Archiv-Datei ist
+
+13
+00:01:25,000 --> 00:01:39,500
+Mit dem Befehl tar -tf archiv.tar ENTER werden alle Dateien im Archiv aufgelistet
+
+14
+00:01:40,000 --> 00:01:48,500
+Die Archiv-Datei ist momentan ca. 10 MB groß
+
+15
+00:01:49,000 --> 00:01:57,500
+2. Punkt - die Archiv-Datei komprimieren, ein Tool dafür wäre gzip
+
+16
+00:01:58,000 --> 00:02:15,500
+Ich tippe ein gzip archiv.tar ENTER um die Speichergröße der Datei zu reduzieren
+
+17
+00:02:16,000 --> 00:02:25,500
+Es entsteht danach eine Datei namens archiv.tar.gz mit der Größe ca. 9 MB
+
+18
+00:02:26,000 --> 00:02:37,500
+3. Punkt - sollte die komprimierte Archiv-Datei nicht auf eine z.B. Diskette oder CD passen
+
+19
+00:02:38,000 --> 00:02:43,500
+kann man die Datei teilen so das sie auf mehrere Disketten oder CDs passt
+
+20
+00:02:44,000 --> 00:02:47,500
+Hierfür gibt es den Befehl split
+
+21
+00:02:48,000 --> 00:03:20,500
+Ich tippe ein split -b 1m archiv.tar.gz archiv.tar.gz.split ENTER (-b um die max. Größe einer Teildatei zu bestimmen, 1m für 1 MB)
+
+22
+00:03:21,000 --> 00:03:31,500
+archiv.tar.gz ist die Datei die geteilt wird, archiv.tar.gz.split als Name für alle Teildateien
+
+23
+00:03:32,000 --> 00:03:44,500
+Somit gibt es 10 Teildateien
+
+24
+00:03:45,000 --> 00:03:48,500
+Nun das ganze umgekehrt
+
+25
+00:03:49,000 --> 00:04:01,500
+Vorher erstelle ich einen neuen Ordner mit mkdir namens entpacken, ich tippe ein mkdir entpacken ENTER
+
+26
+00:04:02,000 --> 00:04:26,500
+Kopiere nun die split-Dateien in den neuen Ordner mit cp *split* entpacken ENTER
+
+27
+00:04:27,000 --> 00:04:36,500
+Wechsle zum neuen Ordner entpacken, cd entpacken ENTER
+
+28
+00:04:37,000 --> 00:04:47,500
+Hier sind die split-Dateien drin, 1. Punkt - die mehreren Dateien zu einer Datei zusammenfügen
+
+29
+00:04:48,000 --> 00:05:17,500
+Dies erreiche ich mit der Eingabe cat archive.tar.gz.split* > archiv.tar.gz ENTER
+
+30
+00:05:18,000 --> 00:05:28,500
+so werden alle Dateien nacheinander gelesen und in die neue Datei archiv.tar.gz geschrieben
+
+31
+00:05:29,000 --> 00:05:50,500
+2. Punkt - dekomprimieren mit dem Kommando gunzip archiv.tar.gz ENTER
+
+32
+00:05:51,000 --> 00:06:11,500
+3. Punkt - entpacken durch die Ausführung des Befehls tar -xf archiv.tar ENTER
+
+33
+00:06:12,000 --> 00:06:22,500
+Es gibt natürlich noch viele andere Tools zum Archivieren und Komprimieren wie z.B. bzip2
+
+34
+00:06:23,000 --> 00:06:34,500
+Außerdem kann ich das Komprimieren gleich in den tar-Befehl mit einbauen mit der Option -j oder -z
+
+35
+00:06:35,000 --> 00:06:41,500
+Okay, das wars, bis zum nächsten mal

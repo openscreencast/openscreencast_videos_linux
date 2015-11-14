@@ -1,0 +1,139 @@
+1
+00:00:01,000 --> 00:00:04,000
+Hallo, Willkommen beim Screencast Prozessliste
+
+2
+00:00:04,100 --> 00:00:09,500
+Was für Programme bzw. Prozesse laufen eigentlich im Hintergrund ?
+
+3
+00:00:10,000 --> 00:00:16,500
+Im Textmodus verhilft mit der Befehl ps dazu einen Blick auf die Prozessliste zu werfen
+
+4
+00:00:17,000 --> 00:00:23,500
+Ich wandere mit dem Mauspfeil auf Anwendungen - Zubehör, klicke auf Terminal und kann so Kommandos eingeben
+
+5
+00:00:24,000 --> 00:00:34,500
+Einen kurzen Optionsüberblick verschafft mir die Eingabe ps --help ENTER
+
+6
+00:00:35,000 --> 00:00:44,500
+Kommando ps -ax ENTER lässt eine Tabelle aller laufenden Prozesse erscheinen
+
+7
+00:00:45,000 --> 00:00:50,500
+In der ersten Spalte kann ich die Prozessidentifikationsnummer (PID) ablesen
+
+8
+00:00:51,000 --> 00:00:54,500
+In der zweiten Spalte von wo der Prozess gestartet wurde
+
+9
+00:00:55,000 --> 00:01:01,500
+In der dritten Spalte sehe ich den Prozessstatus, z.B. S für schlafend und R für lauffend
+
+10
+00:01:02,000 --> 00:01:07,500
+In der fünften Spalte ist das eigentliche Kommando zu dem Prozess
+
+11
+00:01:08,000 --> 00:01:16,500
+Welche Prozesse den Prozessor am meisten belasten und wie der Stand des Speicherbedarfs ist verrät mit Tool top
+
+12
+00:01:17,000 --> 00:01:22,500
+Ich tippe ein top ENTER und bin bestens informiert
+
+13
+00:01:23,000 --> 00:01:26,500
+Welche interaktiven Kommandos bei top genutzt werden können
+
+14
+00:01:27,000 --> 00:01:32,500
+kann man nach dem Drücken der Taste h, h für Hilfe, vom Bildschirm ablesen
+
+15
+00:01:33,000 --> 00:01:39,500
+Das Beenden von top wird durch Taste q eingeleitet
+
+16
+00:01:40,000 --> 00:01:47,500
+Kommando fuser kann ermitteln welcher Prozess auf eine bestimmte Datei zugreift
+
+17
+00:01:48,000 --> 00:02:09,500
+notwendige Eingabe dazu /sbin/fuser -v /dev/pts/1 ENTER
+
+18
+00:02:10,000 --> 00:02:17,500
+Möchte man die PID herausfinden und man weiß den Namen des Kommandos
+
+19
+00:02:18,000 --> 00:02:22,500
+setzt man Tool pidof ein
+
+20
+00:02:23,000 --> 00:02:41,500
+Ich tippe ein /sbin/pidof bash ENTER, dann sehe ich die PID (von Kommando bash)
+
+21
+00:02:43,000 --> 00:02:47,500
+Gnome stellt das Programm Systemüberwachung zur Verfügung
+
+22
+00:02:48,000 --> 00:02:51,500
+um einen Üblick über die laufenden Prozesse zu bekommen
+
+23
+00:02:52,000 --> 00:03:03,500
+Das Programm wird gestartet mit dem Befehl gnome-system-monitor ENTER
+
+24
+00:03:04,000 --> 00:03:11,500
+oder ich gehe mit dem Mauspfeil auf System - Administration und klicke auf Systemüberwachung
+
+25
+00:03:12,000 --> 00:03:21,500
+Mit der Ansicht ist es möglich alle aktiven, alle Prozesse oder nur alle eigenen Prozesse anzuzeigen
+
+26
+00:03:27,000 --> 00:03:35,500
+Unter Bearbeiten - Einstellungen kann man den Informationsumfang der Tabelle beeinflußen
+
+27
+00:03:36,000 --> 00:03:43,500
+Man kann Prozessfelder hinzufügen, indem man ein Häkchen setzt
+
+28
+00:03:36,000 --> 00:03:43,500
+Man kann Prozessfelder hinzufügen, indem man ein Häkchen setzt
+
+29
+00:03:44,000 --> 00:03:47,500
+oder auch ein Prozessfeld wegnimmt, indem man das Häkchen entfernt 
+
+30
+00:03:48,000 --> 00:03:52,500
+anschließend klickt man auf Schließen
+
+31
+00:03:57,000 --> 00:04:01,500
+Die Systemüberwachung gibt es ebenfalls als Objekt für ein Panel
+
+32
+00:04:02,000 --> 00:04:09,500
+Ich klicke mit der rechten Maustaste auf ein Panel, gehe auf zum Panel hinzufügen
+
+33
+00:04:10,000 --> 00:04:20,500
+klicke auf Systemmonitor, anschließend auf Hinzufügen, gehe auf Schließen
+
+34
+00:04:21,000 --> 00:04:29,500
+klicke jetzt hier auf das Objekt (Systemmonitor) und es erscheint die Systemüberwachung
+
+35
+00:04:30,000 --> 00:04:38,500
+OK, das wars, machts gut, bis zum nächsten mal

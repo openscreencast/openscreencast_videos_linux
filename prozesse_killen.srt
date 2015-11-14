@@ -1,0 +1,167 @@
+1
+00:00:01,000 --> 00:00:04,000
+Willkommen, heutiges Thema: Prozesse killen
+
+2
+00:00:04,500 --> 00:00:10,000
+Ich öffne ein Terminal, gehe auf Anwendungen - Zubehör, klicke auf Terminal
+
+3
+00:00:10,500 --> 00:00:15,000
+Auch bei Linux kommt es dazu das Programme streiken und es nicht mehr weiter geht
+
+4
+00:00:15,500 --> 00:00:23,000
+Bei Befehlen im Textmodus reicht oft die Tastenkombination Strg + C um den Prozess zu beenden
+
+5
+00:00:23,500 --> 00:00:27,000
+Ist das nicht so, hilft mir Tool kill weiter
+
+6
+00:00:27,500 --> 00:00:35,000
+kill sendet Signale an einen bestimmten Prozess, definiert durch die PID, um Programme die nicht mehr gehn zu beenden
+
+7
+00:00:35,500 --> 00:00:42,000
+Die PID bekomme ich durch Befehl ps heraus
+
+8
+00:00:42,500 --> 00:00:52,000
+Nebenbei, um mir die Prozesshierarchie anzuschauen tippe ich ein pstree ENTER
+
+9
+00:00:52,500 --> 00:00:57,000
+Bsp. Angenommen der Texteditor geht nicht mehr
+
+10
+00:00:57,500 --> 00:01:04,000
+Ich starte den Texteditor, gehe auf Anwendungen - Zubehör, klicke auf Texteditor
+
+11
+00:01:04,500 --> 00:01:20,000
+und gebe anschließend im Terminal ein ps ax ENTER, um die PID herauszubekommen vom Texteditor
+
+12
+00:01:20,500 --> 00:01:29,000
+das wäre hier von gedit die Nummer 2907
+
+13
+00:01:29,500 --> 00:01:43,000
+Nun tippe ich ein kill 2907 ENTER um so den Prozess (gedit - Texteditor) zu beenden
+
+14
+00:01:43,500 --> 00:01:54,000
+Hilfe erscheint nach Eingabe man kill ENTER oder info kill ENTER
+
+15
+00:01:54,500 --> 00:01:59,000
+Taste q beendet die Hilfe
+
+16
+00:01:59,500 --> 00:02:05,000
+Bei Tool killall ist hingegen die PID nicht notwendig
+
+17
+00:02:05,500 --> 00:02:11,000
+man gibt einen Namen ein um alle Prozesse die jene Zeichenkette enthalten zu beenden
+
+18
+00:02:11,500 --> 00:02:21,000
+Bsp. Ich starte den Texteditor, gebe ein gedit & ENTER
+
+19
+00:02:21,500 --> 00:02:34,000
+Ich tippe ein killall gedit ENTER
+
+20
+00:02:34,500 --> 00:02:45,000
+Beim laufenden Tool top ist es möglich Taste k und danach die PID einzugeben um einen Prozess zu beenden
+
+21
+00:02:45,500 --> 00:02:52,000
+Tool xkill macht es im Desktopmodus einfach
+
+22
+00:02:52,500 --> 00:02:56,000
+Es ist nur noch notwendig das Programm anzuklicken das beendet werden soll
+
+23
+00:02:56,500 --> 00:03:06,000
+Bsp. Ich starte den Texteditor, tippe ein gedit & ENTER
+
+24
+00:03:06,500 --> 00:03:20,000
+Ich tippe ein xkill ENTER und klicke den Texteditor an
+
+25
+00:03:20,500 --> 00:03:27,000
+Für das nächste Beispiel starte ich schon mal den Texteditor
+
+26
+00:03:27,500 --> 00:03:33,000
+Ich klicke auf Anwendungen - Zubehör - Texteditor
+
+27
+00:03:33,500 --> 00:03:48,000
+Geht im Desktopmodus absolut garnichts mehr, kommt man mit dem Drücken der Tasten Strg+Alt+F1 zu einer Textkonsole
+
+28
+00:03:48,500 --> 00:03:56,000
+Läuft der Desktopmodus garnicht, reichen die Tasten Alt+F2
+
+29
+00:03:56,500 --> 00:04:17,000
+Nun loggt man sich als Administrator ein und beendet die betreffenden Prozesse die das System blockieren
+
+30
+00:04:17,500 --> 00:04:22,000
+Als Beispiel beende ich den Texteditor
+
+31
+00:04:22,500 --> 00:04:35,000
+Ich tippe ein ps ax ENTER um die PID herauszubekommen vom Texteditor, gedit also
+
+32
+00:04:35,500 --> 00:04:39,000
+Das wäre hier 2940
+
+33
+00:04:39,500 --> 00:04:48,000
+Nun tippe ich ein kill 2940 ENTER
+
+34
+00:04:48,500 --> 00:05:06,000
+Geht alles wieder loggt man sich aus durch logout ENTER und wechselt zum Desktopmodus mit Strg+Alt+F7
+
+35
+00:05:10,500 --> 00:05:16,000
+Für das nächste, starte ich auch schon mal wieder den Texteditor
+
+36
+00:05:16,500 --> 00:05:24,000
+Ich klicke auf Anwendungen - Zubehör - Texeditor
+
+37
+00:05:24,500 --> 00:05:37,000
+Das Programm gnome-system-monitor, zu finden unter System - Administration - Systemüberwachung
+
+38
+00:05:37,500 --> 00:05:41,000
+hat ebenfalls die Funktion Prozesse zu beenden
+
+39
+00:05:41,500 --> 00:05:52,000
+Man klickt den betreffenden Prozess an und klickt auf Prozess beenden
+
+40
+00:05:52,500 --> 00:06:06,000
+das wäre hier gedit, dann klickt man auf den Button Prozess beenden und bestätigt mit Prozess beenden
+
+41
+00:06:06,500 --> 00:06:23,000
+oder man klickt den Prozess mit der rechten Maustaste an und wählt Prozess beenden und bestätigt mit Prozess beenden
+
+42
+00:06:23,500 --> 00:06:23,000
+Gut, das wars, Bye Bye
