@@ -1,0 +1,119 @@
+1
+00:00:01,000 --> 00:00:06,500
+Hallo, heute möchte ich ein weiteres Screencast-Tool vorstellen
+
+2
+00:00:07,000 --> 00:00:10,500
+Dieses Screencast-Tool heißt recordmydesktop
+
+3
+00:00:11,000 --> 00:00:22,500
+Zu finden ist es unter der Adresse http://recordmydesktop.sourceforge.net
+
+4
+00:00:23,000 --> 00:00:33,500
+Installiert wird es bei Fedora entweder mit pirut oder im Textmodus mit Adminrechten mit dem Tool yum
+
+5
+00:00:34,000 --> 00:00:37,500
+Als Beispiel installiere ich es mit pirut
+
+6
+00:00:38,000 --> 00:00:41,500
+Ich klicke also auf Anwendungen, klicke auf Software hinzufügen / entfernen
+
+7
+00:00:42,000 --> 00:00:51,500
+Gebe das Admin-Passwort ein, OK, klicke auf den Reiter Durchsuchen
+
+8
+00:00:52,000 --> 00:00:59,500
+Gebe ein recordmydesktop, benutze den Button Suche
+
+9
+00:01:00,000 --> 00:01:09,500
+Markiere jetzt die Pakete die ich installieren möchte, einmal recordmydesktop und das GUI gtk-recordmydesktop dazu
+
+10
+00:01:10,000 --> 00:01:15,500
+Benutze jetzt den Button Anwenden, dann klicke ich auf den Button Weiter
+
+11
+00:01:16,000 --> 00:01:39,500
+Jetzt werden die Pakete heruntergeladen und installiert, OK
+
+12
+00:01:40,000 --> 00:01:54,500
+Dann kann ich jetzt einmal das GUI anwenden, ich klicke auf Anwendungen - Unterhaltungsmedien, klicke auf gtk-recordmydesktop
+
+13
+00:01:55,000 --> 00:02:04,500
+Einstellungen sind zu finden unter dem Button Erweitert, ich kann die Videoqualität und Audioqualität wie ich möchte einstellen
+
+14
+00:02:05,000 --> 00:02:13,500
+Links wähle ich den Bereich den ich aufnehmen möchte oder markiere ein bestimmtes Fenster
+
+15
+00:02:14,000 --> 00:02:24,500
+Unter Speichern Untern lege ich die Aufnahmedatei fest, Standard ist out.ogg
+
+16
+00:02:25,000 --> 00:02:29,500
+Und ganz am Ende starte ich die Aufnahme indem ich auf den Button Aufnahme klicke
+
+17
+00:02:30,000 --> 00:02:41,500
+Die Aufnahme beende ich indem ich rechts oben auf das Quadrat einmal klicke
+
+18
+00:02:42,000 --> 00:02:54,500
+Die Aufnahme kann ich mir jetzt anschauen indem ich auf Anwendungen - Unterhaltungsmedien und auf den Video-Player klicke
+
+19
+00:02:55,000 --> 00:03:06,500
+Jetzt wähle ich die Datei die ich mir anschauen möchte (im Homeverzeichnis) die Datei out.ogg, klicke auf den Button Hinzufügen
+
+20
+00:03:07,000 --> 00:03:10,500
+Und jetzt kann ich mir die Aufnahme nochmal anschauen
+
+21
+00:03:15,000 --> 00:03:22,500
+oder zweite Möglichkeit, ich wende im Textmodus den Befehl recordmydesktop an
+
+22
+00:03:23,000 --> 00:03:28,500
+ich klicke auf Anwendungen - Systemwerkzeuge, klicke auf Terminal
+
+23
+00:03:29,000 --> 00:03:31,500
+Einstellungen sind zu machen mit Optionen
+
+24
+00:03:32,000 --> 00:03:50,500
+Optionen von recordmydesktop bekomme ich zu Gesicht mit dem Befehl recordmydesktop --help ENTER
+
+25
+00:03:51,000 --> 00:03:59,500
+benutze ich keine Optionen, lege ich keine Werte fest werden die Standardwerte genutzt
+
+26
+00:04:00,000 --> 00:04:06,500
+Also es reicht für eine Aufnahme recordmydesktop ENTER
+
+27
+00:04:07,000 --> 00:04:20,500
+Die Aufnahme beende ich mit der Tastenkombination Strg + C
+
+28
+00:04:23,000 --> 00:04:36,500
+Diesmal wurde die Aufnahme nicht in die Datei out.ogg geschrieben sondern in die Datei out.ogg.1
+
+29
+00:04:37,000 --> 00:05:02,500
+die Datei kann ich mir wieder anschauen mit dem Video-Player, ich gebe ein totem out.ogg.1 ENTER
+
+30
+00:05:03,000 --> 00:05:08,500
+Viel Spaß bei den Aufnahmen, bis zum nächsten mal, Tschau

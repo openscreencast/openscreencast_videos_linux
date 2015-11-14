@@ -1,0 +1,99 @@
+1
+00:00:05,000 --> 00:00:09,500
+Hallo, Willkommen zu einem neuen Screencast
+
+2
+00:00:10,000 --> 00:00:16,500
+Welche Schritte notwendig sind um ein Verzeichnis von einem fernen Rechner oder schlicht anderen PC
+
+3
+00:00:17,000 --> 00:00:21,500
+ins eigene Dateisystem mit sshfs einzubinden möchte ich jetzt zeigen
+
+4
+00:00:22,000 --> 00:00:26,500
+sshfs ist die Abkürzung für Secure Shell Filesystem
+
+5
+00:00:27,000 --> 00:00:31,500
+und bringt den Vorteil das die Daten die im Netzwerk spazieren gehen verschlüsselt sind
+
+6
+00:00:32,000 --> 00:00:38,500
+Grob gesagt Voraussetzung ist ein erreichbarer ferner PC, Benutzername und Passwort vom fernen PC
+
+7
+00:00:39,000 --> 00:00:47,500
+und ein SSH-Server mit sftp-Subsystem auf dem fernen Rechner
+
+8
+00:00:48,000 --> 00:00:55,500
+Los gehts mit der Vorbereitung, ich öffne ein Terminal, ich klicke auf Anwendungen - Systemwerkzeuge - Terminal
+
+9
+00:00:56,000 --> 00:01:04,500
+verschaffe mir Adminrechte, gebe ein su ENTER, gebe mein Admin-Passwort ein ENTER
+
+10
+00:01:05,000 --> 00:01:23,500
+1. Schritt, ich installiere das Paket fuse-sshfs mit dem Kommando yum install fuse-sshfs ENTER
+
+11
+00:01:24,000 --> 00:01:47,500
+das geht auch wie üblich mit dem Programm pirut, jetzt wird das Paket heruntergeladen und installiert
+
+12
+00:01:48,000 --> 00:01:51,500
+ja ich möchte (y ENTER)
+
+13
+00:01:52,000 --> 00:01:58,500
+2. Schritt, ich füge meinen Benutzer zur Benutzergruppe fuse hinzu
+
+14
+00:01:59,000 --> 00:02:16,500
+der Befehl dazu wäre gpasswd -a paul fuse ENTER (paul - Benutzername, fuse - Benutzergruppe)
+
+15
+00:02:17,000 --> 00:02:25,500
+Jetzt gebe ich meine Adminrechte wieder ab mit exit ENTER
+
+16
+00:02:26,000 --> 00:02:40,500
+und melde mich neu an, dazu klicke ich auf System - Benutzer abmelden, gebe dann mein Benutzername und Passwort neu ein
+
+17
+00:02:41,000 --> 00:02:46,500
+Sobald die Neuanmeldung abgeschlossen ist kann ich jetzt mein Verzeichnis vom fernen PC
+
+18
+00:02:47,000 --> 00:02:55,500
+in mein eigenes Dateisystem einbinden, ich klicke auf Anwendungen - Systemwerkzeuge - Terminal
+
+19
+00:02:47,000 --> 00:03:14,500
+erstelle vorerst ein neues Verzeichnis, mein zukünftiger Mount-Punkt, mit mkdir sshfs ENTER (sshfs - Verzeichnisname)
+
+20
+00:03:15,000 --> 00:03:18,500
+schon gibt es ein neues Verzeichnis
+
+21
+00:03:19,000 --> 00:04:03,500
+und tippe ein zum mounten, sshfs paula@192.168.0.10: sshfs ENTER (paula - Benutzername vom fernen PC, 192.168.0.10 IP vom fernen PC)
+
+22
+00:04:04,000 --> 00:04:15,500
+gebe jetzt noch das Passwort von der Benutzerin paula ein ENTER (Benutzerkonto auf dem fernen PC) und fertig
+
+22
+00:04:16,000 --> 00:04:34,500
+Schon ist das Homeverzeichnis von der Benutzerin paula, vom fernen PC, in das Verzeichnis sshfs von meinem Benutzer eingebunden
+
+23
+00:04:35,000 --> 00:04:57,500
+Zum Trennen der Verbindung erwartet das System den Befehl fusermount -u sshfs ENTER
+
+24
+00:04:58,000 --> 00:05:05,500
+Gut das wars für heute, viel Spaß beim Ausprobieren, bis zum nächsten mal

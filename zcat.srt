@@ -1,0 +1,75 @@
+1
+00:00:05,000 --> 00:00:09,500
+Hallo, Willkommen zum Screencast zcat, zless und zmore
+
+2
+00:00:10,000 --> 00:00:14,500
+zcat, zless und zmore sind Tools die funktionieren wie cat, less und more
+
+3
+00:00:10,000 --> 00:00:19,500
+bloß mit dem Unterschied das der Inhalt von mit gzip gepackten Dateien auf dem Bildschirm wandert
+
+4
+00:00:20,000 --> 00:00:24,500
+Das heißt, gibt es eine Textdatei, komprimiert mit gzip
+
+5
+00:00:25,000 --> 00:00:29,500
+kann ich den Inhalt lesen ohne vorher extra zu dekomprimieren, zu entpacken
+
+6
+00:00:30,000 --> 00:00:35,500
+Beispiel, Ich öffne ein Terminal, klicke auf Anwendungen - Systemwerkzeuge - Terminal
+
+7
+00:00:36,000 --> 00:00:49,500
+Packe eine Textdatei namens cc.txt, als Beispiel, mit dem Kommando gzip cc.txt ENTER
+
+8
+00:00:50,000 --> 00:00:54,500
+Endergebnis ist die gepackte Datei cc.txt.gz
+
+9
+00:00:55,000 --> 00:00:59,500
+wobei dies sehr selten wenn überhaupt vorkommt das eine einzelne Textdatei gepackt wird
+
+10
+00:01:00,000 --> 00:01:05,500
+meist werden ja viele Dateien und Verzeichnisse mit tar in eine Datei zusammengepackt
+
+11
+00:01:05,000 --> 00:01:07,500
+und dann mit gzip komprimiert
+
+12
+00:01:08,000 --> 00:01:15,500
+würde ich nun die umkomprimierte Textdatei mit cat lesen kommt dabei das gleiche raus
+
+13
+00:01:16,000 --> 00:01:26,500
+wenn ich die komprimierte mit zcat lese, ich tippe ein zcat cc.txt.gz ENTER
+
+14
+00:01:27,000 --> 00:01:31,500
+Sollte die Textdatei sehr lang sein, benutzt man zless oder zmore
+
+15
+00:01:32,000 --> 00:01:35,500
+wobei es less auch so schafft die gepackte Datei zu lesen
+
+16
+00:01:36,000 --> 00:01:46,500
+Ich gebe ein less cc.txt.gz ENTER
+
+17
+00:01:47,000 --> 00:01:56,500
+Lese ich nun die komprimierte Textdatei mit cat, also nicht mit zcat, kommt dies dabei raus
+
+18
+00:01:57,000 --> 00:02:05,500
+Ich tippe ein cat cc.txt.gz ENTER, irgendwelche Zeichen
+
+19
+00:02:06,000 --> 00:02:15,500
+Das wars für heute, Danke fürs Zuschauen und Zuhören, bis zum nächsten mal

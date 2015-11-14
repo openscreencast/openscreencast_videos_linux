@@ -1,0 +1,219 @@
+1
+00:00:05,000 --> 00:00:10,500
+Hallo, der heutige Screencast-Kurs wird verraten wie ein Benutzer
+
+2
+00:00:11,000 --> 00:00:14,500
+flink und kinderleicht den Inhalt eines Verzeichnisses verschlüsseln kann
+
+3
+00:00:15,000 --> 00:00:20,500
+Vor dem Verschlüsseln sind zwei einfache Tätigkeiten mit Administratorrechten notwendig
+
+4
+00:00:21,000 --> 00:00:26,500
+Zum einen Ich installiere das Paket fuse-encfs
+
+5
+00:00:27,000 --> 00:00:30,500
+Ich klicke auf Anwendungen - Software hinzufügen/entfernen
+
+6
+00:00:31,000 --> 00:00:35,500
+gebe das Adminpasswort ein, OK
+
+7
+00:00:36,000 --> 00:00:50,500
+Suche nach dem Paket, setze ein Häkchen, klicke auf den Button Anwenden
+
+8
+00:00:51,000 --> 00:00:56,500
+Weiter, so wird das Paket heruntergeladen und installiert, OK
+
+9
+00:00:57,000 --> 00:01:05,500
+Zum anderen Ich stecke den Benutzer der das Verzeichnis später verschlüsselt in die Benutzergruppe fuse
+
+10
+00:01:06,000 --> 00:01:11,500
+Ich klicke auf System - Administration - klicke auf Benutzer und Gruppen
+
+11
+00:01:12,000 --> 00:01:19,500
+gebe das Adminpasswort ein, OK, markiere den Benutzer, klicke auf Eigenschaften
+
+12
+00:01:20,000 --> 00:01:30,500
+klicke auf den Reiter Gruppen und setze ein Häkchen bei der Gruppe fuse, OK
+
+13
+00:01:31,000 --> 00:01:37,500
+Ist dies vollbracht meldet sich der jeweilige Benutzer an bzw. meldet sich neu an
+
+14
+00:01:38,000 --> 00:01:40,500
+und es kann los gehn
+
+15
+00:01:41,000 --> 00:01:52,500
+Ich klicke auf System, klicke auf Benutzer abmelden, auf den Button Abmelden
+
+16
+00:01:53,000 --> 00:02:07,500
+melde meinen Benutzer jetzt neu an, Ich gebe meinen Benutzernamen ein, OK, das Passwort
+
+17
+00:02:08,000 --> 00:02:15,500
+Ich öffne ein Terminal, klicke auf Anwendungen - Systemwerkzeuge - klicke auf Terminal
+
+18
+00:02:16,000 --> 00:02:35,500
+Und ich gebe schlicht den Befehl encfs ~/encrypt ~/decrypt ENTER ein
+
+19
+00:02:36,000 --> 00:02:41,500
+Beim ersten mal werden beide Verzeichnisse wenn sie noch nicht existieren neu erstellt
+
+20
+00:02:42,000 --> 00:02:47,500
+Im Verzeichnis encrypt liegen demnächst die verschlüsselten Dateien
+
+21
+00:02:48,000 --> 00:02:54,500
+und das 2. Verzeichnis ist der Mount-Punkt wo ich mit den Dateien in der unverschlüsselten Form arbeiten kann
+
+22
+00:02:55,000 --> 00:03:00,500
+Ja ich möchte das Verzeichnis erstellen (y ENTER), Ja (y ENTER)
+
+23
+00:03:01,000 --> 00:03:09,500
+Nun wähle ich den Modus, Ich drücke hier mal die ENTER-Taste und wähle den Standard-Modus
+
+24
+00:03:10,000 --> 00:03:24,500
+Abschließend lege ich das sichere Passwort fest, gebe es zur Bestätigung ein 2. mal ein
+
+25
+00:03:25,000 --> 00:03:29,500
+Beim 2. mal gebe ich nur noch mein Passwort ein
+
+26
+00:03:30,000 --> 00:03:45,500
+In meinem Home-Verzeichnis gibt es jetzt zwei neue Verzeichnisse, Verzeichnis decrypt und encrypt
+
+27
+00:03:46,000 --> 00:03:55,500
+Als Beispiel kopiere ich eine Textdatei ins Verzeichnis decrypt, markiere Datei text.txt
+
+28
+00:03:56,000 --> 00:04:05,500
+klicke auf Bearbeiten - Kopieren, gehe ins Verzeichnis decrypt, klicke auf Bearbeiten - Einfügen
+
+29
+00:04:06,000 --> 00:04:12,500
+und prompt gibt es die Datei im Verzeichnis encrypt verschüsselt
+
+30
+00:04:13,000 --> 00:04:20,500
+Ich öffne wieder ein Terminal, klicke auf Anwendungen - Systemwerkzeuge - Terminal
+
+31
+00:04:21,000 --> 00:04:35,500
+Mit dem Befehl fusermount -u ~/decrypt ENTER
+
+32
+00:04:36,000 --> 00:04:39,500
+trenne ich die Verbindung zwischen encrypt und decrypt wieder
+
+33
+00:04:40,000 --> 00:04:50,500
+das heißt Verzeichnis decrypt ist leer, es gibt keine unverschlüsselten Dateien mehr
+
+34
+00:04:51,000 --> 00:05:02,500
+Erklärungen zum Kommando encfs erscheinen nach der Eingabe man encfs ENTER
+
+35
+00:05:03,000 --> 00:05:06,500
+Das Drücken der Taste Q beendet die Hilfe
+
+36
+00:05:07,000 --> 00:05:12,500
+Das gleiche gilt für den Befehl encfsctl
+
+37
+00:05:13,000 --> 00:05:17,500
+mit dem ich z.B. das Passwort ändern kann oder Infos anschauen kann
+
+38
+00:05:18,000 --> 00:05:31,500
+z.B. gebe ich jetzt mal ein encfsctl info ~/encrypt ENTER
+
+39
+00:05:32,000 --> 00:05:43,500
+Die Schlüsseldatei ist versteckt und heißt .encfs5, befindet sich im Verzeichnis encrypt
+
+40
+00:05:44,000 --> 00:05:51,500
+Um die Datei sichtbar zu machen klicke ich auf Ansicht - verborgene Dateien anzeigen
+
+41
+00:05:52,000 --> 00:06:01,500
+Die Schlüsseldatei kann ich wenn ich möchte auf andere Datenträger verlagern
+
+42
+00:06:02,000 --> 00:06:07,500
+muß dann aber mit einer Variable jeweils den neuen Ort der Schlüsseldatei angeben
+
+43
+00:06:08,000 --> 00:06:10,500
+das sieht wie folgt aus
+
+44
+00:06:11,000 --> 00:06:16,500
+Ich verlege die Schlüsseldatei jetzt mal als Bsp. nur schnell ins Home-Verzeichnis
+
+45
+00:06:17,000 --> 00:06:23,500
+Ich klicke die Datei an, gehe auf Bearbeiten - Ausschneiden
+
+46
+00:06:24,000 --> 00:06:29,500
+gehe zum Home-Verzeichnis, klicke auf Bearbeiten - Einfügen
+
+47
+00:06:30,000 --> 00:06:34,500
+um sie wieder sichtbar zu machen, klicke ich auf Ansicht - verborgene Dateien anzeigen
+
+48
+00:06:35,000 --> 00:07:29,500
+und ich gebe jetzt ein ENCFS5_CONFIG=~/.encfs5 encfs ~/encrypt ~/decrypt ENTER
+
+49
+00:07:30,000 --> 00:07:45,500
+Ich gebe mein Passwort ein und Verzeichnis decrypt zeigt wieder unverschlüsselte Dateien an
+
+50
+00:07:46,000 --> 00:07:52,500
+Zu bedenken ist das manche Programme auch Sicherheitskopien
+
+51
+00:07:53,000 --> 00:07:57,500
+von den unverschlüsselten Dateien wenn man damit arbeitet erstellt
+
+52
+00:07:58,000 --> 00:08:01,500
+und später diese wieder löscht aber womöglich nicht richtig löscht
+
+53
+00:08:02,000 --> 00:08:06,500
+also genau darüber nachdenken was man tut und wie man es tut
+
+54
+00:08:07,000 --> 00:08:10,500
+und ob man nicht gleich das ganze Dateisystem verschlüsselt
+
+55
+00:08:11,000 --> 00:08:16,500
+Bye Bye bis zum nächsten Screencast
