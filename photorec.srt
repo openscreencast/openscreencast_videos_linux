@@ -1,0 +1,167 @@
+1
+00:00:05,000 --> 00:00:08,900
+Hallo - In diesem Video moechte ich zeigen wie geloeschte Dateien
+
+2
+00:00:09,000 --> 00:00:12,900
+in diesem Fall jpeg-Dateien, wiederhergestellt werden koennen 
+
+3
+00:00:13,000 --> 00:00:21,900
+Auf meinem 15MB USB-Stick existiert ein FAT32, vFAT-Dateisystem (0c)
+
+4
+00:00:22,000 --> 00:00:26,900
+und wie man sieht habe ich dort 2 Bilddateien 
+
+5
+00:00:27,000 --> 00:00:29,900
+Wenn ich jetzt die Bilddateien aus versehen loesche
+
+6
+00:00:30,000 --> 00:00:33,900
+und ich merke das sofort kann man die Dateien sehr schnell wiederherstellen
+
+7
+00:00:34,000 --> 00:00:47,900
+indem man den Papierkorb (Muelleimer) oeffnet die Dateien anklickt, markiert und wiederherstellt 
+
+8
+00:00:52,000 --> 00:00:56,900
+Denn normalerweise wenn die Funktion nicht irgendwie deaktiviert wurde
+
+9
+00:00:57,000 --> 00:01:03,900
+werden alle geloeschten Dateien vorerst in ein Verzeichnis namens .Trash geschoben 
+
+10
+00:01:04,000 --> 00:01:08,900
+Punkt das heisst das Verzeichnis ist versteckt
+
+11
+00:01:08,000 --> 00:01:14,900
+und kann sichtbar gemacht werden mit Ansicht - Verborgene Dateien anzeigen
+
+12
+00:01:25,000 --> 00:01:36,900
+Loescht man die Dateien und leert den Papierkorb, Muell leeren
+
+13
+00:01:37,000 --> 00:01:40,900
+und merkt dann erst das man die Dateien ja eigentlich noch brauchen koennte
+
+14
+00:01:41,000 --> 00:01:44,900
+so sind zusaetzliche Tools die einen helfen notwendig 
+
+15
+00:01:45,000 --> 00:01:50,900
+Dazu moechte ich die Programme photorec und recoverjpeg vorstellen
+
+16
+00:01:51,000 --> 00:01:56,900
+Bei Ubuntu muessen die Tools nachinstalliert werden da sie nicht zum Standard gehoeren
+
+17
+00:01:57,000 --> 00:02:01,900
+Entweder nutzt man Synaptic unter System - Systemverwaltung
+
+18
+00:02:02,000 --> 00:02:06,900
+oder klickt auf Anwendungen - Ubuntu Software Center
+
+19
+00:02:07,000 --> 00:02:30,900
+oder fuehrt im Terminal den Befehl sudo apt-get install recoverjpeg testdisk aus 
+
+20
+00:02:31,000 --> 00:02:42,900
+photorec gehoert zum Paket testdisk deswegen testdisk, OK
+
+21
+00:02:43,000 --> 00:02:47,900
+Als erstes erstelle ich ein Abbild, ein Image von dem USB-Stick
+
+22
+00:02:48,000 --> 00:02:52,900
+Ich kopiere jedes Bit und schreibe alle Daten in eine neue Datei
+
+23
+00:02:53,000 --> 00:02:58,900
+Vorher muss ich noch die Device-Datei des USB-Sticks herausbekommen
+
+24
+00:02:59,000 --> 00:03:13,900
+per sudo fdisk -l, das waere mein USB-Stick (/dev/sdc)
+
+25
+00:03:14,000 --> 00:03:27,900
+bzw. das bekomme ich auch heraus mit System - Systemverwaltung - Systemueberwachung, das ist der USB-Stick
+
+26
+00:03:30,000 --> 00:03:37,900
+Dann kann es losgehen, ich gehe vorher ins Verzeichnis Desktop, cd Desktop
+
+27
+00:03:38,000 --> 00:04:21,900
+Jetzt nutze ich den Befehl sudo dd if=/dev/sdc of=./usb.img bs=8192
+
+28
+00:04:22,000 --> 00:04:31,900
+um die Kopie zu erstellen, ein anderes denkbares Tool dafuer waere ddrescue oder dd_rescue
+
+29
+00:04:32,000 --> 00:04:48,900
+ls -lh usb.img, die Datei ist 15MB gross, wie es auch sein sollte
+
+30
+00:04:49,000 --> 00:04:55,900
+die Datei gehoert aber noch root, das moechte ich aendern
+
+31
+00:04:56,000 --> 00:05:26,900
+sudo chown paul usb.img, jetzt gehoert die Datei dem angegebenen Benutzer (paul)
+
+32
+00:05:27,000 --> 00:06:00,900
+photorec usb.img versucht nun alle geloeschten Dateien wieder herzustellen, OK, richtiges Verzeichnis
+
+33
+00:06:01,000 --> 00:06:10,900
+und die Dateien wurden wiederhergestellt, jetzt beende ich noch das Programm
+
+34
+00:06:11,000 --> 00:06:23,900
+und da sind die beiden Dateien, das funktioniert also
+
+35
+00:06:24,000 --> 00:06:49,900
+mit recoverjpeg usb.img sollte das auch funktionieren, ja funktioniert auch, super
+
+36
+00:06:50,000 --> 00:06:52,900
+wobei photorec mehrere Dateitypen kennt
+
+37
+00:06:53,000 --> 00:06:58,900
+und recoverjpeg wie der Name schon sagt nur speziell fuer jpeg-Dateien gedacht ist 
+
+38
+00:06:59,000 --> 00:07:02,900
+Das Wiederherstellen ist nur dann so einfach moeglich
+
+39
+00:07:03,000 --> 00:07:07,900
+wenn seit dem Loeschen keine neuen Daten auf dem USB-Stick geschrieben wurden 
+
+40
+00:07:08,000 --> 00:07:13,900
+Denn beim Loeschen werden fuer gewoehnlich nicht die eigentlichen Daten einer Datei geloescht
+
+41
+00:07:14,000 --> 00:07:18,900
+sondern gewissermassen wird nur der Dateiname aus dem Inhaltsverzeichnis geloescht 
+
+42
+00:07:20,000 --> 00:07:22,900
+Tschau und viel Glueck

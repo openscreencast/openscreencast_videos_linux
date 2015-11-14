@@ -1,0 +1,71 @@
+1
+00:00:05,000 --> 00:00:07,900
+Administrator-Rechte vergeben
+
+2
+00:00:08,000 --> 00:00:11,900
+Voraussetzung dafuer ist das man selbst Root-Rechte besitzt
+
+3
+00:00:12,000 --> 00:00:17,900
+Um einem Benutzer Administrator-Rechte zu verleihen muss er der Gruppe admin hinzugefuegt werden
+
+4
+00:00:18,000 --> 00:00:30,900
+Zu welchen Gruppen ein Benutzer schon gehoert findet man per groups Benutzername heraus
+
+5
+00:00:31,000 --> 00:00:36,900
+Der Benutzer tim z.B. gehoert nicht zur Gruppe admin, hat keine Root-Rechte
+
+6
+00:00:37,000 --> 00:00:43,900
+und kann somit auch kein Verzeichnis im Ordner /media erstellen z.B.
+
+7
+00:00:44,000 --> 00:01:19,900
+(sudo login, tim, Passwort, ls -l /, cd /media, sudo mkdir new, logout)
+
+8
+00:01:20,000 --> 00:01:38,900
+sudo adduser tim admin fuegt den Benutzer tim zur Gruppe admin hinzu
+
+9
+00:01:39,000 --> 00:01:42,900
+er bekommt schliesslich die Sonderrechte
+
+10
+00:01:43,000 --> 00:02:07,900
+mittels sudo usermod -aG admin tim funktioniert das auch (groups tim)
+
+11
+00:02:08,000 --> 00:02:16,900
+tim hat jetzt die Rechte und kann z.B. das Verzeichnis new im Ordner /media erstellen
+
+12
+00:02:17,000 --> 00:03:00,900
+(sudo login, tim, Passwort, sudo mkdir /media/new, ls -l /media, logout)
+
+13
+00:03:01,000 --> 00:03:22,900
+sudo deluser tim admin bewirkt das der Benutzer tim aus der Gruppe admin wieder entfernt wird (groups tim)
+
+14
+00:03:23,000 --> 00:03:30,900
+Die Benutzerverwaltung (auch mit dem Kommando users-admin aufrufbar)
+
+15
+00:03:31,000 --> 00:03:41,900
+unter System - Systemverwaltung - Benutzer und Gruppen macht alles noch viel einfacher
+
+16
+00:03:42,000 --> 00:03:54,900
+Benutzer anklicken - Erweiterte Einstellungen - Passwort eingeben - OK
+
+17
+00:03:55,000 --> 00:04:13,900
+Benutzerrechte - System administrieren aktivieren (groups tim)
+
+18
+00:04:15,000 --> 00:04:17,900
+Tschau und viel Glueck

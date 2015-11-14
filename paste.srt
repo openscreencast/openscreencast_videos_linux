@@ -1,0 +1,71 @@
+1
+00:00:05,000 --> 00:00:09,900
+Herzlich Willkommen - Ich oeffne ein Terminal
+
+2
+00:00:10,000 --> 00:00:13,900
+klicke auf Anwendungen - Zubehoer - Terminal
+
+3
+00:00:15,000 --> 00:00:18,900
+Das Tool paste moechte ich jetzt kurz vorstellen
+
+4
+00:00:19,000 --> 00:00:23,900
+paste kennt wahrscheinlich jeder von copy and paste, Kopieren und Einfuegen
+
+5
+00:00:24,000 --> 00:00:28,900
+paste fuegt die Zeilen unterschiedlicher Dateien zusammen
+
+6
+00:00:29,000 --> 00:00:36,900
+Eine kurze Beschreibung bekommt man per paste --help
+
+7
+00:00:37,000 --> 00:00:39,900
+Wie funktioniert das ? Ganz einfach
+
+8
+00:00:40,000 --> 00:00:50,900
+Ich habe hier 2 Textdateien, cat 1.txt und cat 2.txt
+
+9
+00:00:51,000 --> 00:01:04,900
+und wenn ich jetzt paste 1.txt 2.txt aufrufe
+
+10
+00:01:05,000 --> 00:01:11,900
+werden die 1. Zeile der 1. Datei und die 1. Zeile der 2. Datei
+
+11
+00:01:12,000 --> 00:01:15,900
+in einer Zeile in der Ausgabe zusammengefuegt
+
+12
+00:01:16,000 --> 00:01:20,900
+Getrennt durch ein Tab, usw. und so fort
+
+13
+00:01:21,000 --> 00:01:28,900
+Mittels der Option -d kann man Tab durch ein bestimmtes Trennzeichen ersetzen
+
+14
+00:01:29,000 --> 00:01:45,900
+z.B. paste -d "-" 1.txt 2.txt oder durch ein Sternchen paste -d "*" 1.txt 2.txt
+
+15
+00:01:46,000 --> 00:01:47,900
+was man halt moechte
+
+16
+00:01:48,000 --> 00:01:53,900
+Beabsichtigt man das Ergebnis in eine neue Datei zu schreiben
+
+17
+00:01:54,000 --> 00:02:05,900
+fuegt man jeweils > Dateiname hinzu (paste -d "*" 1.txt 2.txt > datei)
+
+18
+00:02:09,000 --> 00:02:12,900
+Tschau und viel Glueck
