@@ -1,0 +1,103 @@
+1
+00:00:10,000 --> 00:00:11,900
+Hallo, Hardware-Informationen im Textmodus
+
+2
+00:00:12,000 --> 00:00:18,900
+Zuerst einmal oeffne ich ein Terminal, klicke auf Anwendungen - Zubehoer - Terminal
+
+3
+00:00:19,000 --> 00:00:22,900
+Um nun detaillierte Informationen zur Hardware zu bekommen
+
+4
+00:00:23,000 --> 00:00:24,900
+gibt es mehrere Moeglichkeiten
+
+5
+00:00:25,000 --> 00:00:28,900
+Zum einen mit dem vorinstallierten Programm lshw
+
+6
+00:00:29,000 --> 00:00:37,900
+man betaetigt die Tasten lshw ENTER um sich diverse Hardware-Informationen anzeigen zu lassen
+
+7
+00:00:38,000 --> 00:00:50,900
+Verschiedene Optionen stehen zur Verfuegung die man per lshw --help ENTER herausbekommt
+
+8
+00:00:51,000 --> 00:00:57,900
+Ein Beispiel, um sich Informationen ueber den Prozessor auflisten zu lassen
+
+9
+00:00:58,000 --> 00:01:10,900
+gibt man folgendes ein lshw -c cpu ENTER
+
+10
+00:01:17,000 --> 00:01:29,900
+Ein anderes Programm das aber erst per sudo apt-get install hwinfo ENTER
+
+11
+00:01:30,000 --> 00:01:33,900
+nachinstalliert werden muss ist hwinfo
+
+12
+00:01:40,000 --> 00:01:47,900
+hwinfo ENTER listet nun Angaben zur Hardware auf
+
+13
+00:01:48,000 --> 00:01:57,900
+Alle Optionen werden ebenso per --help sichtbar, hwinfo --help ENTER
+
+14
+00:01:58,000 --> 00:02:03,900
+Um sich Informationen ueber den Prozessor anzeigen zu lassen gibt man nun folgendes ein
+
+15
+00:02:04,000 --> 00:02:13,900
+hwinfo --cpu ENTER
+
+16
+00:02:14,000 --> 00:02:18,900
+Ausserdem gibt es noch Systemkommandos die einen helfen koennen
+
+17
+00:02:19,000 --> 00:02:27,900
+Informationen ueber PCI-Geraete bekommt man per lspci ENTER
+
+18
+00:02:28,000 --> 00:02:35,900
+Informationen ueber USB-Geraete bekommt man per lsusb ENTER
+
+19
+00:02:36,000 --> 00:02:43,900
+Informationen ueber alle Geraete im PC bekommt man per lshal ENTER
+
+20
+00:02:44,000 --> 00:03:05,900
+Informationen ueber den Prozessor bekommt man z.B. mit dem Kommando sudo cat /proc/cpuinfo ENTER
+
+21
+00:03:06,000 --> 00:03:17,900
+Um Daten aus dem BIOS auflisten zu lassen gibt es das Programm dmidecode
+
+22
+00:03:18,000 --> 00:03:32,900
+das man folgendermassen aufrufen kann sudo dmidecode ENTER
+
+23
+00:03:33,000 --> 00:03:39,900
+Um sich auch wieder spezifisch Daten ueber den Prozessor anzeigen zu lassen
+
+24
+00:03:40,000 --> 00:03:59,900
+gibt man nun folgendes ein sudo dmidecode -t processor ENTER
+
+25
+00:04:05,000 --> 00:04:09,900
+Gut das soll es gewesen sein, natuerlich gibt es noch viele andere Kommandos
+
+26
+00:04:10,000 --> 00:04:12,900
+Tschau und viel Glueck

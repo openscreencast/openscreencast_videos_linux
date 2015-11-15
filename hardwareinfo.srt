@@ -1,0 +1,83 @@
+1
+00:00:10,000 --> 00:00:14,900
+Hallo, Um seinem System diverse Informationen ueber die Hardware zu entlocken
+
+2
+00:00:15,000 --> 00:00:20,900
+gibt es mehrere Programme, Programme fuer die grafische Benutzeroberflaeche
+
+3
+00:00:21,000 --> 00:00:22,900
+und Tools fuer die Konsole
+
+4
+00:00:23,000 --> 00:00:26,900
+In diesem Screencast moechte ich kurz Desktop-Programme vorstellen
+
+5
+00:00:27,000 --> 00:00:29,900
+Alle Programme sind vorerst nicht vorhanden
+
+6
+00:00:30,000 --> 00:00:34,900
+Die Prozedur fuer die Nachinstallation laeuft wie folgt ueber die Buehne
+
+7
+00:00:35,000 --> 00:00:39,900
+Auf Anwendungen - Zubehoer - Terminal klicken
+
+8
+00:00:40,000 --> 00:00:41,900
+und folgenden Befehl eingeben
+
+9
+00:00:42,000 --> 00:01:06,900
+sudo apt-get install gnome-device-manager sysinfo hardinfo
+
+10
+00:01:07,000 --> 00:01:10,900
+nun gibt man sein Passwort ein und die Pakete werden heruntergeladen und installiert
+
+11
+00:01:12,000 --> 00:01:20,900
+Das Software-Center unter Anwendungen - Software-Center kann man ebenso fuer die Nachinstallation benutzen
+
+12
+00:01:21,000 --> 00:01:27,900
+Alle 3 Programme findet man nun unter Anwendungen - Systemwerkzeuge
+
+13
+00:01:30,000 --> 00:01:37,900
+oder man gibt in der Konsole den Namen des Tools ein das man starten moechte
+
+14
+00:01:43,000 --> 00:01:50,900
+hardinfo, gnome-device-manager und sysinfo
+
+15
+00:01:54,000 --> 00:01:58,900
+Jetzt kann man sich die Hardware-Information heraussuchen die man braucht
+
+16
+00:02:00,000 --> 00:02:07,900
+Mit hardinfo kann man sich zusaetzlich einen Bericht im HTML-Format erstellen lassen
+
+17
+00:02:08,000 --> 00:02:10,900
+indem man auf diesen Button klickt (Generate Report)
+
+18
+00:02:11,000 --> 00:02:18,900
+dann wird eine HTML-Datei im jeweiligen HOME-Verzeichnis erstellt
+
+19
+00:02:19,000 --> 00:02:21,900
+Die Datei kann man sich dann mit dem Browser anschauen
+
+20
+00:02:24,000 --> 00:02:31,900
+Fuer KDE gibt es das Programm kinfocenter
+
+21
+00:02:39,000 --> 00:02:41,900
+Tschau und viel Glueck

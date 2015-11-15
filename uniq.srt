@@ -1,0 +1,147 @@
+1
+00:00:10,000 --> 00:00:13,900
+benachbarte identische Zeilen ausblenden
+
+2
+00:00:14,000 --> 00:00:17,900
+Um dies mal zu demonstrieren oeffne ich gnome-terminal
+
+3
+00:00:18,000 --> 00:00:24,900
+Ich klicke auf Anwendungen, waehle Zubehoer und klicke abschliessend auf Terminal
+
+4
+00:00:25,000 --> 00:00:27,900
+Sind bei der Ausgabe identische Zeilen unerwuenscht
+
+5
+00:00:28,000 --> 00:00:33,900
+so kann man diese mit dem Kommando uniq ausblenden
+
+6
+00:00:34,000 --> 00:00:38,900
+Allerdings kann uniq nur benachbarte wiederholte Zeilen erkennen
+
+7
+00:00:39,000 --> 00:00:44,900
+also muss die Eingabe vorher sortiert werden unzwar mit dem Befehl sort
+
+8
+00:00:45,000 --> 00:00:47,900
+Die Anwendung von uniq koennte so aussehen
+
+9
+00:00:48,000 --> 00:00:50,900
+Wie bereits bekannt wird der Inhalt einer Datei 
+
+10
+00:00:51,000 --> 00:00:55,900
+mit dem Kommando cat dateiname ENTER angezeigt
+
+11
+00:00:56,000 --> 00:01:08,900
+Befehl cat Dateiname | sort ENTER fuehrt dazu das der Inhalt an sort 
+
+12
+00:01:09,000 --> 00:01:12,900
+weitergegeben und somit sortiert wird
+
+13
+00:01:13,000 --> 00:01:20,900
+Mit sort Dateiname ENTER wird der Inhalt der Datei sofort gelesen und sortiert
+
+14
+00:01:21,000 --> 00:01:32,900
+per sort Dateiname | uniq ENTER werden nun 
+
+15
+00:01:33,000 --> 00:01:36,900
+die identischen Zeilen in der sortierten Ausgabe entfernt
+
+16
+00:01:37,000 --> 00:01:44,900
+Mit der Option -c wird angegeben wie oft eine Zeile vorhanden ist
+
+17
+00:01:45,000 --> 00:01:53,900
+Ein angehaengtes -d bewirkt das nur die doppelten Zeilen in der Ausgabe erscheinen
+
+18
+00:01:54,000 --> 00:01:57,900
+Sollen nur die einmal vorkommenden Zeilen angezeigt werden
+
+19
+00:01:54,000 --> 00:02:03,900
+ist dabei die Option -u die richtige
+
+20
+00:02:04,000 --> 00:02:11,900
+Hilfe bekommt man per uniq --help
+
+21
+00:02:12,000 --> 00:02:16,900
+Ausserdem gibt es auch direkt beim Kommando sort
+
+22
+00:02:17,000 --> 00:02:28,900
+die Option -u die doppelte Zeilen filtert, sort -u dateiname ENTER
+
+23
+00:02:29,000 --> 00:02:35,900
+Um eine gefilterte Ausgabe in eine neue Datei zu schreiben
+
+24
+00:02:36,000 --> 00:02:55,900
+gibt man folgendes ein sort -u Dateiname > neuerDateiname ENTER
+
+25
+00:02:57,000 --> 00:03:01,900
+Im Texteditor gedit existiert fuer das Sortieren
+
+26
+00:03:02,000 --> 00:03:05,900
+und fuer das Entfernen doppelter Zeilen ein Plugin
+
+27
+00:03:06,000 --> 00:03:08,900
+Das demonstriere ich auch einmal
+
+28
+00:03:09,000 --> 00:03:16,900
+Ich starte den Texteditor, ich klicke auf Anwendungen, waehle Zubehoer und klicke abschliessend auf Texteditor
+
+29
+00:03:17,000 --> 00:03:25,900
+Um das Plugin zu aktivieren, gehe ich ins Menue Bearbeiten, klicke auf Einstellungen, waehle den Reiter Plugins
+
+30
+00:03:26,000 --> 00:03:31,900
+und setze ein Haekchen beim Plugin Sortieren um es zu aktivieren
+
+31
+00:03:32,000 --> 00:03:35,900
+abschliessend klicke ich auf den Button Schliessen
+
+32
+00:03:36,000 --> 00:03:43,900
+Nun gibt es zusaetzlich eine Funktion namens Sortieren im Menue Bearbeiten
+
+33
+00:03:44,000 --> 00:03:54,900
+Zuerst oeffne ich die Datei die ich Sortieren bzw. wo ich die identischen Zeilen entfernen moechte
+
+34
+00:03:55,000 --> 00:04:04,900
+oeffnen, jetzt waehle ich die Funktion Sortieren im Menue Bearbeiten
+
+35
+00:04:05,000 --> 00:04:10,900
+setzte ein Haekchen bei Duplikate entfernen und klicke dann auf den Button Sortieren
+
+36
+00:04:05,000 --> 00:04:18,900
+Jetzt kann ich den Inhalt speichern indem ich auf Speichern druecke
+
+37
+00:04:19,000 --> 00:04:21,900
+Tschau und viel Glueck

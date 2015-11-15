@@ -1,0 +1,147 @@
+1
+00:00:10,000 --> 00:00:12,500
+Pidgin - Nachrichtenverschluesselung mit OTR
+
+2
+00:00:13,000 --> 00:00:18,500
+Verschluesselung fuer deine Gespraeche, einfach und schnell. Wir erklaeren, wie man Pidgin abhoersicher macht
+
+3
+00:00:19,000 --> 00:00:22,500
+Fuer den heutigen User ist die Kommunikation durch einen Instant Messenger
+
+4
+00:00:23,000 --> 00:00:25,500
+wohl die meistgenutze Kommunikation ueber Internet
+
+5
+00:00:26,000 --> 00:00:29,500
+Da man auf diese Art die meisten Informationen ueber sich preisgibt
+
+6
+00:00:30,000 --> 00:00:33,500
+sollte man sich eventuell Gedanken darueber machen, diese zu verschluesseln
+
+7
+00:00:34,000 --> 00:00:38,500
+Erstaunlicherweise ist nicht nur die Privatsphaere ein Argument fuer die Verschluesselung
+
+8
+00:00:39,000 --> 00:00:43,500
+sondern auch die dreisten Konditionen der meisten populaeren Anbieter
+
+9
+00:00:44,000 --> 00:00:47,500
+Verschluesseln mit OTR
+
+10
+00:00:48,000 --> 00:00:53,500
+Fuer Pidgin kann man das OTR-Plugin (Off-The-Record Messaging) bequem ueber den Paketmanager nachruesten
+
+11
+00:00:54,000 --> 00:00:57,500
+Das Paket nennt sich auf den meisten Systemen: pidgin-otr
+
+12
+00:00:58,000 --> 00:01:01,500
+Bei Ubuntu ist das nicht notwendig da das Paket schon installiert ist
+
+13
+00:01:02,000 --> 00:01:06,500
+Sollte das doch nicht der Fall sein waere der richtige Befehl in der Konsole
+
+14
+00:01:07,000 --> 00:01:16,500
+sudo apt-get install pidgin-otr ENTER
+
+15
+00:01:17,000 --> 00:01:22,500
+Wer Pidgin auf Windows verwendet, muss das Paket dazu manuell herunterladen und installieren
+
+16
+00:01:23,000 --> 00:01:29,500
+Ist das Plugin installiert, muss man dieses mit einem Haken bei »Off-The-Record Messaging«
+
+17
+00:01:30,000 --> 00:01:39,500
+unter »Werkzeuge - Plugins« aktivieren
+
+18
+00:01:42,000 --> 00:01:52,500
+Von nun an sehen wir ueber unserem Nachrichtenfenstern einen Button mit der Aufschrift »Not private«
+
+19
+00:01:53,000 --> 00:01:57,500
+Dies mag bei anderen Versionen variieren, bei manchen Versionen finden man 
+
+20
+00:01:58,000 --> 00:02:04,500
+den Button rechts vom Eingabefeld und gelangt in dessen Menu mit einem Rechtsklick
+
+21
+00:02:05,000 --> 00:02:08,500
+Hat nun auch euer Gegenueber ein OTR-Plugin installiert
+
+22
+00:02:09,000 --> 00:02:14,500
+koennt ihr die Kommunikation ueber das Menu des Buttons verschluesseln
+
+23
+00:02:15,000 --> 00:02:21,500
+Wird das Plugin zum ersten Mal gestartet, muss dieser erst ein Schluesselpaar generieren
+
+24
+00:02:22,000 --> 00:02:25,500
+da OTR wie PGP auf asymmetrischer Verschluesselung aufbaut
+
+25
+00:02:26,000 --> 00:02:28,500
+Hier sollte man geduldig das Ende abwarten
+
+26
+00:02:29,000 --> 00:02:33,500
+da die Prozedur auf schwaecheren Systemen einige Minuten in Anspruch nehmen kann
+
+27
+00:02:34,000 --> 00:02:40,500
+Von nun an kann man jederzeit auf Knopfdruck mit seinem Gegenueber schnell eine verschluesselte Kommunikation starten
+
+28
+00:02:41,000 --> 00:02:45,500
+Verifizieren des Gegenuebers
+
+29
+00:02:46,000 --> 00:02:50,500
+Um sich sicher sein zu koennen, dass der Kommunikationspartner auch der ist, fuer den man ihn haelt
+
+30
+00:02:51,000 --> 00:02:53,500
+kann man seinen oeffentlichen Schluessel noch verifizieren
+
+31
+00:02:54,000 --> 00:03:04,500
+Dazu ruft man im Menu den Punkt »Authenticate buddy« auf, wo die Art der Verifikation eingestellt werden kann
+
+32
+00:03:05,000 --> 00:03:19,500
+Am einfachsten und schnellsten geht dies ueber die manuelle Verifikation des Fingerabdrucks
+
+33
+00:03:20,000 --> 00:03:25,500
+Fazit: Besonders die schnelle und einfache Moeglichkeit, seine Kommunikation zu verschluesseln
+
+34
+00:03:26,000 --> 00:03:31,500
+duerfte ein schlagendes Argument fuer die Verbindung von Pidgin und OTR sein
+
+35
+00:03:32,000 --> 00:03:36,500
+Da Pidgin sowohl unter Windows als auch unter Mac OS verwendet werden kann
+
+36
+00:03:37,000 --> 00:03:42,500
+kann man sicher einen Grossteil seiner Kollegen zum Verschluesseln ueberreden
+
+37
+00:03:43,000 --> 00:03:46,500
+Tschau und viel Glueck

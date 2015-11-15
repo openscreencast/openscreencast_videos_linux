@@ -1,0 +1,83 @@
+1
+00:00:05,000 --> 00:00:07,900
+Hallo - die Zeilen nummerieren
+
+2
+00:00:08,000 --> 00:00:11,900
+Ganz gewiss ist dies nicht das spannendste Thema, der Vollstaendigkeit halber
+
+3
+00:00:12,000 --> 00:00:15,900
+soll die Funktion dennoch kurz vorgestellt werden
+
+4
+00:00:16,000 --> 00:00:25,900
+Wie bekannt ist die Ausgabe des Dateiinhalts in der Konsole per cat dateiname moeglich
+
+5
+00:00:26,000 --> 00:00:33,900
+Die Nummerierung aller Ausgabezeilen ermoeglicht die Option -n --number (cat -n dateiname)
+
+6
+00:00:34,000 --> 00:00:49,900
+Bei Linux gibt es fuer dieses Feature ein Extra-Kommando namens nl (nl dateiname)
+
+7
+00:00:50,000 --> 00:00:56,900
+Durch mehrere Optionen bei dem Befehl nl (nl --help)
+
+8
+00:00:57,000 --> 00:00:58,900
+ist die Zeilennummerierung besser kontrollierbar
+
+9
+00:00:59,000 --> 00:01:09,900
+per nl -v Nr dateiname kann man mit einer bestimmten Zeilennummer starten
+
+10
+00:01:10,000 --> 00:01:30,900
+nl -s Zeichenkette dateiname fuegt eine Zeichenkette nach der Zeilennummer hinzu
+
+11
+00:01:31,000 --> 00:01:43,900
+nl -i Nr dateiname inkrementiert die Nummer bei jeder Zeile um den angegebenen Wert
+
+12
+00:01:44,000 --> 00:01:57,900
+mit nl -n Format dateiname ist das Festlegen eines Formats durchfuehrbar
+
+13
+00:01:58,000 --> 00:02:01,900
+ln heisst linksbuendig, keine Null am Anfang
+
+14
+00:02:02,000 --> 00:02:08,900
+Im Texteditor (gedit) ist die Zeilennummerierung ebenfalls einsetzbar
+
+15
+00:02:09,000 --> 00:02:16,900
+Dafuer klickt man auf Bearbeiten - Einstellungen - Ansicht
+
+16
+00:02:17,000 --> 00:02:26,900
+und aktiviert Zeilennummern anzeigen
+
+17
+00:02:29,000 --> 00:02:39,900
+LibreOffice Textverarbeitung enthaelt die Funktion Zeilen nummerieren ebenso
+
+18
+00:02:40,000 --> 00:02:47,900
+Im Menue Extras findet man dazu den Eintrag Zeilennummerierung
+
+19
+00:02:48,000 --> 00:02:51,900
+Format, Position etc. sind waehlbar
+
+20
+00:02:52,000 --> 00:03:06,900
+nachdem man ein Haekchen bei Nummerierung einschalten gesetzt hat
+
+21
+00:03:08,000 --> 00:03:11,900
+Tschau und viel Glueck

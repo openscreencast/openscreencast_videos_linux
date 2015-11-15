@@ -1,0 +1,47 @@
+1
+00:00:09,000 --> 00:00:10,500
+Desktop Drapes
+
+2
+00:00:11,000 --> 00:00:13,500
+Desktop Drapes ist ein Hintergrundbildmanager
+
+3
+00:00:14,000 --> 00:00:16,500
+Das Programm wird mit einem Paketmanager installiert
+
+4
+00:00:17,000 --> 00:00:19,500
+Ist das Paket drapes installiert
+
+5
+00:00:20,000 --> 00:00:26,500
+kann man das Programm starten indem man auf System - Einstellungen - Desktop Drapes klickt
+
+6
+00:00:27,000 --> 00:00:29,500
+oder man fuehrt den Befehl drapes aus
+
+7
+00:00:30,000 --> 00:00:33,500
+Nach dem Start erscheint ein Symbol im Panel
+
+8
+00:00:34,000 --> 00:00:40,500
+wenn man jetzt auf das Symbol klickt kann man schnell zu einem anderen Hintergrundbild wechseln
+
+9
+00:00:41,000 --> 00:00:44,500
+oder man klickt mit der rechten Maustaste auf das Symbol
+
+10
+00:00:45,000 --> 00:00:48,500
+und klickt auf zu anderem Hintergrund wechseln
+
+11
+00:00:50,000 --> 00:00:55,500
+oder es passiert ganz automatisch nach einer zufaellig abgelaufenen Zeit
+
+12
+00:01:08,000 --> 00:01:11,500
+Tschau und viel Glueck

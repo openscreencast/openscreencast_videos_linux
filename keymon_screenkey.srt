@@ -1,0 +1,95 @@
+1
+00:00:10,000 --> 00:00:14,900
+Hallo Fuer screencasts, Lernvideos ist es oft ganz nuetzlich wenn die Moeglichkeit besteht
+
+2
+00:00:15,000 --> 00:00:18,900
+das Tastenanschlaege und Mausklicks auf dem Video zu sehen sind
+
+3
+00:00:19,000 --> 00:00:21,900
+Das moechte ich heute mit den beiden Tools key-mon
+
+4
+00:00:22,000 --> 00:00:24,900
+basierend auf dem Quellcode vom key-status-monitor 
+
+5
+00:00:25,000 --> 00:00:29,900
+und dem Tool screenkey demonstrieren
+
+6
+00:00:30,000 --> 00:00:50,900
+Als erstes lade ich das Tool key-mon herunter, entpacke das Paket auf dem Desktop
+
+7
+00:00:51,000 --> 00:01:05,900
+Gehe ins richtige Verzeichnis und installiere das Programm 
+
+8
+00:01:06,000 --> 00:01:18,900
+mit dem Befehl sudo python setup.py install ENTER
+
+9
+00:01:19,000 --> 00:01:27,900
+Der Start erfolgt mit dem Befehl key-mon ENTER
+
+10
+00:01:28,000 --> 00:01:31,900
+Was hier noch fehlt ist das Modul python-xlib
+
+11
+00:01:32,000 --> 00:02:00,900
+das mit dem Kommando sudo apt-get install python-xlib ENTER nachinstalliert wird
+
+12
+00:02:01,000 --> 00:02:07,900
+Der 2. Versuch und es funktioniert
+
+13
+00:02:08,000 --> 00:02:24,900
+Position und Groesse sind verstellbar
+
+14
+00:02:25,000 --> 00:02:40,900
+Die Optionen werden durch key-mon --help ENTER ersichtlich
+
+15
+00:02:44,000 --> 00:02:49,900
+Als zweites lade ich das Tool screenkey herunter und installiere es
+
+16
+00:02:50,000 --> 00:02:59,900
+Ich klicke direkt das Paket fuer Ubuntu an und folge den Anweisungen
+
+17
+00:03:04,000 --> 00:03:20,900
+Paket installieren, Passwort eingeben, OK
+
+18
+00:03:23,000 --> 00:03:32,900
+Der Befehl screenkey ENTER aktiviert das Programm
+
+19
+00:03:33,000 --> 00:03:40,900
+oder man klickt auf Anwendungen - Zubehoer - Screenkey
+
+20
+00:03:48,000 --> 00:04:01,900
+Jetzt kann man ein bisschen mit den Tasten rumspielen und man sieht Tastenanschlaege werden angezeigt
+
+21
+00:04:04,000 --> 00:04:10,900
+Die Position und die Groesse sind einstellbar
+
+22
+00:04:11,000 --> 00:04:27,900
+Dazu klickt man auf das Symbol von dem Programm screenkey und klickt auf Einstellungen
+
+23
+00:04:28,000 --> 00:04:33,900
+Man kann das Programm auch so beenden, auf das Symbol klicken und Beenden
+
+24
+00:04:35,000 --> 00:04:37,900
+Tschau und viel Glueck

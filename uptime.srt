@@ -1,0 +1,59 @@
+1
+00:00:10,000 --> 00:00:11,900
+Hallo
+
+2
+00:00:12,000 --> 00:00:13,900
+Wie lange laeuft der Rechner eigentlich schon ?
+
+3
+00:00:14,000 --> 00:00:17,900
+Diese Frage kann der Befehl uptime beantworten
+
+4
+00:00:18,000 --> 00:00:25,900
+Terminal oeffnen - auf Anwendungen - Zubehoer - Terminal klicken
+
+5
+00:00:26,000 --> 00:00:32,900
+und uptime ENTER eingeben
+
+6
+00:00:33,000 --> 00:00:38,900
+uptime uebrigens ist der englische Begriff fuer Betriebszeit des Rechners
+
+7
+00:00:39,000 --> 00:00:42,900
+die aktuelle Zeit wird angezeigt
+
+8
+00:00:43,000 --> 00:00:48,900
+wie lange der Rechner in Betrieb ist
+
+9
+00:00:49,000 --> 00:00:54,900
+die Anzahl der momentan angemeldeten User
+
+10
+00:00:55,000 --> 00:01:02,900
+und die mittlere Systemauslastung der letzten Minute
+
+11
+00:01:03,000 --> 00:01:09,900
+der letzten 5 Minuten und der letzten 15 Minuten
+
+12
+00:01:10,000 --> 00:01:23,900
+per Kommando cat /proc/uptime ENTER 
+
+13
+00:01:24,000 --> 00:01:28,900
+wird die Betriebszeit in Sekunden angezeigt
+
+14
+00:01:29,000 --> 00:01:32,900
+und wie lange der PC im Leerlauf war
+
+15
+00:01:34,000 --> 00:01:36,900
+Tschau und viel Glueck

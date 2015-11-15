@@ -1,0 +1,171 @@
+1
+00:00:09,000 --> 00:00:11,900
+Hallo, Herzlich Willkommen
+
+2
+00:00:12,000 --> 00:00:15,900
+Durch dieses Video moechte ich das Tool wmctrl vorstellen
+
+3
+00:00:16,000 --> 00:00:21,900
+wmctrl kann den Window Manager beeinflussen und somit Fenster steuern
+
+4
+00:00:22,000 --> 00:00:25,900
+bewegen, vergroessern, verkleinern, usw.
+
+5
+00:00:26,000 --> 00:00:30,900
+wmctrl ist vorerst nicht verfuegbar muss also nachinstalliert werden
+
+6
+00:00:31,000 --> 00:00:40,900
+Dazu geht man auf Anwendungen - Zubehoer, klickt auf Terminal und startet gnome-terminal
+
+7
+00:00:41,000 --> 00:00:46,900
+Bei Ubuntu gibt man nun folgenden Befehl ein um das Paket zu installieren
+
+8
+00:00:47,000 --> 00:00:58,900
+sudo apt-get install wmctrl ENTER
+
+9
+00:00:59,000 --> 00:01:05,900
+Nun gibt man sein Passwort ein und dann wird das Paket heruntergeladen und installiert
+
+10
+00:01:06,000 --> 00:01:11,900
+Das geht natuerlich auch mit Software-Center unter Anwendungen
+
+11
+00:01:12,000 --> 00:01:18,900
+oder mit Synaptic-Paketverwaltung unter System - Systemverwaltung
+
+12
+00:01:21,000 --> 00:01:30,900
+Welche Optionen wmctrl mit sich bringt erfaehrt man durch wmctrl ENTER
+
+13
+00:01:40,000 --> 00:01:43,900
+Nun ein paar Beispiel
+
+14
+00:01:44,000 --> 00:01:49,900
+Dazu oeffne ich erstmal ein Fenster, ich starte jetzt einfach mal den Taschenrechner
+
+15
+00:01:50,000 --> 00:01:55,900
+Dazu klicke ich auf Anwendungen - Zubehoer - Taschenrechner
+
+16
+00:01:57,000 --> 00:01:59,900
+Jetzt die Beispiele
+
+17
+00:02:00,000 --> 00:02:06,900
+Mit der Option -m werden Informationen ueber den Window Manager ermittelt (wmctrl -m ENTER)
+
+18
+00:02:07,000 --> 00:02:10,900
+Mit der Option -l listet man alle Fenster auf (wmctrl -l ENTER)
+
+19
+00:02:11,000 --> 00:02:17,900
+Ganz vorne steht die Fenster-ID, ganz hinten steht der Fenstername
+
+20
+00:02:20,000 --> 00:02:27,900
+Mit der zusaetzlichen Option -p wird auch noch die Prozess-ID angezeigt (wmctrl -l -p ENTER)
+
+21
+00:02:28,000 --> 00:02:35,900
+und mit der zusaetzlichen Option -G wird die Geometry ermittelt (wmctrl -l -G ENTER)
+
+22
+00:02:39,000 --> 00:02:43,900
+Mit der Option -d listet man alle Desktops auf (wmctrl -d ENTER)
+
+23
+00:02:44,000 --> 00:02:52,900
+Moechte man nun z.B. wie in diesem Fall an dem Fenster Taschenrechner irgendetwas aendern
+
+24
+00:02:53,000 --> 00:03:01,900
+bestimmt man erstmal das Fenster wo man was aendern moechte unzwar mit der Option -r Fenstername
+
+25
+00:03:02,000 --> 00:03:12,900
+oder man kann auch die Fenster-ID benutzen dann benutzt man -i -r Fenster-ID
+
+26
+00:03:13,000 --> 00:03:19,900
+Ich benutze jetzt mal den Fensternamen Taschenrechner
+
+27
+00:03:20,000 --> 00:03:32,900
+und aendere jetzt mal den Namen unzwar macht man das mit der Option -N NeuerFenstername
+
+28
+00:03:33,000 --> 00:03:38,900
+So hat sich hier Taschenrechner in TR umgewandelt
+
+29
+00:03:44,000 --> 00:03:57,900
+Mit der Option -I aendere ich den Icon-Namen, der Icon-Namen steht hier unten, da steht immer noch Taschenrechner
+
+30
+00:03:58,000 --> 00:04:05,900
+Das aendere ich jetzt auch, da nehme ich auch mal TR (wmctrl -r TR -I TR ENTER)
+
+31
+00:04:06,000 --> 00:04:19,900
+Um beides zu veraendern, den Icon-Namen und den Fensternamen benutzt man die Option -T NeuerName
+
+32
+00:04:20,000 --> 00:04:33,900
+Mit der Option -e aendert man den Standort des Fensters, man bewegt das Fenster
+
+33
+00:04:34,000 --> 00:04:37,900
+und man kann die Fenstergroesse aendern
+
+34
+00:04:38,000 --> 00:04:45,900
+Ganz am Anfang steht der Standort des Fensters, jetzt kommt die Breite, da nehme ich mal 600 Pixel
+
+35
+00:04:46,000 --> 00:04:50,900
+und jetzt die Hoehe, hier nehme ich 300 Pixel
+
+36
+00:04:54,000 --> 00:05:04,900
+Jetzt aendere ich nochmal den Standort
+
+37
+00:04:54,000 --> 00:05:20,900
+und nochmal die Breite und die Hoehe, das war ein bisschen zu wenig
+
+38
+00:05:21,000 --> 00:05:33,900
+Mit der Option -b kann ich den Fensterstatus aendern, ich kann das Fenster z.B. Maximieren und Minieren
+
+39
+00:05:34,000 --> 00:05:47,900
+das tue ich jetzt auch mal, ich maximiere das Fenster jetzt mal vertical
+
+40
+00:05:48,000 --> 00:05:56,900
+und jetzt horizontal
+
+41
+00:05:57,000 --> 00:06:02,900
+So das soll es gewesen sein mit den Beispielen, es gibt natuerlich noch viel mehr Moeglichkeiten die man anwenden kann
+
+42
+00:06:03,000 --> 00:06:06,900
+aber das reicht erstmal fuer den Anfang
+
+43
+00:06:07,000 --> 00:06:10,900
+Tschau und viel Glueck

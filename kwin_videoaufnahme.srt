@@ -1,0 +1,107 @@
+1
+00:00:09,000 --> 00:00:11,500
+Mit Kwin Videoaufnahme
+
+2
+00:00:12,000 --> 00:00:15,500
+Kwin der Fenstermanager von KDE enthaelt viele nuetzliche Effekte
+
+3
+00:00:16,000 --> 00:00:19,500
+Ein Effekt ist man kann Video-Aufnahmen von der Arbeitsflaeche machen
+
+4
+00:00:20,000 --> 00:00:23,500
+Um den Effekt zu aktivieren klickt man auf das Symbol von KDE
+
+5
+00:00:24,000 --> 00:00:31,500
+auf Systemeinstellungen, auf Arbeitslaeche, auf den Reiter alle Effekt
+
+6
+00:00:32,000 --> 00:00:36,500
+und unter Verschiedenes setzt man ein Haekchen bei Video-Aufnahme
+
+7
+00:00:37,000 --> 00:00:43,500
+Einstellen kann man den Speicherort und die Tastenkombination um die Aufnahme zu starten und zu beenden
+
+8
+00:00:44,000 --> 00:00:51,500
+Mit dem Effekt Mausspur kann man Linien auf die Arbeitsflaeche zeichnen
+
+9
+00:00:52,000 --> 00:00:58,500
+Klick auf Anwenden, Fenster schliessen und die Effekte stehen zur Verfuegung
+
+10
+00:00:59,000 --> 00:01:07,500
+Druecke ich jetzt die Tastenkombination Windows- bzw. Linuxtaste+Strg+V wird die Aufnahme gestartet
+
+11
+00:01:08,000 --> 00:01:21,500
+Mit Shift+Windows- bzw. Linuxtaste kann ich jetzt mit der Maus Linien auf die Arbeitsflaeche zeichnen
+
+12
+00:01:22,000 --> 00:01:33,500
+Drueckt man Shift+Windows- bzw. Linuxtaste+F11 werden die Linien wieder geloescht
+
+13
+00:01:34,000 --> 00:01:48,500
+Die Aufnahme wird mit der Tastenkombination Windows- bzw. Linuxtaste+Strg+V beendet
+
+14
+00:01:49,000 --> 00:01:55,500
+Im Verzeichnis Dokumente findet man die Aufnahme im Format .cps
+
+15
+00:01:56,000 --> 00:01:58,500
+Ein gewoehnlicher Videoplayer kann mit dem Format nichts anfangen
+
+15
+00:01:59,000 --> 00:02:02,500
+Um die Datei in ein anderes Format umzuwandeln muessen 2 weitere Pakete installiert werden
+
+16
+00:02:03,000 --> 00:02:07,500
+capseo und ffmpeg2theora
+
+17
+00:02:08,000 --> 00:02:15,500
+Man oeffnet ein Terminal zu finden unter Programme - System - Terminal
+
+18
+00:02:16,000 --> 00:02:28,500
+und man gibt den Befehl sudo apt-get install capseo ffmpeg2theora ENTER ein
+
+19
+00:02:29,000 --> 00:02:33,500
+man gibt sein Passwort ein, wartet bis die Pakete heruntergeladen wurden und installiert sind
+
+20
+00:02:34,000 --> 00:02:43,500
+und wechselt dann ins Verzeichnis Dokumente mit dem Befehl cd Dokumente ENTER
+
+21
+00:02:44,000 --> 00:03:13,500
+und gibt ein cpsrecode -i kwin_video1.cps -o kwin_video1.y4m ENTER, das dauert jetzt ein Weilchen
+
+22
+00:03:30,000 --> 00:03:44,500
+jetzt gibt man noch den Befehl ffmpeg2theora kwin_video1.y4m ENTER ein
+
+23
+00:03:45,000 --> 00:03:52,500
+Jetzt wird das Video in das Format Ogg Theora umgewandelt
+
+24
+00:04:29,000 --> 00:04:32,500
+Der Videoplayer kann jetzt das Video im Ogg Theora Format abspielen
+
+25
+00:04:33,000 --> 00:04:49,500
+Das ist die Datei mit der Endung .ogv, einfach Klick drauf und schon wird das Video im Dragon Player abgespielt
+
+26
+00:04:50,000 --> 00:04:53,500
+Tschau und Viel Glueck
