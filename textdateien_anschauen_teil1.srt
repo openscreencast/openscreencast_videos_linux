@@ -1,0 +1,167 @@
+1
+00:00:01,000 --> 00:00:04,500
+Willkommen zum Screencast "Textdateien anschauen"
+
+2
+00:00:06,000 --> 00:00:10,500
+Im Desktopmodus bei Gnome gibt es das Programm gedit
+
+3
+00:00:11,000 --> 00:00:13,000
+gedit ist ein Texteditor
+
+4
+00:00:13,500 --> 00:00:17,000
+mit dem kann ich mir Textdateien anschauen oder auch ändern
+
+5
+00:00:17,500 --> 00:00:22,000
+gedit ist zu finden unter Anwendungen - Zubehör - Texteditor
+
+6
+00:00:23,000 --> 00:00:26,000
+oder ich gehe auf Anwendungen - Zubehör - Terminal
+
+7
+00:00:26,500 --> 00:00:30,000
+und gebe den Befehl gedit ein ENTER
+
+8
+00:00:31,000 --> 00:00:33,500
+ich gehe auf Datei - Öffnen
+
+9
+00:00:34,000 --> 00:00:37,000
+und suche mir die Datei aus die ich anschauen möchte
+
+10
+00:00:37,500 --> 00:00:42,500
+als Beispiel die Datei text ich klicke sie an, gehe auf öffnen
+
+11
+00:00:43,000 --> 00:00:47,000
+jetzt kann ich den Text durchlesen oder ändern und dann speichern
+
+12
+00:00:51,000 --> 00:00:54,000
+Sparen kann ich mir die Schritt Datei - Öffnen
+
+13
+00:00:54,500 --> 00:01:02,000
+indem ich eingebe gedit Leerzeichen dann den Dateinamen text ENTER
+
+14
+00:01:03,500 --> 00:01:07,000
+oder ich gehe zum Persönlichen Ordner
+
+15
+00:01:08,000 --> 00:01:12,000
+klicke die Datei text mit der linken Maustaste doppelt an
+
+16
+00:01:17,000 --> 00:01:23,000
+Im Textmodus ist das beliebteste Programm um Dateien anzuschauen das Programm cat
+
+17
+00:01:24,000 --> 00:01:30,000
+Um mehr darüber in Erfahrung zu bringen gebe ich ein cat --help ENTER
+
+18
+00:01:32,000 --> 00:01:35,000
+Hier sind alle Optionen und die Beschreibungen dazu aufgelistet
+
+19
+00:01:37,000 --> 00:01:45,000
+Um den Dateiinhalt anzuschauen gebe ich ein cat Leerzeichen dann den Dateinamen text ENTER
+
+20
+00:01:46,000 --> 00:01:49,000
+Es können auch mehrere Dateien angegeben werden
+
+21
+00:01:52,000 --> 00:01:54,000
+Auf der rechten Seite beim Terminal kann ich scrollen
+
+22
+00:01:56,000 --> 00:01:59,000
+Und mich dorthin bewegen wo ich sein möchte
+
+23
+00:02:02,000 --> 00:02:05,000
+Oder ich benutze die Tasten Shift+Bild hoch
+
+24
+00:02:05,500 --> 00:02:07,000
+und Shift+Bild runter
+
+25
+00:02:12,500 --> 00:02:18,000
+Die Option -n kann ich nutzen um zusätzlich die Zeilennummer noch anzeigen zu lassen
+
+26
+00:02:18,500 --> 00:02:29,000
+Ich gebe also ein cat -n text ENTER
+
+27
+00:02:33,500 --> 00:02:39,000
+Das Programm more wird genutzt um den Dateiinhalt seitenweise anzeigen zu lassen
+
+28
+00:02:40,500 --> 00:02:48,000
+Ich gebe ein more text ENTER
+
+29
+00:02:49,500 --> 00:02:54,000
+Die Taste ENTER benutze ich um zeilenweise vorzurücken
+
+30
+00:02:56,500 --> 00:03:03,000
+Die Taste SPACE also Leertaste benutze ich um seitenweise vorzurücken
+
+31
+00:03:05,500 --> 00:03:09,000
+Und beendet tue ich das ganze mit der Taste q
+
+32
+00:03:10,500 --> 00:03:18,500
+Ebenso wird das Kommando less dafür genutzt um den Dateiinhalt seitenweise anzuzeigen
+
+33
+00:03:18,600 --> 00:03:25,500
+Ich gebe ein less text ENTER
+
+34
+00:03:26,600 --> 00:03:29,500
+Hier kann ich das ganze mit den Cursortaste steuern
+
+35
+00:03:30,600 --> 00:03:34,500
+Und beende das ganze auch wieder mit der q-Taste
+
+36
+00:03:35,600 --> 00:03:42,500
+Um mich mehr über Kommandos zu informieren z.B. über die Kommandos less und more
+
+37
+00:03:43,600 --> 00:03:46,500
+kann ich die Kommandos man und info nutzen
+
+38
+00:03:47,600 --> 00:03:54,500
+ich gebe vor ein Kommando das Kommando man oder info ein
+
+39
+00:03:55,000 --> 00:04:03,500
+als Beispiel jetzt mal man less ENTER
+
+40
+00:04:05,000 --> 00:04:08,500
+Hier gibt es Informationen zu dem Kommando
+
+41
+00:04:12,000 --> 00:04:15,500
+Mit der q-Taste komm ich aus dem ganzen auch wieder raus
+
+42
+00:04:20,000 --> 00:04:25,500
+So das war Teil 1 dann wünsche ich viel Spaß bei Teil 2 und Tschau

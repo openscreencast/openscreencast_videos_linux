@@ -1,0 +1,195 @@
+1
+00:00:01,000 --> 00:00:05,500
+Hallo zum Screencast "Textdateien anschauen Teil 2"
+
+2 
+00:00:06,000 --> 00:00:10,500
+Die Textdatei mit der ich arbeiten werde befindet sich im Persönlichen Ordner
+
+3
+00:00:10,600 --> 00:00:12,500
+und trägt den Namen text
+
+4
+00:00:14,600 --> 00:00:22,000
+Als erstes möchte ich veranschaulichen wie man es erreicht das nur n Zeilen einer Textdatei angezeigt werden
+
+5
+00:00:23,000 --> 00:00:28,000
+Ich bewege den Mauspfeil auf Anwendungen - Zubehör - Terminal
+
+6
+00:00:29,000 --> 00:00:32,000
+und klicke einmal mit der linken Maustaste
+
+7
+00:00:34,000 --> 00:00:38,000
+Terminal läuft übrigens unter dem Kommando gnome-terminal
+
+8
+00:00:39,000 --> 00:00:43,000
+Das Kommando head zeigt die ersten n Zeilen einer Datei an
+
+9
+00:00:43,500 --> 00:00:47,500
+tail hingegen zeigt die letzten n Zeilen einer Datei an
+
+10
+00:00:48,500 --> 00:00:54,000
+Hilfestellungen werden bei head und tail mit der Option --help hervorgerufen
+
+11
+00:00:55,000 --> 00:01:01,000
+Ich tippe ein head --help ENTER
+
+12
+00:01:02,000 --> 00:01:06,000
+und tail --help ENTER
+
+13
+00:01:09,000 --> 00:01:15,000
+Voreingestellt sind bei head die ersten 10 Zeilen und bei tail die letzten 10 Zeilen die angezeigt werden
+
+14
+00:01:16,000 --> 00:01:23,000
+Ich gebe ein head text ENTER
+
+15
+00:01:24,000 --> 00:01:27,000
+so werden die ersten 10 Zeilen der Datei angezeigt
+
+16
+00:01:28,000 --> 00:01:34,000
+Ich gebe ein tail text ENTER
+
+17
+00:01:35,000 --> 00:01:39,000
+so werden die letzten 10 Zeilen der Datei text angezeigt
+
+18
+00:01:40,000 --> 00:01:49,000
+Mit der Option -n wird die Anzahl der Zeilen bestimmt mit der Option -c die Anzahl der Zeichen die dargestellt werden
+
+19
+00:01:50,000 --> 00:01:59,000
+Ich gebe ein head -n 5 text ENTER
+
+20
+00:02:00,000 --> 00:02:03,000
+so werden die ersten 5 Zeilen angezeigt
+
+21
+00:02:04,000 --> 00:02:11,000
+Ich gebe ein tail -n 5 text
+
+22
+00:02:13,000 --> 00:02:17,000
+so werden die letzten 5 Zeilen der Datei text angezeigt
+
+23
+00:02:20,000 --> 00:02:28,000
+Ich tippe ein tail -c 5 text ENTER
+
+24
+00:02:29,000 --> 00:02:32,000
+Hier werden die letzten 5 Zeichen der Datei angezeigt
+
+25
+00:02:35,000 --> 00:02:43,000
+Ich gebe ein head -c 5 text ENTER
+
+26
+00:02:45,000 --> 00:02:50,000
+Und hier werden die ersten 5 Zeichen der Datei text angezeigt
+
+27
+00:02:52,000 --> 00:02:59,000
+Wie erreiche ich es aber nun das der Inhalt von Zeile 6 bis 10 z.B. ausgegeben wird
+
+28
+00:03:00,000 --> 00:03:03,000
+In diesem Fall kann ich head und tail kombinieren
+
+29
+00:03:04,000 --> 00:03:10,000
+Um die Ausgabe Zeile 6 bis 10 durchzusetzen tätige ich folgende Eingabe
+
+30
+00:03:12,000 --> 00:03:32,000
+head -n 10 text | tail -n 5
+
+31
+00:03:33,000 --> 00:03:42,000
+Der senkrechte Strich bedeutet das das Ergebnis vom Kommando 1 also von head weitergereicht wird zum Kommando 2 tail
+
+32
+00:03:42,500 --> 00:03:46,000
+und wird dort weiterverarbeitet
+
+33
+00:03:46,100 --> 00:03:55,000
+Das Ergebnis ist das bei head die ersten 10 Zeilen weitergereicht werden
+
+34
+00:03:55,100 --> 00:04:04,000
+zum Kommando tail und dort werden von den 10 Zeilen die letzten 5 Zeilen ausgegeben
+
+35
+00:04:04,100 --> 00:04:06,000
+Und hier sieht man das Ergebnis
+
+36
+00:04:08,100 --> 00:04:15,000
+In einem anderen Format wird eine Datei mit dem Kommando od oder hexdump eingeblendet
+
+37
+00:04:15,500 --> 00:04:23,000
+Hilfestellungen gibt es bei Kommando od mit der Option --help
+
+38
+00:04:23,500 --> 00:04:29,000
+Ich gebe ein od --help ENTER
+
+39
+00:04:30,000 --> 00:04:44,000
+Beschreibungen zu hexdump ruft man mit man hexdump auf den Bildschirm. Ich gebe ein man hexdump ENTER
+
+40
+00:04:45,000 --> 00:04:49,000
+Hier kann man sich die Beschreibungen durchlesen
+
+41
+00:04:50,000 --> 00:04:53,000
+Die Hilfe wird beendet mit der q-Taste
+
+42
+00:04:54,000 --> 00:05:04,000
+od -x text ENTER
+
+43
+00:05:05,000 --> 00:05:09,000
+Dieses Kommando macht die Datei im hexdezimalen Format sichtbar
+
+44
+00:05:10,000 --> 00:05:20,000
+od -s text, dieses Kommando macht die Datei text im dezimalen Format sichtbar
+
+45
+00:05:22,000 --> 00:05:31,000
+und zuletzt od -o text ENTER
+
+46
+00:05:31,100 --> 00:05:35,000
+Das macht die Datei im oktalen Format sichtbar
+
+47
+00:05:37,100 --> 00:05:41,000
+Bei hexdump gibt es ähnliche Optionen
+
+48
+00:05:43,000 --> 00:05:47,000
+So dann sind wir schon wieder am Ende angelangt
+
+49
+00:05:48,000 --> 00:05:53,000
+dann noch viel Spaß beim ausprobieren und bis zum nächsten mal Tschau
