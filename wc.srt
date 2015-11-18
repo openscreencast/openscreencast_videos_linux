@@ -1,0 +1,147 @@
+1
+00:00:01,000 --> 00:00:05,500
+Hallo Heute im Screencast möchte ich vorführen wie man ermittelt
+
+2
+00:00:05,600 --> 00:00:08,500
+wieviele Zeichen und Wörter in einer Datei stecken
+
+3
+00:00:09,000 --> 00:00:11,500
+Das wäre zum einem mit OpenOffice möglich
+
+4
+00:00:13,000 --> 00:00:20,500
+Ich gehe auf Anwendungen - Büro - Word Processor oder ich klicke schlicht und einfach auf dieses Symbol
+
+5
+00:00:25,000 --> 00:00:28,500
+Ich bewege den Mauspfeil auf Datei - Öffnen
+
+6
+00:00:29,000 --> 00:00:32,500
+suche mir die betroffene Datei heraus
+
+7
+00:00:33,000 --> 00:00:38,500
+Das wäre als Beispiel die Datei text, ich klicke sie an, benutze den Button Öffnen
+
+8
+00:00:40,000 --> 00:00:42,500
+markiere jetzt einen Teil des Textes
+
+9
+00:00:44,000 --> 00:00:46,500
+gehe auf Extras - Wortanzahl
+
+10
+00:00:47,000 --> 00:00:57,500
+Hier wird jetzt angezeigt wieviele Wörter und Zeichen im markierten Teil und im gesamten Dokument stecken, OK
+
+11
+00:00:59,000 --> 00:01:02,500
+Zum anderen wäre das möglich mit dem Texteditor gedit
+
+12
+00:01:04,000 --> 00:01:07,500
+Ich gehe auf Anwendungen - Zubehör - Texteditor
+
+13
+00:01:09,000 --> 00:01:12,500
+Bewege den Mauspfeil auf Datei - Öffnen
+
+14
+00:01:13,000 --> 00:01:16,500
+Klicke die Datei text an, gehe auf Öffnen
+
+15
+00:01:17,000 --> 00:01:19,500
+Markiere wieder einen Teil des Textes
+
+16
+00:01:24,000 --> 00:01:29,500
+Bewege den Mauspfeil auf Werkzeuge - Statistik zum Dokument
+
+17
+00:01:30,000 --> 00:01:36,500
+Hier wird jetzt angegeben wieviele Zeilen, Wörter, Zeichen und Bytes im markierten Teil und im ganzen Dokument stecken
+
+18
+00:01:40,000 --> 00:01:45,500
+Im Textmodus gibt es dazu das Tool wc
+
+19
+00:01:46,000 --> 00:01:48,500
+Ich gehe auf Anwendungen - Zubehör - Terminal
+
+20
+00:01:51,000 --> 00:01:56,500
+Hilfe erscheint nach der Eingabe wc --help ENTER
+
+21
+00:01:58,000 --> 00:02:01,000
+Mit der Option -c wird die Byteanzahl ausgegeben
+
+22
+00:02:01,100 --> 00:02:04,000
+Mit der Option -m die Zeichenanzahl
+
+23
+00:02:05,100 --> 00:02:07,000
+Mit der Option -l die Zeilenanzahl
+
+24
+00:02:08,100 --> 00:02:10,000
+und mit der Option -w die Wortanzahl
+
+25
+00:02:12,100 --> 00:02:21,000
+Ich gebe ein wc -m text ENTER, so wird die Zeichenanzahl ausgegeben
+
+26
+00:02:22,100 --> 00:02:28,000
+Ich tippe ein wc text ENTER
+
+27
+00:02:30,100 --> 00:02:34,000
+So wird als erstes die Zeilenanzahl angegeben
+
+28
+00:02:35,100 --> 00:02:37,000
+als zweites die Wortanzahl
+
+29
+00:02:37,100 --> 00:02:39,500
+und als drittes die Byteanzahl
+
+30
+00:02:40,100 --> 00:02:46,500
+Ebenso kann man herausfinden wieviele Wörter und Zeichen in einer Kommandoausgabe vorhanden sind
+
+31
+00:02:48,100 --> 00:03:01,000
+Dazu tippe ich ein, als Beispiel, head text | wc ENTER
+
+32
+00:03:02,100 --> 00:03:08,000
+So wird angegeben das in der Ausgabe des ersten Kommandos head
+
+33
+00:03:10,100 --> 00:03:18,000
+10 Zeilen vorhanden sind 152 Wörter und 1274 Bytes
+
+34
+00:03:22,100 --> 00:03:31,000
+Bei dem Befehl wird die Ausgabe des ersten Kommandos zur Eingabe des zweiten Kommandos wc
+
+35
+00:03:31,100 --> 00:03:32,500
+Das nennt man Pipe
+
+36
+00:03:35,100 --> 00:03:43,500
+Ich lösche jetzt den Inhalt des Terminals, dazu tippe ich ein clear ENTER
+
+37
+00:03:46,100 --> 00:03:58,500
+Gut dann sind wir schon wieder am Ende angelangt, dann viel Spaß beim ausprobieren, bis zum nächsten
