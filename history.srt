@@ -1,0 +1,175 @@
+1
+00:00:01,000 --> 00:00:07,500
+Hallo Heute möchte ich eine Funktion namens history der Shell bash vorstellen
+
+2
+00:00:08,000 --> 00:00:11,500
+bash ist der Standardkommandointerpreter bei Linux
+
+3
+00:00:12,000 --> 00:00:17,500
+Ein Kommandointerpreter ermöglicht einen einfachen Dialog zwischen Benutzer und Betriebssystem
+
+4
+00:00:18,000 --> 00:00:21,500
+Ich benutze jetzt die Tasten Alt und F2 gleichzeitig
+
+5
+00:00:22,000 --> 00:00:25,500
+so kann ich das Terminalprogramm xterm für den Textmodus starten
+
+6
+00:00:26,000 --> 00:00:31,500
+Ich tippe ein xterm ENTER, so wird das Programm gestartet
+
+7
+00:00:32,000 --> 00:00:39,500
+Kommando history listet maximal die letzten 1000 ausgeführten Befehle auf bei Fedora
+
+8
+00:00:40,000 --> 00:00:45,500
+Ich tippe ein history ENTER
+
+9
+00:00:46,000 --> 00:00:50,500
+Hier werden jetzt die letzten 12 Befehle aufgelistet die ausgeführt wurden
+
+10
+00:00:51,000 --> 00:00:58,500
+Gibt man nach history noch eine Zahl an werden die letzten n Befehle auf dem Bildschirm erscheinen
+
+11
+00:00:59,000 --> 00:01:07,500
+z.B. bei history 5 ENTER werden die letzten 5 Befehle aufgelistet
+
+12
+00:01:09,000 --> 00:01:17,500
+Das Limit 1000 wird festgelegt durch die Umgebungsvariable HISTSIZE bzw. HISTFILESIZE
+
+13
+00:01:19,000 --> 00:01:30,500
+Die Variable HISTSIZE wird generell festgelegt für alle Benutzer bei Fedora in der Konfigurationsdatei /etc/profile
+
+14
+00:01:31,000 --> 00:01:43,500
+Die Datei kann man sich anschauen mit dem Kommando cat -n /etc/profile ENTER
+
+15
+00:01:44,000 --> 00:01:47,500
+-n bewirkt das die Zeilennummer noch mit angegeben wird
+
+16
+00:01:49,000 --> 00:01:53,500
+Hier in der Zeile 39 wird die Variable gesetzt
+
+17
+00:01:54,000 --> 00:01:58,500
+Für den einzelnen Benutzer kann man die Variable neu setzen
+
+18
+00:01:59,000 --> 00:02:06,500
+im Homeverzeichnis in der Datei .bash_profile oder in der Datei .bashrc
+
+19
+00:02:08,000 --> 00:02:13,500
+Man ändert z.B. die Datei .bash_profile mit einem Texteditor
+
+20
+00:02:14,000 --> 00:02:17,500
+Dazu mache ich jetzt einen Doppelklick auf den Persönlichen Ordner
+
+21
+00:02:18,000 --> 00:02:21,500
+Voher mache ich noch die Dateien sichtbar die versteckt sind
+
+22
+00:02:22,000 --> 00:02:26,500
+Dazu gehe ich auf Ansicht - verborgene Dateien anzeigen
+
+24
+00:02:29,000 --> 00:02:33,500
+Mache jetzt einen Doppelklick auf die Datei .bash_profile
+
+25
+00:02:34,000 --> 00:02:37,500
+So wird die Datei geöffnet mit dem Texteditor gedit
+
+26
+00:02:38,000 --> 00:02:49,500
+Schreibe in eine leere Zeile, großgeschrieben, HISTSIZE= setze das neue Limit 700 z.B. (HISTSIZE=700)
+
+27
+00:02:50,000 --> 00:02:54,500
+Gehe auf Speichern, beende das Programm
+
+28
+00:02:55,000 --> 00:03:01,500
+Jetzt noch einen Neustart oder ich melde mich kurz ab und wieder an so ist die Variable dann gesetzt
+
+29
+00:03:03,000 --> 00:03:10,500
+Festgehalten werden die ausgeführten Kommandos in der Datei .bash_history
+
+30
+00:03:12,000 --> 00:03:16,500
+Das wäre die Datei, die kann man sich auch anschauen mit einem Doppelklick
+
+31
+00:03:17,000 --> 00:03:26,500
+Hier kann man die Befehle sogar verändern, welche hinzufügen oder löschen, geht dann auf Speichern und beendet das Programm
+
+32
+00:03:28,000 --> 00:03:32,500
+Im Textmodus kann man sich die Datei anschauen mit dem Kommando cat
+
+33
+00:03:33,000 --> 00:03:37,500
+Oder man schaut sich nur die letzten 10 Kommandos an z.B.
+
+34
+00:03:38,000 --> 00:03:55,500
+mit dem Kommando tail ~/.bash_history ENTER, so werden die letzten 10 Zeilen der Datei angezeigt
+
+35
+00:03:57,000 --> 00:04:01,500
+Mit den Cursotasten hoch und runter kann man in der history-Liste herumstöbern
+
+36
+00:04:02,000 --> 00:04:06,500
+und eine der letzten Kommandos in die Eingabezeile bringen
+
+37
+00:04:08,000 --> 00:04:13,500
+Wenn ich die Curortaste hoch drücke ist das letzte Kommando zu sehen
+
+38
+00:04:14,000 --> 00:04:18,500
+Wenn ich nochmal drücke das vorletzte, usw.
+
+39
+00:04:19,000 --> 00:04:25,500
+Ich muss dann nur noch ENTER drücken und der Befehl wird ausgeführt oder ich modifiziere ihn vorher
+
+40
+00:04:28,000 --> 00:04:37,500
+Damit ich nicht zichmal die Cursortaste benutzen muss um einen bestimmten Befehl aus der history-Liste einzusetzen
+
+41
+00:04:38,000 --> 00:04:42,500
+gibt es die Tastenkombination STRG+R
+
+42
+00:04:44,000 --> 00:04:54,500
+hier gebe ich eine Zeichenkette ein nach der gesucht wird in allen Kommandos der history-Liste, gebe dann ENTER
+
+43
+00:04:57,000 --> 00:05:13,500
+Mit dem Befehl history -c ENTER lösche ich die history-Liste, bzw. den Inhalt der Datei .bash_history
+
+44
+00:05:16,000 --> 00:05:21,500
+So wurde die history-Liste gelöscht
+
+45
+00:05:22,000 --> 00:05:28,500
+Gut das wars schon wieder, Tschau bis zum nächsten
