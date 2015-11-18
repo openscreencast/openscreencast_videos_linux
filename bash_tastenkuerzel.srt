@@ -1,0 +1,111 @@
+1
+00:00:01,000 --> 00:00:06,500
+Hallo heute möchte ich ein paar Tastenkombinationen der bash vorführen
+
+2
+00:00:06,600 --> 00:00:09,500
+die einem die Arbeit im Textmodus erleichtern können
+
+3
+00:00:10,600 --> 00:00:16,500
+bash als Standardkommandointerpreter bei Linux stellt eine Schnittstelle zwischen Benutzer und Betriebssystem dar
+
+4
+00:00:16,600 --> 00:00:23,500
+Ich öffne nun ein Terminalprogramm indem ich die Tasten Alt und F2 gleichzeitig drücke
+
+5
+00:00:23,600 --> 00:00:28,500
+und ich anschließend den Befehl xterm eingebe und ENTER drücke
+
+6
+00:00:30,000 --> 00:00:33,500
+Das Kommando echo zeigt den angeschlossenen Text an
+
+7
+00:00:34,000 --> 00:00:51,500
+Ich tippe ein echo screencast 014 bash-Tastenkürzel ENTER
+
+8
+00:00:52,000 --> 00:00:55,500
+und der Text erscheint als Ausgabe in der nächsten Zeile
+
+9
+00:00:56,000 --> 00:01:01,500
+Drücke ich die Cursortaste hoch wird der letzte ausgeführte Befehle angezeigt
+
+10
+00:01:02,000 --> 00:01:04,500
+Nun zu den bash-Tastenkürzel
+
+11
+00:01:05,000 --> 00:01:11,500
+Der Cursor springt an den Anfang der Zeile mit der Taste Pos1
+
+12
+00:01:11,600 --> 00:01:14,500
+und an das Ende der Zeile mit der Taste Ende
+
+13
+00:01:15,000 --> 00:01:24,500
+Die Tastenkombinationen Strg+A und Strg+E sind mit den gleichen Funktionen belegt
+
+14
+00:01:25,000 --> 00:01:36,500
+Wort zu Wort Schritte rufe ich durch die Tastenkürzel Alt+B und Alt+F hervor
+
+15
+00:01:37,000 --> 00:01:43,500
+Mit der Tastenkombination Alt+D kann ich ein Wort aus der Eingabe entfernen
+
+16
+00:01:47,000 --> 00:01:55,500
+Möchte ich alles von Cursorstand bis Zeilenende löschen benutze ich die Tasten Strg und K gleichzeitig.
+
+17
+00:01:58,000 --> 00:02:03,500
+Den Tausch zweier Zeichen löse ich durch Strg+T aus
+
+18
+00:02:08,000 --> 00:02:12,500
+Den Tausch zweier Wörter durch Alt+T
+
+19
+00:02:17,000 --> 00:02:22,500
+Zum Schluß drücke ich Strg+L so wird der ganze Konsoleninhalt gelöscht
+
+20
+00:02:27,000 --> 00:02:37,500
+Arbeitet jemand mit dem Terminalprogramm gnome-terminal das durch Anwendungen - Zubehör - Terminal gestartet wird
+
+21
+00:02:38,000 --> 00:02:46,500
+und er wundert sich das z.B. die bash-Tastenkombination Alt+B nicht funktioniert
+
+22
+00:02:46,600 --> 00:02:48,500
+stattdessen das Menü Bearbeiten aufgerufen wird
+
+23
+00:02:49,000 --> 00:02:55,500
+kann die Programmtastenkombinationen von gnome-terminal deaktivieren
+
+24
+00:02:57,000 --> 00:03:01,500
+Dazu geht man auf Bearbeiten - Tastenkombinationen
+
+25
+00:03:02,000 --> 00:03:12,500
+und klickt auf das Kästchen links neben Alle Menükürzelbuchstaben deaktivieren, geht dann auf Schließen
+
+26
+00:03:16,000 --> 00:03:19,500
+Dann müßten alle bash-Tastenkürzel agieren
+
+27
+00:03:20,000 --> 00:03:25,500
+Gut ich hoffe eure Arbeit in der Konsole wird jetzt ein bißchen einfacher
+
+28
+00:03:26,000 --> 00:03:29,500
+Tschüß ich wüsche gutes gelingen
