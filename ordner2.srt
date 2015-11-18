@@ -1,0 +1,239 @@
+1
+00:00:01,000 --> 00:00:02,500
+Herzlich Willkommen
+
+2
+00:00:02,900 --> 00:00:07,500
+In diesem Screencast werde ich im Textmodus Befehle vorstellen
+
+3
+00:00:07,600 --> 00:00:11,500
+die auf irgend eine Art und Weise direkt was mit dem Ordner zu tun haben
+
+4
+00:00:12,600 --> 00:00:15,000
+Ich öffne nun als erstes ein Terminalfenster
+
+5
+00:00:15,100 --> 00:00:20,500
+Ich bewege die Maus auf Anwendungen - Zubehör - Terminal
+
+6
+00:00:20,600 --> 00:00:22,500
+Mache einen Klick mit der linken Maustaste
+
+7
+00:00:25,000 --> 00:00:31,000
+Wer mehr über ein Kommando wissen möchte gibt ein man Kommando ENTER
+
+8
+00:00:31,100 --> 00:00:36,000
+Oder info Kommando ENTER
+
+9
+00:00:38,100 --> 00:00:42,000
+Mit dem Drücken der q-Taste wird die Hilfe dann wieder beendet
+
+10
+00:00:43,100 --> 00:00:47,000
+Mit dem Kommando cd wechselt man das Arbeitsverzeichnis
+
+11
+00:00:48,100 --> 00:00:54,000
+Man gibt ein cd Verzeichnis
+
+12
+00:00:54,100 --> 00:01:00,000
+Als Beispiel hier mal ein / ENTER
+
+13
+00:01:00,100 --> 00:01:02,000
+So gelange ich zum Wurzelverzeichnis
+
+14
+00:01:05,100 --> 00:01:09,000
+Das Zeichen Tilde ~ ist eine Kurzschreibweise für das Homeverzeichnis
+
+15
+00:01:12,100 --> 00:01:16,000
+Der Punkt . ist eine Kurzschreibweise für das aktuelle Verzeichnis
+
+16
+00:01:16,100 --> 00:01:21,000
+Punkt Punkt .. bedeutet Elternverzeichnis des momentanen Ordners
+
+17
+00:01:24,100 --> 00:01:29,000
+Ich tippe ein cd ~ ENTER
+
+18
+00:01:29,100 --> 00:01:33,000
+So gelange ich prompt wieder in mein Benutzerverzeichnis
+
+19
+00:01:36,100 --> 00:01:39,000
+Ich tippe ein cd ..
+
+20
+00:01:39,100 --> 00:01:42,000
+So springe ich zum Verzeichnis /home
+
+21
+00:01:42,100 --> 00:01:49,000
+Also zum Elternordner des Ordners /home/paul
+
+22
+00:01:52,100 --> 00:01:55,000
+In welchem Pfad arbeite ich eigentlich ?
+
+23
+00:01:55,100 --> 00:01:59,000
+Wenn man das nicht weiß kann man das Kommando pwd einsetzen
+
+24
+00:02:00,100 --> 00:02:06,000
+Ich tippe ein pwd ENTER und das aktuelle Verzeichnis wird angegeben
+
+25
+00:02:06,100 --> 00:02:18,000
+Genauso kann man eingeben echo $PWD ENTER
+
+26
+00:02:18,100 --> 00:02:24,000
+und der Wert der Umgebungsvariable PWD erscheint
+
+27
+00:02:25,100 --> 00:02:29,000
+In der Umgebungsvariable PWD steckt der momentane Ordner
+
+27
+00:02:29,100 --> 00:02:36,000
+und von der Umgebungsvariable OLDPWD kann man den davor aktuellen Pfad ablesen
+
+28
+00:02:36,100 --> 00:02:43,000
+Ich tippe ein echo $OLDPWD
+
+29
+00:02:45,100 --> 00:02:50,000
+so wird der davor aktuelle Pfad also /home/paul angegeben
+
+30
+00:02:52,100 --> 00:02:57,000
+Es ist möglich die Variable OLDPWD beim Kommando cd einzusetzen
+
+31
+00:02:58,100 --> 00:03:05,000
+ich tippe ein cd $OLDPWD ENTER
+
+32
+00:03:06,100 --> 00:03:08,000
+So bin ich wieder im Pfad /home/paul
+
+33
+00:03:12,100 --> 00:03:15,000
+Einer der meist benutzten Kommandos ist ls
+
+34
+00:03:16,000 --> 00:03:18,000
+ls listet den Inhalt eines Ordners auf
+
+35
+00:03:18,100 --> 00:03:24,000
+Mit der Option -l wird das lange Listenformat für die Ausgabe verwendet
+
+36
+00:03:26,000 --> 00:03:31,000
+ls ENTER, so werden nur Dateinamen angegeben
+
+37
+00:03:32,100 --> 00:03:38,000
+ls -l ENTER
+
+38
+00:03:39,100 --> 00:03:46,000
+Es wird aufgelistet der Dateityp als erstes, für den Ordner ein d
+
+39
+00:03:48,100 --> 00:04:04,000
+dann die Zugriffsrechte, der Linkzähler, der Besitzer, die Gruppe, die Größe
+
+40
+00:04:06,100 --> 00:04:16,000
+Datum der letzten Änderung und der Dateiname bzw. der Ordnername
+
+41
+00:04:16,100 --> 00:04:24,000
+Option -a bewirkt das auch alle verstecken Dateien in der Inhaltsauflistung zu finden sind
+
+42
+00:04:25,100 --> 00:04:34,000
+Ich tippe ein ls -la ENTER
+
+43
+00:04:37,100 --> 00:04:46,000
+-R zeigt auch alle Unterzeichnisse an, Ich gebe ein ls -lR ENTER
+
+44
+00:04:48,100 --> 00:05:04,000
+-S sortiert die Dateien nach der Größe, Ich tippe ein ls -lS ENTER
+
+45
+00:05:06,100 --> 00:05:13,000
+Über weitere sehr nützliche Optionen kann man sich mit der Option --help informieren
+
+46
+00:05:14,100 --> 00:05:19,000
+Ich gebe ein ls --help ENTER
+
+47
+00:05:22,100 --> 00:05:27,000
+Möchte man sich ein neues Verzeichnis anlegen steht das Kommando mkdir zur Verfügung
+
+48
+00:05:29,100 --> 00:05:39,000
+Ich tippe ein mkdir pfad0 ENTER (pfad0 als neues Verzeichnis)
+
+49
+00:05:43,100 --> 00:05:50,000
+Ich schau mir jetzt den Inhalt noch mal an, hier ist das neues Verzeichnis pfad0
+
+50
+00:05:53,100 --> 00:05:57,000
+mkdir erlaubt es auch mehrere Verzeichnisse gleichzeitig zu erstellen
+
+51
+00:05:58,100 --> 00:06:10,000
+Dazu gebe ich ein mkdir pfad1 pfad2 ENTER
+
+52
+00:06:13,100 --> 00:06:16,000
+So gibt es zwei neue Ordner (pfad1 pfad2)
+
+53
+00:06:20,100 --> 00:06:24,000
+Mit rmdir lösche ich ein Verzeichnis
+
+54
+00:06:26,100 --> 00:06:29,000
+rmdir pfad0 entfernt das Verzeichnis pfad0
+
+55
+00:06:30,100 --> 00:06:35,000
+rmdir pfad0 ENTER
+
+56
+00:06:40,100 --> 00:06:47,000
+rmdir pfad1 pfad2 löscht beide Ordner pfad1 und pfad2
+
+57
+00:06:48,100 --> 00:06:58,000
+Ich tippe ein rmdir pfad1 pfad2 ENTER
+
+58
+00:07:01,100 --> 00:07:13,000
+Für den Textmodus gibt es auch etliche Dateimanager, ein Dateimanager ist mc Midnight Commander, der noch nachinstalliert werden müßte
+
+59
+00:07:15,100 --> 00:07:19,000
+Gut, dann bis zum nächsten Screencast, Bye Bye
