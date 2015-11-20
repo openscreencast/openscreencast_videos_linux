@@ -1,0 +1,151 @@
+1
+00:00:01,000 --> 00:00:08,500
+Hallo wie versprochen diesmal Dateien erstellen, kopieren, verschieben, umbenennen und löschen im Textmodus
+
+2
+00:00:09,000 --> 00:00:14,500
+Um im Textmodus den Umgang mit Dateien zu trainieren starte ich ein Terminaprogramm
+
+3
+00:00:15,000 --> 00:00:22,500
+Ich bewege den Mauspfeil auf Anwendungen - Zubehör - Terminal, mache einen Klick mit der linken Maustaste
+
+4
+00:00:24,000 --> 00:00:38,500
+Informationen zu Kommandos kommen durch info kommando ENTER oder man kommando ENTER zum Vorschein
+
+5
+00:00:39,000 --> 00:00:43,500
+Mit der q-Taste verlässt man die Info-Seiten wieder
+
+6
+00:00:44,000 --> 00:01:03,500
+Die Eigenschaften einer Datei kann man vom Bildschirm ablesen nach der Eingabe ls -l dateiname ENTER (Bsp. bild.png)
+
+7
+00:01:04,000 --> 00:01:11,500
+So bekomme ich Auskunft über den Dateityp, die Rechte
+
+8
+00:01:12,000 --> 00:01:25,500
+Anzahl der Handlinks, den Besitzer, die Gruppe, die Dateigröße und das Datum der letzen Änderung
+
+9
+00:01:27,000 --> 00:01:31,500
+Um was für eine Datei es sich eigentlich handelt verrät mir der Befehl file
+
+10
+00:01:32,000 --> 00:01:39,500
+Ich tippe ein file dateiname (Bsp. bild.png) ENTER
+
+11
+00:01:41,000 --> 00:01:53,500
+Mit mkdir Ziel ENTER erstelle ich zu Übungszwecken einen neuen Ordner namens Ziel
+
+12
+00:01:55,000 --> 00:02:03,500
+Ich wechsle zu den Ordner Ziel mit cd Ziel ENTER
+
+13
+00:02:05,000 --> 00:02:17,500
+Durch touch datei ENTER lege ich eine neue Datei an (namens datei)
+
+14
+00:02:18,000 --> 00:02:22,500
+Existiert diese Datei schon wird das Datum der letzten Änderung überschrieben
+
+15
+00:02:23,000 --> 00:02:38,500
+Ebenfalls zum Dateierstellen kann ich das Kommando cat > datei1 ENTER einsetzen
+
+16
+00:02:39,000 --> 00:02:43,500
+Ich kann jetzt schon etwas eingeben das dann in die Datei geschrieben wird
+
+17
+00:02:44,000 --> 00:02:49,500
+Tastenkombination Strg+D beendet die Eingabe
+
+18
+00:02:53,000 --> 00:03:04,500
+Mit mv alterdateiname neuerdateiname ENTER kann ich die Datei umbenennen
+
+19
+00:03:05,000 --> 00:03:15,500
+Als Beispiel mv datei neu ENTER
+
+20
+00:03:20,000 --> 00:03:24,500
+Der Befehl rm ermöglicht es mir Dateien zu löschen
+
+21
+00:03:25,000 --> 00:03:43,500
+Ich gebe ein rm datei1 ENTER und der Dateieintrag wird aus dem Verzeichnis entfernt
+
+22
+00:03:44,000 --> 00:03:51,500
+Option -i veranlasst das vor jeder Entfernung nachgefragt wird ob man das auch wirklich möchte
+
+23
+00:03:52,000 --> 00:03:57,500
+Option -r entfernt auch die Inhalt aller Unterverzeichnisse
+
+24
+00:03:58,000 --> 00:04:12,500
+Das ganze sieht dann so aus rm -i -r * ENTER, j (ja) ich möchte löschen
+
+25
+00:04:16,000 --> 00:04:19,500
+Das Sternchen * steht für alle Dateien
+
+26
+00:04:20,000 --> 00:04:25,500
+Aber Vorsichtig bevor man löscht sollte man nochmal genau bedenken wo man sich befindet
+
+27
+00:04:26,000 --> 00:04:31,500
+das bekommt man heraus mit pwd ENTER
+
+28
+00:04:32,000 --> 00:04:35,500
+und was der Löschbefehl eigentlich bewirkt
+
+29
+00:04:36,000 --> 00:04:42,500
+Ich wechsle wieder zurück ins Homeverzeichnis /home/paul
+
+30
+00:04:43,000 --> 00:04:54,500
+mit cd ~ ENTER oder cd .. ENTER
+
+31
+00:05:00,000 --> 00:05:03,500
+cp steht zum kopieren zur Verfügung
+
+32
+00:05:00,000 --> 00:05:18,500
+cp *.odt Ziel ENTER erreicht das kopieren aller Dateien mit der Endung .odt
+
+33
+00:05:19,000 --> 00:05:24,500
+also OpenOffice-Dokumente aus dem aktuellen Verzeichnis in den Ordner Ziel
+
+34
+00:05:25,000 --> 00:05:30,500
+mv vorhin schon zum umbenennen genutzt steht zum verschieben bereit
+
+35
+00:05:31,000 --> 00:05:44,500
+mv *.png Ziel ENTER verschiebt alle png-Bilddateien in den Zielordner
+
+36
+00:05:45,000 --> 00:05:50,500
+Im aktuellen Verzeichnis sind keine png-Dateien mehr vorhanden
+
+37
+00:05:55,000 --> 00:06:03,500
+Im Zielordner sind alle verschobenen png-Dateien und auch kopierten .odt-Dateien
+
+38
+00:06:10,000 --> 00:06:16,500
+Danke für die Aufmerksamkeit, Tschau bis zum nächsten Screencast
