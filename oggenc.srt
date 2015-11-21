@@ -1,0 +1,99 @@
+1
+00:00:01,000 --> 00:00:07,500
+Hallo Wav in Ogg Vorbis und Ogg Vorbis in wav umwandeln, darum geht es in diesem screencast
+
+2
+00:00:08,000 --> 00:00:16,500
+Erster Schritt, Ich zaubere ein Terminalfenster auf den Bildschirm indem ich auf Anwendungen - Zubehör - Terminal gehe
+
+3
+00:00:18,000 --> 00:00:29,500
+Hilfetext zu einzelnen Kommandos kommt nach den Eingaben man kommando ENTER oder info kommando ENTER
+
+4
+00:00:30,000 --> 00:00:33,500
+Drücke ich die q-Taste geht es weiter mit den Eingaben
+
+5
+00:00:35,000 --> 00:00:42,500
+Mit dem Befehl oggdec wandle ich Ogg Vorbis in wav um
+
+6
+00:00:44,000 --> 00:00:55,500
+Vorerst liste ich alle Ogg Vorbis-Dateien im aktuellen Verzeichnis auf mit ls -l *.ogg ENTER
+
+7
+00:00:56,000 --> 00:01:01,500
+Diese eine Ogg Vorbis-Datei wandle ich jetzt in eine wav-Datei um
+
+8
+00:01:02,000 --> 00:01:12,500
+Dazu tippe ich ein oggdec *.ogg *.wav ENTER
+
+9
+00:01:13,000 --> 00:01:17,500
+So werden alle Ogg Vorbis-Dateien im aktuellen Verzeichnis in wav-Dateien umgewandelt
+
+10
+00:01:19,000 --> 00:01:28,500
+Das Ergebnis wäre ls -l *.wav ENTER
+
+11
+00:01:29,000 --> 00:01:40,500
+Durch den Befehl oggenc bin ich in der Lage grosse wav-Dateien in kleine Ogg Vorbis-Dateien umzuwandeln
+
+12
+00:01:41,000 --> 00:01:50,500
+Einige Optionen dabei wären -b um die konstante Bitrate zu vereinbaren, gebe ich keine an wird eine variable Bitrate genutzt
+
+13
+00:01:51,000 --> 00:02:00,500
+-m um eine minimale Bitrate zu definieren, -M um eine maximale Bitrate zu definieren
+
+14
+00:02:01,000 --> 00:02:12,500
+Mit der Option -q bestimme ich die Qualitätsstufe, -o gibt mir die Möglichkeit die Ausgabedatei zu definieren
+
+15
+00:02:13,000 --> 00:02:19,500
+Metadaten kann ich ebenfalls angeben mit -c den Kommentar mit -d das Datum
+
+16
+00:02:20,000 --> 00:02:27,500
+mit -t den Titel mit -l den Albumnamen und mit -a den Künstlernamen
+
+17
+00:02:28,000 --> 00:02:33,500
+Ich wandle jetzt die wav-Datei in eine Ogg Vorbis-Datei um
+
+18
+00:02:34,000 --> 00:03:39,500
+dazu gebe ich ein oggenc -b 192 -t "Krieger des Lichts" -l "Schattenboxen" -a "Versbox" -o x.ogg *.wav ENTER
+
+19
+00:03:40,000 --> 00:04:00,500
+so wird die wav-Datei in eine Ogg Vorbis-Datei umgewandelt, OK das wars
+
+20
+00:04:01,000 --> 00:04:12,500
+Ich liste nochmal alle Ogg Vorbis-Dateien auf mit ls -l *.ogg ENTER
+
+21
+00:04:16,000 --> 00:04:24,500
+ogginfo gibt einige Infos über die Ogg Vorbis-Datei an
+
+22
+00:04:25,000 --> 00:04:40,500
+als Beispiel ogginfo x.ogg ENTER, hier werden jetzt die Metadaten angegeben, die Dateigrösse usw.
+
+23
+00:04:43,000 --> 00:04:51,500
+Für den Desktopbereich, um Audio-Dateien umzuwandeln, gibt es das Programm Soundconverter
+
+24
+00:04:52,000 --> 00:05:05,500
+das aus der Kategorie Audio und Video der Gruppe Anwendungen mit dem Programm pirut bei Fedora Core 5 nachinstalliert werden muss
+
+25
+00:05:07,000 --> 00:05:14,500
+Gut das war es schon wieder, viel Spass beim Umwandeln, bis zum nächsten mal

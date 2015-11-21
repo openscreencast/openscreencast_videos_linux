@@ -1,0 +1,131 @@
+1
+00:00:09,500 --> 00:00:14,500
+Abmelden, Moechten Sie die aktuelle Sitzung beenden
+
+2
+00:00:15,000 --> 00:00:20,500
+so verabschieden Sie sich vom System mit dem Befehl logout ENTER
+
+3
+00:00:21,000 --> 00:00:24,500
+Das Login-Prompt fordert zum erneuten Anmelden auf
+
+4
+00:00:25,000 --> 00:00:34,500
+Ein analoges Verhalten bewirken Sie mittels der Tastenkombination Strg+D bzw. mit der Eingabe von exit ENTER
+
+5
+00:00:35,000 --> 00:00:37,500
+Dieses Verhalten funktioniert so nur in einer Login-Shell
+
+6
+00:00:38,000 --> 00:00:45,500
+Befinden Sie sich in einer Subshell verweigert das Kommando »logout« mit einer entsprechenden Fehlermeldung die Arbeit
+
+7
+00:00:46,000 --> 00:00:49,500
+Beabsichtigen Sie dennoch, eine Abmeldung vom System durchzufuehren
+
+8
+00:00:50,000 --> 00:00:57,500
+muessen Sie zuvor mittels »exit« alle Subshells explizit beenden und in die Login-Shell zurueckkehren
+
+9
+00:00:58,000 --> 00:01:02,500
+Kurzum, in der Login-Shell ist das Verhalten von »logout« und »exit« gleich
+
+10
+00:01:03,000 --> 00:01:09,500
+Das Kommando »logout« allerdings schuetzt vor versehentlichem Beenden von Subshells
+
+11
+00:01:11,000 --> 00:01:16,500
+Vielleicht wuenschen Sie bei Sitzungsschluss das anschliessnde Abschalten des Rechners?
+
+12
+00:01:17,000 --> 00:01:22,500
+Unter DOS war es noch ueblich, den Ausschalter zur Beendigung einer Sitzung am Rechner zu nutzen
+
+13
+00:01:23,000 --> 00:01:26,500
+Auch unter Linux dient der Ausschalter dem endgueltigen Knock-out des Rechners
+
+14
+00:01:27,000 --> 00:01:32,500
+zuvor jedoch ist ein ordnungsgemaesses Herunterfahren des Systems dringend zu empfehlen
+
+15
+00:01:33,000 --> 00:01:37,500
+Der wesentliche Grund (aber nicht der Einzige) hierfuer ist die Verfahrensweise beim Zugriff
+
+16
+00:01:38,000 --> 00:01:40,500
+auf dauerhafte Speichermedien, wie z.B. die Festplatte
+
+17
+00:01:41,000 --> 00:01:46,500
+Aus Performancegruenden werden Schreibzugriffe auf diese nicht sofort durchgefuehrt
+
+18
+00:01:47,000 --> 00:01:52,500
+sondern erst bei Bedarf bzw. nach Ablauf einer voreingestellten Zeitspanne
+
+19
+00:01:54,000 --> 00:02:09,500
+reboot ENTER und shutdown -r now ENTER booten den Rechner neu
+
+20
+00:02:10,000 --> 00:02:36,500
+init 0 ENTER oder halt ENTER oder poweroff ENTER oder shutdown -h now ENTER halten das System dagegen an 
+
+21
+00:02:37,000 --> 00:02:42,500
+Diese Befehle beduerfen aber der Berechtigung des Administrators (dem root)
+
+22
+00:02:43,000 --> 00:02:48,500
+dem gewoehnlichen Benutzer steht bestenfalls (wenn nicht vom Administrator unterbunden)
+
+23
+00:02:49,000 --> 00:02:56,500
+die Tastenkombination Strg+Alt+Entf zur Verfuegung, die in der Standardkonfiguration ein reboot bewirkt
+
+24
+00:02:49,000 --> 00:03:12,500
+Bei Ubuntu wird ein Befehl wie reboot mit Administratorrechten ausgefuehrt wenn davor sudo steht
+
+25
+00:03:13,000 --> 00:03:27,500
+wie z.B. sudo reboot ENTER, so wird der Befehl reboot mit Administratorrechten ausgefuehrt, der Rechner wird neu gestartet
+
+26
+00:03:36,000 --> 00:03:39,500
+Der Abschied von der grafischen Oberflaeche
+
+27
+00:03:40,000 --> 00:03:45,500
+Das alleinige Abmelden gelingt immer ueber die entsprechenden Menueeintraege des jeweiligen Window-Managers
+
+28
+00:03:46,000 --> 00:03:48,500
+Schwieriger ist es mit dem Herunterfahren des Rechners
+
+29
+00:03:49,000 --> 00:03:52,500
+Der »kdm« und »gdm« koennen dahin gehend konfiguriert werden
+
+30
+00:03:53,000 --> 00:03:56,50
+dass dem Benutzer das Abschalten des Computers ermoeglicht wird
+
+31
+00:03:57,000 --> 00:04:08,50
+Bei Ubuntu klickt man auf System - Benutzer abmelden um sich abzumelden
+
+32
+00:04:15,000 --> 00:04:32,50
+Und man klickt auf System - Ausschalten um den PC herunterzufahren
+
+33
+00:04:34,000 --> 00:04:36,50
+Tschau und viel Glueck

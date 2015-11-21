@@ -1,0 +1,99 @@
+1
+00:00:09,500 --> 00:00:16,500
+Anmeldung auf der Konsole. Linux, und UNIX im Allgemeinen, ist ein Mehrbenutzersystem
+
+2
+00:00:17,000 --> 00:00:21,500
+d.h. gleichzeitig koennen theoretisch unbegrenzt viele Benutzer mit nur einem System arbeiten
+
+3
+00:00:22,000 --> 00:00:25,500
+Um Dateien eindeutig einem Benutzer zuordnen zu koennen
+
+4
+00:00:26,000 --> 00:00:31,500
+benoetigt Linux Informationen ueber diesen, d.h. ein Benutzer muss sich beim System anmelden
+
+5
+00:00:32,000 --> 00:00:35,500
+login: der Benutzername wird eingegeben ENTER
+
+6
+00:00:36,000 --> 00:00:41,500
+Ein Benutzer koennte sich leicht als ein anderer ausgeben z.B. als root
+
+7
+00:00:42,000 --> 00:00:45,500
+Um vor Missbrauch zu schuetzen muss dieser sich dem System gegenueber auch ausweisen
+
+8
+00:00:46,000 --> 00:00:53,500
+ein geheimes Passwort sorgt fuer den Schutz, Password: das Passwort wird eingegeben ENTER
+
+9
+00:00:54,000 --> 00:00:56,500
+Stimmen Benutzerkennung und Passwort ueberein
+
+10
+00:00:57,000 --> 00:01:01,500
+gelingt das Anmelden am System und der Benutzer landet in seinem Heimatverzeichnis
+
+11
+00:01:02,000 --> 00:01:06,500
+Linux startet eine Shell, einen Kommandozeileninterpreter
+
+12
+00:01:07,000 --> 00:01:09,500
+der die Interaktion zwischen Benutzer und System steuert
+
+13
+00:01:10,000 --> 00:01:12,500
+die Shell nimmt Eingaben vom Benutzer entgegen
+
+14
+00:01:13,000 --> 00:01:20,500
+interpretiert diese und veranlasst das Betriebssystem zu entsprechenden Aktionen
+
+15
+00:01:27,000 --> 00:01:32,500
+Grafische Anmeldung. falls das System fuer grafisches Anmelden konfiguriert wurde
+
+16
+00:01:33,000 --> 00:01:37,500
+begegnet einem nach dem Hochfahren des Rechners ein so genannter Login-Manager
+
+17
+00:01:38,000 --> 00:01:43,500
+Derzeit dominieren drei Programme: der jedem X-Window-Paket beiliegende xdm
+
+18
+00:01:44,000 --> 00:01:49,500
+der vom KDE-Team entwickelte kdm sowie der gdm des Gnome-Projekts
+
+19
+00:01:50,000 --> 00:01:52,500
+Das konkrete Aussehen der Login-Manager
+
+20
+00:01:53,000 --> 00:01:55,500
+ist stark von ihrer Konfiguration abhaengig
+
+21
+00:01:56,000 --> 00:02:00,500
+Allgemein bieten kdm und gdm mehr Funktionalitaet
+
+22
+00:02:01,000 --> 00:02:04,500
+wie z.B. die Moeglichkeit zur Auswahl eines Window-Managers
+
+23
+00:02:05,000 --> 00:02:10,500
+oder die grafische Auswahl von Benutzerkennzeichen
+
+24
+00:02:13,000 --> 00:02:23,500
+Der Benutzername wird eingegeben ENTER, das Passwort wird eingegeben ENTER
+
+25
+00:02:26,000 --> 00:02:29,500
+Tschau und viel Glueck

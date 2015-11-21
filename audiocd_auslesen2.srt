@@ -1,0 +1,175 @@
+1
+00:00:01,000 --> 00:00:03,500
+Ein herzliches Hallo an alle
+
+2
+00:00:04,000 --> 00:00:10,500
+Nach Audio-CD auslesen im Desktopmodus folgt nun natürlich Audio-CD auslesen im Textmodus
+
+3
+00:00:11,000 --> 00:00:18,500
+Ich starte ein Terminal, wandere mit dem Mauspfeil auf Anwendungen - Zubehör - Terminal
+
+4
+00:00:18,600 --> 00:00:20,500
+Mache einen Klick mit der linken Maustaste
+
+5
+00:00:21,600 --> 00:00:24,500
+Zum einen gibt es das Programm cdparanoia
+
+6
+00:00:25,000 --> 00:00:44,500
+Die Optionsbeschreibungen erscheinen nach den Kommandos man cdparanoia ENTER oder info cdparanoia ENTER
+
+7
+00:00:45,000 --> 00:00:50,500
+Mit der q-Taste wird die Hilfe beendet
+
+8
+00:00:51,000 --> 00:00:58,500
+oder kurz cdparanoia --help ENTER
+
+9
+00:01:01,000 --> 00:01:10,500
+Ich lege die Audio-CD ein, warte bis sie erfasst wurde, automatisch wird der Video-Player totem gestartet
+
+10
+00:01:17,000 --> 00:01:19,500
+den beende ich gleich wieder
+
+11
+00:01:25,000 --> 00:01:34,500
+und ich benutze anschließend die Option -Q um zu schauen ob die Audio-CD erfasst wurde und wieviel Songs drauf sind
+
+12
+00:01:35,000 --> 00:01:42,500
+Ich tippe ein cdparanoia -Q ENTER
+
+13
+00:01:44,000 --> 00:01:50,500
+Ich wechsle nun zum Ordner musik, cd musik ENTER
+
+14
+00:01:51,000 --> 00:02:00,500
+Gehe in den Zielordner cdparanoia, cd cdparanoia ENTER
+
+15
+00:02:01,000 --> 00:02:15,500
+cdparanoia -B ENTER schreibt alle Tracks in einzelne wav-Dateien ins aktuelle Verzeichnis
+
+15
+00:02:16,000 --> 00:02:20,500
+das Endergebnis sieht folgendermaßen aus
+
+16
+00:02:23,000 --> 00:02:40,500
+Einzelne Tracks können mit cdparanoia -B 1 ausgelesen werden, also Track 1 wird ausgelesen
+
+16
+00:02:44,000 --> 00:03:00,500
+Track 1 bis 10 speichere ich durch die Ausführung von cdparanoia -B 1-10 ENTER
+
+17
+00:03:04,000 --> 00:03:34,500
+Möchte ich z.B. Track 1 bis 5 in eine wav-Datei schreiben muss ich folgendes eintippen cdparanoia 1-5 audio.wav ENTER
+
+18
+00:03:36,000 --> 00:03:43,500
+Bin ich der Meinung ich brauche z.B. nur die ersten 20 oder 30 Sekunden eines Songs
+
+19
+00:03:44,000 --> 00:04:31,500
+gebe ich ein cdparanoia 1[0:00.00]-1[0:30.00] audio.wav ENTER
+
+20
+00:04:32,000 --> 00:04:37,500
+so werden nur die ersten 30 Sekunden des ersten Tracks ausgelesen
+
+21
+00:04:43,000 --> 00:04:51,500
+Zum anderen existiert das Tool cdda2wav zum Audio-CD auslesen
+
+22
+00:04:52,000 --> 00:05:21,500
+Hilfe folgt ebenfalls wieder nach den Kommandos man cdda2wav ENTER oder info cdda2wav ENTER oder cdda2wav --help ENTER
+
+23
+00:05:23,000 --> 00:05:35,500
+Ich gehe nun in den Ordner cdda2wav der im Ordner musik vorhanden ist
+
+24
+00:05:36,000 --> 00:05:47,500
+cd .. ENTER, so gehe ich aus dem aktuellen Verzeichnis raus, gehe jetzt in den Ordner cdda2wav (cd cdda2wav ENTER)
+
+25
+00:05:50,000 --> 00:06:00,500
+Genau wie bei cdparanoia kann ich mit -B veranlassen das alle Tracks in separate Dateien geschrieben werden
+
+26
+00:06:02,000 --> 00:06:17,500
+Ich tippe dazu ein cdda2wav -B ENTER, das Endergebnis sieht so aus
+
+27
+00:06:19,000 --> 00:06:24,500
+Option -t ermöglicht es das einzelne Tracks ausgelesen werden
+
+28
+00:06:25,000 --> 00:06:48,500
+z.B. Track 2, dazu tippe ich ein cdda2wav -t 2 audio.wav ENTER
+
+29
+00:06:50,000 --> 00:06:56,500
+gebe ich keine Datei an wird es automatisch in die Datei audio.wav geschrieben
+
+30
+00:06:57,000 --> 00:07:04,500
+Mit der Option -O bestimme ich das Ausgabe-Format
+
+31
+00:07:06,000 --> 00:07:13,500
+Die echo-Option -e erlaubt es das ich den Track während des Auslesens auch anhören kann
+
+32
+00:07:14,000 --> 00:07:38,500
+z.B. cdda2wav -t 2 -e ENTER, jetzt wird Track 2 ausgelesen und ich kann ihn mir auch gleichzeitig anhören
+
+33
+00:07:40,000 --> 00:07:52,500
+Möchte ich mir den Track nur anhören füge ich noch ein -N hinzu (für nicht schreiben)
+
+34
+00:07:54,000 --> 00:08:15,500
+Mit cdda2wav -t 1+5 -B ENTER werden Track 1 bis 5 ausgelesen
+
+35
+00:08:18,000 --> 00:08:24,500
+Das zum Audio-CD auslesen, jetzt noch zum wav-Dateien abspielen
+
+36
+00:08:25,000 --> 00:08:32,500
+Durch das Kommando play kann ich mir nach dem Audio-CD auslesen die wav-Dateien anhören
+
+37
+00:08:33,000 --> 00:08:45,500
+Dazu gebe ich dann ein play audio.wav ENTER
+
+38
+00:08:47,000 --> 00:08:52,500
+oder ich kann mir z.B. auch die Datei rückwärts anhören
+
+39
+00:08:53,000 --> 00:09:11,500
+dazu gebe ich ein play audio.wav reverse ENTER
+
+40
+00:09:12,000 --> 00:09:26,500
+oder wenn man sich statistische Infos anschauen möchte gibt man ein play audio.wav stat ENTER
+
+41
+00:09:30,000 --> 00:09:44,500
+Mit dem Video-Player Totem kann ich mir ebenfalls wav-Dateien anhören oder mit dem Helix-Player oder auch mit der Rhythmbox
+
+42
+00:09:48,000 --> 00:09:52,500
+Das soll es für heute gewesen sein, bis zum nächsten mal
