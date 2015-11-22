@@ -1,0 +1,103 @@
+1
+00:00:10,000 --> 00:00:12,500
+Ein saftiges Erlebnis - Juice
+
+2
+00:00:13,000 --> 00:00:19,500
+Beim Programm Juice handelt es sich um eine Oberflaeche fuer Abspielprogramme wie z.B. mpg123
+
+3
+00:00:20,000 --> 00:00:26,500
+Aehnlich wie bei mp3blaster installiert man beide Programme ueber den Paketmanager seiner Distribution
+
+4
+00:00:27,000 --> 00:00:29,500
+Bei Ubuntu waere der richtige Befehl in der Konsole:
+
+5
+00:00:30,000 --> 00:00:39,500
+sudo apt-get install juice mpg123 ENTER um die beiden Paket zu installieren
+
+6
+00:00:40,000 --> 00:00:46,500
+Wer Juice aus einem Terminalemulatur wie z.B. xterm aufruft
+
+7
+00:00:47,000 --> 00:00:50,500
+sollte sicherstellen, dass das Fenster mindestens 80×25 Pixel gross ist
+
+8
+00:00:51,000 --> 00:00:56,500
+Sollte dies nicht der Fall sein, quittiert Juice seinen Dienst mit einer Fehlermeldung
+
+9
+00:00:57,000 --> 00:01:05,500
+Ich starte jetzt juice mit dem Befehl juice ENTER im Terminal gnome-terminal
+
+10
+00:01:06,000 --> 00:01:08,500
+Das Setup-Menue von juice
+
+11
+00:01:09,000 --> 00:01:15,500
+Nachdem man das Programm gestartet hat, findet man sich auf einer ziemlich leeren blauen Oberflaeche wieder
+
+12
+00:01:16,000 --> 00:01:21,500
+Am unterem Rand des Programms sind vier Schaltflaechen die man per TAB-Taste erreicht
+
+13
+00:01:22,000 --> 00:01:26,500
+Weiter unten sind die Funktionen der verfuegbaren Funktionstasten ersichtlich
+
+14
+00:01:27,000 --> 00:01:32,500
+Beim ersten Start sollte man mittels F3 das Setup besuchen
+
+15
+00:01:33,000 --> 00:01:39,500
+Dort kann man u.a. festlegen, in welchem Verzeichnis standardmaessig nach Musikdateien gesucht werden soll
+
+16
+00:01:40,000 --> 00:01:45,500
+Auch Angaben zur spaeteren Anzeige der ID3-Daten kann man hier festlegen
+
+17
+00:01:46,000 --> 00:01:50,500
+Nach erfolgtem Setup sollte man die Einstellungen speichern
+
+18
+00:01:51,000 --> 00:01:56,500
+Die Bedienung ist weitgehend selbsterklaerend
+
+19
+00:01:57,000 --> 00:02:05,500
+Befindet man sich in einem Verzeichnis, aus welchem man gern seine Musik zur Playlist hinzufuegen moechte
+
+20
+00:02:05,000 --> 00:02:17,500
+geht man zum Befehl ADD, um einzelne Dateien zu uebertragen 
+
+21
+00:02:18,000 --> 00:02:25,500
+oder zu ADD all, um alle vorhandenen Dateien in die Playlist zu ueberstellen
+
+22
+00:02:26,000 --> 00:02:31,500
+Hat man auf diese Weise seine persoenliche Playlist zusammengestellt
+
+23
+00:02:32,000 --> 00:02:37,500
+so kann man diese natuerlich speichern, um sie beim naechsten Mal problemlos wieder laden zu koennen
+
+24
+00:02:38,000 --> 00:02:46,500
+Leider unterstuetzen weder Juice noch mpg123 den Import von M3U- oder PLS-Playlisten
+
+25
+00:02:47,000 --> 00:02:52,500
+obwohl man im Setup den Typ der zu speichernden Playlisten angeben kann
+
+26
+00:03:02,000 --> 00:03:05,500
+Tschau und viel Glueck

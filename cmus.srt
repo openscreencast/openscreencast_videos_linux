@@ -1,0 +1,127 @@
+1
+00:00:10,000 --> 00:00:11,500
+Leichtgewicht cmus
+
+2
+00:00:12,000 --> 00:00:16,500
+cmus gehoert wohl zu den bekanntesten Musikwiedergabeprogrammen auf der Konsole
+
+3
+00:00:17,000 --> 00:00:19,500
+Das mag daran liegen, dass der Player nicht nur unter Linux
+
+4
+00:00:20,000 --> 00:00:23,500
+sondern auch unter anderen UNIX-artigen Betriebssystemen laeuft
+
+5
+00:00:24,000 --> 00:00:26,500
+Zum anderen kann es auch daran liegen, dass man, je nach Plugin
+
+6
+00:00:27,000 --> 00:00:32,500
+von AAC bis WV (WavePack) alles wiedergeben kann, was an Formaten fuer Musik existiert
+
+7
+00:00:33,000 --> 00:00:40,500
+Bevor man sich cmus ueber seinen Paketmanager herunterlaedt und installiert, sollte man sich kurz Gedanken machen
+
+8
+00:00:41,000 --> 00:00:46,500
+welche Formate man abspielen und ueber welchen Soundserver man spaeter seine Musik hoeren moechte
+
+9
+00:00:47,000 --> 00:00:53,500
+Die entsprechenden Bibliotheken sollte man im Vorfeld installieren wie z.B. vorbis fuer die Wiedergabe von OGG Musikdateien
+
+10
+00:00:54,000 --> 00:01:02,500
+Unter den meisten Distributionen sind die Unterstuetzungen fuer die gaengigen Musikformate bereits enthalten
+
+11
+00:01:03,000 --> 00:01:07,500
+Einzig MP3 muss man vereinzelt nachinstallieren
+
+12
+00:01:08,000 --> 00:01:14,500
+Um nun cmus zu installieren markiert man das Programm einfach in seinem Paketmanager
+
+13
+00:01:15,000 --> 00:01:33,500
+Der richtige Befehl in der Konsole bei Ubuntu waere sudo apt-get install cmus ENTER um das Paket zu installieren
+
+14
+00:01:36,000 --> 00:01:40,500
+Nach erfolgreicher Installation schaut man am besten mit dem Befehl:
+
+15
+00:01:41,000 --> 00:01:51,500
+cmus –plugins ENTER nach, welche Formatunterstuetzung aktiviert ist
+
+16
+00:01:52,000 --> 00:01:55,500
+Gestartet wird das Programm mit dem Befehl cmus ENTER
+
+17
+00:01:56,000 --> 00:01:59,500
+Die Oberflaeche des Programms gliedert sich in zwei Haelften
+
+18
+00:02:00,000 --> 00:02:05,500
+Die linke kuemmert sich um die Darstellung des Dateisystems und die rechte um die Anzeige der Playlist
+
+19
+00:02:06,000 --> 00:02:08,500
+Konfigurationseinstellungen von cmus
+
+20
+00:02:09,000 --> 00:02:12,500
+Zu bedienen ist cmus ueber vorgegebene Tastaturkuerzel
+
+21
+00:02:13,000 --> 00:02:15,500
+Stellenweise kann man die Befehle auch eingeben
+
+22
+00:02:16,000 --> 00:02:18,500
+Der Stil aehnelt dabei dem von vi(m)
+
+23
+00:02:19,000 --> 00:02:25,500
+Die benutzbaren Befehle und Tastaturbefehle zeigt ein Blick in die man-Page von cmus
+
+24
+00:02:26,000 --> 00:02:30,500
+oder man drueckt im laufenden Betrieb die Zifferntaste 7
+
+25
+00:02:31,000 --> 00:02:38,500
+Den Reiz und die Bekanntheit von cmus verdankt das Programm nicht zuletzt den umfangreichen Konfigurationsmoeglichkeiten
+
+26
+00:02:39,000 --> 00:02:47,500
+Hat man die Zifferntaste 7 gedrueckt, offenbart sich einem nicht nur eine Liste ueber die Tastaturkuerzel und Eingabebefehle
+
+27
+00:02:48,000 --> 00:02:54,500
+sondern auch noch Angaben zu Hintergrundfarbe, Darstellungsoptionen, verwendeter Soundserver etc
+
+28
+00:02:55,000 --> 00:02:59,500
+Moechte man etwas aendern, waehlt man per Pfeiltasten den jeweiligen Eintrag an
+
+29
+00:03:00,000 --> 00:03:07,500
+und drueckt [Enter] und aendert die Standardangabe entsprechend seinen Beduerfnissen ab
+
+30
+00:03:08,000 --> 00:03:11,500
+Beim Beenden merkt sich cmus die Einstellungen
+
+31
+00:03:26,000 --> 00:03:33,500
+Beendet wird das Programm mit :quit ENTER
+
+32
+00:03:34,000 --> 00:03:37,500
+Tschau und Viel Glueck

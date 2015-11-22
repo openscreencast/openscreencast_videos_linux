@@ -1,0 +1,143 @@
+1
+00:00:10,000 --> 00:00:12,500
+Medienwiedergabe in der Konsole
+
+2
+00:00:13,000 --> 00:00:19,500
+Effizienz, Beschraenkung auf das wesentliche und eine Spur Extravaganz. So koennte man viele Konsolenprogramme umschreiben
+
+3
+00:00:20,000 --> 00:00:27,500
+Programme zur Wiedergabe von Audio und Video unter Linux werden immer hungriger, was Speicher und CPU Auslastung anbelangt
+
+4
+00:00:28,000 --> 00:00:30,500
+Da »rockt« die Kommandozeile
+
+5
+00:00:31,000 --> 00:00:38,500
+Um seine Musik abspielen zu koennen oder um Internetradio bzw. Musikstreams zu empfangen und wiederzugeben
+
+6
+00:00:39,000 --> 00:00:43,500
+braucht es nur die Konsole - Wiedergabeprogramme dafuer gibt es wie Sand am Meer
+
+7
+00:00:44,000 --> 00:00:50,500
+mp3blaster - Um mp3blaster zu installieren genuegt es 
+
+8
+00:00:51,000 --> 00:00:55,500
+den Paketmanager seiner Distribution zu starten und nach dem Programm zu suchen
+
+9
+00:00:56,000 --> 00:01:10,500
+Bei Ubuntu waere der richtige Befehl in der Konsole um das Paket zu installieren: sudo apt-get install mp3blaster ENTER
+
+10
+00:01:11,000 --> 00:01:16,500
+Nach der Installation startet man das Programm mit dem Befehl mp3blaster
+
+11
+00:01:17,000 --> 00:01:24,500
+Aber Achtung: Fuehrt man Konsolenprogramme in einem Terminalemulator wie z.B. gnome-terminal aus
+
+12
+00:01:25,000 --> 00:01:27,500
+so stehen einige Funktionstasten nicht zur Verfuegung
+
+13
+00:01:28,000 --> 00:01:37,500
+So fuehrt z.B. der Druck auf die F1-Taste dazu, dass die Hilfefunktion des verwendeten Desktop- oder Window-Managers aufgerufen wird
+
+14
+00:01:38,000 --> 00:01:43,500
+deswegen starte ich mp3blaster im xterm
+
+15
+00:01:44,000 --> 00:01:52,500
+Man befindet sich unmittelbar nach dem Start in einer Oberflaeche wieder, die auch als CLI bezeichnet wird
+
+16
+00:01:53,000 --> 00:01:59,500
+Da es im Normalfall keine Mausunterstuetzung in der Konsole gibt, steuert man das Programm bequem per Tastatur
+
+17
+00:02:00,000 --> 00:02:07,500
+Im oberen Teil der Oberflaeche findet man diverse Funktionen zusammen mit der jeweiligen Taste
+
+18
+00:02:08,000 --> 00:02:15,500
+Um sich einen groben ueberblick zu verschaffen, drueckt man die Taste + um durch die verschiedenen Funktionen zu scrollen
+
+19
+00:02:16,000 --> 00:02:22,500
+Am rechtem Rand befinden sich die bekannten Symbole fuer Play, Stop usw.
+
+20
+00:02:23,000 --> 00:02:27,500
+Gesteuert werden diese ueber die Zahlen auf der Tastatur
+
+21
+00:02:28,000 --> 00:02:33,500
+Unterhalb der Symbole befindet sich der Lautstaerkeregler
+
+22
+00:02:34,000 --> 00:02:40,500
+Mittels der Taste [T] schaltet man die diversen Mixer-Devices des Soundservers durch
+
+23
+00:02:41,000 --> 00:02:49,500
+und reguliert diese mit den Tasten < und > jeweils nach rechts (lauter) oder links (leiser)
+
+24
+00:02:50,000 --> 00:03:03,500
+In der Mitte von mp3blaster befindet sich eine große freie Flaeche
+
+25
+00:03:04,000 --> 00:03:08,500
+Diese dient zum Navigieren durch die Verzeichnisse und Playlisten
+
+26
+00:03:09,000 --> 00:03:12,500
+Mittels F1 kann man nach einzelnen Dateien suchen
+
+27
+00:03:13,000 --> 00:03:20,500
+Wer gleich eine ganze Playlist einlesen lassen moechte, drueckt stattdessen F3
+
+28
+00:03:29,000 --> 00:03:36,500
+Doch mp3blaster kann, anders als der Name vermuten laesst, nicht nur MP3-Formate wiedergeben
+
+29
+00:03:37,000 --> 00:03:42,500
+Auch OGG Vorbis und WAV gehoeren zum Wiedegabefundus des Programms
+
+30
+00:03:43,000 --> 00:03:51,500
+Ferner kann man einzelne Dateien oder auch ganze Playlisten von MP3 nach WAV konvertieren lassen
+
+31
+00:03:52,000 --> 00:03:54,500
+um sie spaeter gleich auf CD brennen zu koennen
+
+32
+00:03:55,000 --> 00:04:01,500
+Wenn man keine Lust auf seine eigene Musik hat, kann man auch Internetradio hoeren
+
+33
+00:04:02,000 --> 00:04:07,500
+Auch Wiedergabemoeglichkeiten fuer den Endlosbetrieb sind mit an Board (shuffle und repeat)
+
+34
+00:04:08,000 --> 00:04:15,500
+Durch diverse Scripte kann man den Funktionsumfang von mp3blaster noch erhoehen
+
+35
+00:04:16,000 --> 00:04:22,500
+So gibt es Scripte fuer die Anbindung an den Online-Dienst last.fm z.B.
+
+36
+00:04:24,000 --> 00:04:26,500
+Tschau und Viel Glueck
