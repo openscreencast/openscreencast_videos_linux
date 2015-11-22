@@ -1,0 +1,55 @@
+1
+00:00:10,000 --> 00:00:13,500
+Zufaellige Hintergrundbilder - Wallpaper schmuecken den Desktop
+
+2
+00:00:14,000 --> 00:00:17,500
+Doch es wird schnell langweilig, tagelang immer nur das Wallpaper zu sehen
+
+3
+00:00:18,000 --> 00:00:24,500
+Aber man findet sehr viele: z.B. bei gnome-look, kde-look, art.gnome.org oder vielen anderen Seiten
+
+4
+00:00:25,000 --> 00:00:29,500
+Im UbuntuUserForum existiert ein Thema "Wo findet ihr eure Wallpaper"
+
+5
+00:00:30,000 --> 00:00:34,500
+So hat man schnell eine grosse Sammlung zusammen, doch man guckt sich die Wallpaper selten an
+
+6
+00:00:35,000 --> 00:00:38,500
+Warum sollte man sie denn nicht zufaellig anzeigen lassen ?
+
+7
+00:00:39,000 --> 00:00:41,500
+wallpaper-tray erfuellt genau diese Funktion
+
+8
+00:00:42,000 --> 00:00:45,500
+Es laesst sich in den meisten Distributionen ueber die Paketmanager installieren
+
+9
+00:00:46,000 --> 00:00:47,500
+Die Bedienung ist selbsterklaerend
+
+10
+00:00:48,000 --> 00:00:54,500
+Nachdem man das Paket wallpaper-tray installiert hat kann man es starten indem man
+
+11
+00:00:55,000 --> 00:01:04,500
+auf Anwendungen - Zubehoer - Terminal klickt und danach gibt man den Befehl wallpaper-tray ENTER ein
+
+12
+00:01:05,000 --> 00:01:11,500
+Nachdem das Programm gestartet wurde erscheint im Panel ein Symbol zu dem Programm
+
+13
+00:01:12,000 --> 00:01:19,500
+Moechte man das Programm konfigurieren klickt man mit der rechten Maustaste auf das Symbol und klickt auf Configuration
+
+14
+00:01:25,000 --> 00:01:28,500
+Tschau und viel Glueck

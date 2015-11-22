@@ -1,0 +1,67 @@
+1
+00:00:10,000 --> 00:00:12,500
+Hintergrund fuer jede Arbeitsflaeche
+
+2
+00:00:13,000 --> 00:00:15,500
+Unter Linux hat man meistens mehr als eine Arbeitsflaeche
+
+3
+00:00:16,000 --> 00:00:19,500
+Langweilig, wenn auf jeder das gleiche Hintergrundbild ist
+
+4
+00:00:20,000 --> 00:00:22,500
+Man kann nicht erkennen auf welcher Arbeitsflaeche man ist
+
+5
+00:00:23,000 --> 00:00:24,500
+Dafuer gibt es eine Loesung
+
+6
+00:00:25,000 --> 00:00:28,500
+Fuer den Gnome-Desktop wurde Wallpapoz entwickelt
+
+7
+00:00:29,000 --> 00:00:34,500
+Mit der Anwendung kann man auch die Hintergrundbilder ueber ein Intervall austauschen
+
+8
+00:00:35,000 --> 00:00:38,500
+Zuerst muss das Paket python-imaging
+
+9
+00:00:39,000 --> 00:00:42,500
+welches fuer die meisten Distributionen erhaeltlich ist installiert werden
+
+10
+00:00:43,000 --> 00:00:44,500
+wenn es noch nicht installiert ist
+
+11
+00:00:45,000 --> 00:00:50,500
+Fuer das Skript ist kein Paket verfuegbar, deswegen muss man es herunterladen
+
+12
+00:00:51,000 --> 00:01:24,500
+unzwar von dieser Seite http://wallpapoz.akbarhome.com und entpacken
+
+13
+00:01:25,000 --> 00:01:33,500
+Danach geht man in ein Terminal, Klickt auf Anwendungen - Zubehoer - Terminal
+
+14
+00:01:34,000 --> 00:01:48,500
+mit cd in das entpackte Verzeichnis
+
+15
+00:01:49,000 --> 00:02:03,500
+Dort fuehrt man den Befehl sudo ./setup.py install ENTER aus
+
+16
+00:02:04,000 --> 00:02:33,500
+Nun ist das Programm unter Anwendungen - Zubehoer - Wallpapoz zu finden
+
+17
+00:02:34,000 --> 00:02:37,500
+Tschau und Viel Glueck
