@@ -1,0 +1,91 @@
+1
+00:00:06,000 --> 00:00:09,900
+KRunner - Teil 2 - Orte
+
+2
+00:00:10,000 --> 00:00:13,900
+Moechte man schnell einen bestimmten Ort im Dateimanager Dolphin oeffnen
+
+3
+00:00:14,000 --> 00:00:17,900
+so muss man lediglich den Pfad im KRunner eingeben
+
+4
+00:00:18,000 --> 00:00:28,900
+Tippt man somit zum Beispiel /media ein, so oeffnet sich das Verzeichnis /media
+
+5
+00:00:31,000 --> 00:00:33,900
+Rechner
+
+6
+00:00:34,000 --> 00:00:35,900
+Dieses Plugin ist eines von denen
+
+7
+00:00:36,000 --> 00:00:39,900
+die man zunaechst durch Eingabe eines Schluesselzeichens aktivieren muss
+
+8
+00:00:40,000 --> 00:00:44,900
+Will man z.B. das Ergebnis der Addition von 1 mit 1 wissen
+
+9
+00:00:45,000 --> 00:00:53,900
+so muss man =1+1 eingeben
+
+10
+00:00:56,000 --> 00:00:57,900
+Webkuerzel
+
+11
+00:00:58,000 --> 00:01:00,900
+Mit diesem Modul koennen Webkuerzel verwendet werden
+
+12
+00:01:01,000 --> 00:01:20,900
+Webkuerzel koennen im Konfigurationsdialog vom Browser aktiviert, deaktiviert bzw. eingesehen
+
+13
+00:01:32,000 --> 00:01:40,900
+Die Nutzung schaut wie folgt aus wp:Kubuntu
+
+14
+00:01:41,000 --> 00:01:49,900
+fuer die Suche nach "Kubuntu" in der Wikipedia
+
+15
+00:02:05,000 --> 00:02:19,900
+Manpages koennen per man:Name aufgerufen werden, z.B. man:ls
+
+16
+00:02:25,000 --> 00:02:32,900
+die Uhrzeit kann man sich per time anzeigen lassen
+
+17
+00:02:36,000 --> 00:02:44,900
+das Datum wird durch date sichtbar
+
+18
+00:02:46,000 --> 00:02:47,900
+Konfiguration
+
+19
+00:02:48,000 --> 00:02:53,900
+Der Konfigurationsdialog von KRunner ist relativ einfach gehalten
+
+20
+00:02:54,000 --> 00:02:58,900
+im Prinzip kann man hier nur Plugins aktivieren bzw. deaktivieren
+
+21
+00:02:59,000 --> 00:03:06,900
+In den Einstellungsbereich gelangt man, indem man auf das Symbol mit dem Schraubenschluessel
+
+22
+00:03:07,000 --> 00:03:15,900
+links im Hauptfenster von KRunner klickt
+
+23
+00:03:22,000 --> 00:03:24,900
+Tschau und viel Glueck

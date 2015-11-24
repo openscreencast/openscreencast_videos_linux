@@ -1,0 +1,159 @@
+1
+00:00:05,000 --> 00:00:12,900
+KRunner kann man wohl am besten als "Ausfuehren" Dialog bezeichnen
+
+2
+00:00:13,000 --> 00:00:17,900
+Mit KRunner ist es unter anderem moeglich Programme zu starten ohne das Menue zu oeffnen
+
+3
+00:00:18,000 --> 00:00:23,900
+daneben ist es aber dank Pluginfaehigkeit moeglich noch viele andere Aktionen auszufuehren
+
+4
+00:00:24,000 --> 00:00:32,900
+KRunner starten, KRunner wird in der Standardkonfiguration mit der Tastenkombination Alt+F2 gestartet
+
+5
+00:00:33,000 --> 00:00:42,900
+Systemueberwachung, drueckt man auf das Symbol "Systemueberwachung anzeigen" oder drueckt gleichzeitig die Tasten Strg+ESC 
+
+6
+00:00:43,000 --> 00:00:45,900
+so oeffnet sich eine Tabelle
+
+7
+00:00:46,000 --> 00:00:50,900
+in der die gerade laufenden Prozesse und ihre jeweiligen Eigenschaften aufgelistet sind
+
+8
+00:00:51,000 --> 00:00:56,900
+Der Nutzer hat so einen schnellen Ueberblick, was auf seinem System gerade genutzt wird
+
+9
+00:00:57,000 --> 00:00:59,900
+und welche Prozesse welche Ressourcen in Anspruch nehmen
+
+10
+00:01:02,000 --> 00:01:04,900
+Nutzung der Plugins
+
+11
+00:01:05,000 --> 00:01:10,900
+Viele Plugins koennen einfach durch Eingabe von Schluesselwoertern in die Eingabezeile genutzt werden
+
+12
+00:01:11,000 --> 00:01:17,900
+So startet man z.B. Programme, indem man den Namen der gewuenschten Applikation eingibt
+
+13
+00:01:18,000 --> 00:01:21,900
+Andere Plugins muessen durch Eingabe einer Zeichenfolge erst aktiviert werden
+
+14
+00:01:22,000 --> 00:01:27,900
+so muss man beispielsweise fuer die Nutzung des Taschenrechners zunaechst ein = eingeben
+
+15
+00:01:28,000 --> 00:01:30,900
+bevor man eine Berechnung startet
+
+16
+00:01:31,000 --> 00:01:38,900
+Fuer zusaetzliche Plugins muss man das Paket plasma-runners-addons installieren
+
+17
+00:01:39,000 --> 00:01:48,900
+Und das gehts wie folgt, Anwendungen - System - Softwareverwaltung, jetzt sucht man nach runners
+
+18
+00:01:56,000 --> 00:02:12,900
+und kann jetzt das Paket installieren, Anwenden, Passwort eingeben, OK
+
+19
+00:02:26,000 --> 00:02:27,900
+Programme starten
+
+20
+00:02:28,000 --> 00:02:31,900
+Eigentliche Kernkompetenz von KRunner ist das schnelle starten von Programmen
+
+21
+00:02:32,000 --> 00:02:38,900
+Hierfuer muss man nur den Namen der gewuenschten Applikation eingeben
+
+22
+00:02:40,000 --> 00:02:47,900
+Zumeist reichen dabei sogar schon die Anfangsbuchstaben oder man kann im Ergebnisfeld von KRunner
+
+23
+00:02:48,000 --> 00:02:59,900
+welches sich unter der Eingabezeile oeffnet, die gewuenschte Aktion waehlen
+
+24
+00:03:00,000 --> 00:03:01,900
+Befehlszeile
+
+25
+00:03:02,000 --> 00:03:05,900
+Das Plugin Befehlszeile ermoeglicht es KRunner wie ein Terminal zu nutzen
+
+26
+00:03:06,000 --> 00:03:08,900
+so kann man hier einfach eine Befehlszeile eingeben
+
+27
+00:03:09,000 --> 00:03:15,900
+wie man dies auch auf einer normalen Kommandozeile machen wuerde
+
+28
+00:03:16,000 --> 00:03:32,900
+Tippt man z.B. mkdir /home/Benutzername/Test ein
+
+29
+00:03:33,000 --> 00:03:37,900
+so wird im Heimatverzeichnis ein Ordner Test angelegt
+
+30
+00:03:38,000 --> 00:03:42,900
+Freilich eignet sich das Plugin nicht fuer alle Aufgaben
+
+31
+00:03:43,000 --> 00:03:55,900
+die man in einer Konsole ausfuehren wuerde, denn es gibt keine Rueckmeldungen
+
+32
+00:03:56,000 --> 00:03:57,900
+Desktop-Sitzungen
+
+33
+00:03:58,000 --> 00:04:00,900
+KRunner interagiert hier mit Kickoff
+
+34
+00:04:01,000 --> 00:04:08,900
+Geht man im Mneue auf Benutzer wechseln, so oeffnet sich Krunner und man kann dort die neue Sitzung starten
+
+35
+00:04:09,000 --> 00:04:16,900
+Sollten schon mehr als ein Nutzer angemeldet sein, so kann man in KRunner dazu bequem auswaehlen
+
+36
+00:04:17,000 --> 00:04:18,900
+welchen Nutzer man anwaehlen moechte
+
+37
+00:04:19,000 --> 00:04:22,900
+Einheiten Umwandler
+
+38
+00:04:23,000 --> 00:04:40,900
+Gibt man z.B. 10m in ft ein, so rechnet KRunner 10 Meter in Fuss um
+
+39
+00:04:41,000 --> 00:04:57,900
+Ein weiteres Beispiel ist 5C in F, hierdurch wird Celsius in Fahrenheit umgerechnet
+
+40
+00:04:58,000 --> 00:04:59,900
+Tschau und viel Glueck

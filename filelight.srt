@@ -1,0 +1,95 @@
+1
+00:00:05,000 --> 00:00:09,900
+Irgendwann stellen sich die meisten Anwender die Frage: Wo ist mein Speicherplatz hin? 
+
+2
+00:00:10,000 --> 00:00:15,900
+Jedes einzelne Verzeichnis und Unterverzeichnis auf seine Groesse und seinen Inhalt hin zu untersuchen
+
+3
+00:00:16,000 --> 00:00:21,900
+kann sehr zeitaufwendig sein. Dabei hilft zum Glueck das englischsprachige Tool Filelight
+
+4
+00:00:22,000 --> 00:00:28,900
+Es analysiert die Groesse der Verzeichnisse und stellt diese dann grafisch in Form eines Ringdiagrammes dar
+
+5
+00:00:29,000 --> 00:00:31,900
+Damit laesst sich sehr schnell erkennen
+
+6
+00:00:32,000 --> 00:00:37,900
+welche Verzeichnisse am meisten Speicherplatz verbrauchen und welche wahre Speicherfresser sind
+
+7
+00:00:38,000 --> 00:00:53,900
+Filelight ist Bestandteil des Kubuntu Repository und wird mit dem Befehl
+
+8
+00:00:54,000 --> 00:01:16,900
+sudo apt-get install filelight installiert
+
+9
+00:01:17,000 --> 00:01:29,900
+Gestartet wird es ueber Anwendungen - Dienstprogramme - Filelight
+
+10
+00:01:35,000 --> 00:01:40,900
+Partitionen koennen nun unabhaengig voneinander untersucht werden
+
+11
+00:01:41,000 --> 00:01:47,900
+Dazu klickt man auf den ringfoermigen Balken, welcher den belegten Speicherplatz darstellt
+
+12
+00:01:48,000 --> 00:01:55,900
+Filelight beginnt dann mit der Analyse und stellt das Ergebnis dar, sobald es damit fertig ist
+
+13
+00:01:59,000 --> 00:02:03,900
+Fuehrt man nun die Maus ueber einen der Balken wird der Name des Verzeichnisses
+
+14
+00:02:04,000 --> 00:02:08,900
+seine Groesse und die Anzahl der enthaltenen Dateien eingeblendet
+
+15
+00:02:11,000 --> 00:02:16,900
+Nun kann man durch anklicken in jedes dieser Verzeichnisse wechseln
+
+16
+00:02:17,000 --> 00:02:19,900
+um dieses genauer zu untersuchen
+
+17
+00:02:20,000 --> 00:02:31,900
+Alternativ kann man in der Werkzeugleiste den Pfad zum gewuenschten Verzeichniss eingeben
+
+18
+00:02:32,000 --> 00:02:43,900
+welches dann analysiert wird sobald man Enter drueckt oder auf Go klickt
+
+19
+00:02:44,000 --> 00:02:54,900
+Im Menue Scan gibt es jeweils einen Eintrag, um direkt den Persoenlichen Ordner (Home) 
+
+20
+00:02:55,000 --> 00:03:00,900
+und das Wurzelverzeichnis (Root) analysieren zu lassen
+
+21
+00:03:03,000 --> 00:03:12,900
+ueber das Menue Settings - Configure Filelight... gelangt man zu den Einstellungen
+
+22
+00:03:14,000 --> 00:03:21,900
+Dort kann man unter anderem Verzeichnisse festlegen, die von der Analyse ausgenommen bleiben sollen
+
+23
+00:03:23,000 --> 00:03:32,900
+Ausserdem laesst sich dort das Erscheinungsbild (Schriftgroesse, Farbschema) einstellen
+
+24
+00:03:34,000 --> 00:03:36,900
+Tschau und viel Glueck
