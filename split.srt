@@ -1,0 +1,107 @@
+1
+00:00:05,000 --> 00:00:08,900
+Hallo - split - Dateien in gleichmaessige Portionen zerlegen
+
+2
+00:00:09,000 --> 00:00:12,900
+Soll eine sehr grosse Datei auf mehrere Speichermedien kopiert werden
+
+3
+00:00:13,000 --> 00:00:16,900
+kommt man um eine Zerlegung der Datei nicht umhin
+
+4
+00:00:17,000 --> 00:00:22,900
+Das Kommando split erzeugt aus einer Eingabedatei die benoetigte Anzahl Ausgabedateien
+
+5
+00:00:23,000 --> 00:00:28,900
+wobei die Groesse der Einzeldateien und deren Praefix-Name konfigurierbar sind
+
+6
+00:00:29,000 --> 00:00:34,900
+Mit der Option -b n weist man split an, das Original in Einzeldateien
+
+7
+00:00:35,000 --> 00:00:39,900
+von jeweils n-Bytes Umfang (bis auf die letzte) aufzuteilen
+
+8
+00:00:40,000 --> 00:00:46,900
+deren Namen dann Prefixaa, Prefixab,..., Prefixaz, Prefixba, ... lauten
+
+9
+00:00:47,000 --> 00:00:51,900
+Wird "PREFIX" nicht angegeben, lautet dieses x
+
+10
+00:00:52,000 --> 00:00:57,900
+Ein Beispiel (ls -l) - die Datei ist ca. 5MB gross
+
+11
+00:00:58,000 --> 00:01:16,900
+und zerlegt wird die Datei per split -b 1024k datei ENTER
+
+12
+00:01:17,000 --> 00:01:19,900
+und das Ergebnis sieht so aus - 5 Dateien
+
+13
+00:01:20,000 --> 00:01:29,900
+und mit Prefix gibt man den gleichen Befehl ein - am Ende steht Prefix
+
+14
+00:01:30,000 --> 00:01:31,900
+und das Ergebnis
+
+15
+00:01:32,000 --> 00:01:37,900
+Dieses Beispiel trennt exakt an der angegebenen Byteposition
+
+16
+00:01:38,000 --> 00:01:41,900
+Bei ASCII-Dateien kann es mitunter sinnvoll sein
+
+17
+00:01:42,000 --> 00:01:45,900
+eine bestimmte Anzahl Zeilen des Originals jeweils in eine neue Datei zu schreiben
+
+18
+00:01:46,000 --> 00:01:52,900
+Die Option -l number (kleines "L") erzwingt dieses Vorgehen
+
+19
+00:01:53,000 --> 00:01:56,900
+Der Nachteil sind die sicherlich stark unterschiedlichen Speichergroessen
+
+20
+00:01:57,000 --> 00:01:58,900
+der einzelnen Teildateien
+
+21
+00:01:59,000 --> 00:02:02,900
+die stark von den Laengen der Zeilen der Ausgangsdatei abhaengen
+
+22
+00:02:03,000 --> 00:02:10,900
+Deshalb existiert -C n, wobei split am jeweils letzten Zeilenende trennt
+
+23
+00:02:11,000 --> 00:02:17,900
+so dass die entstehende Datei maximal n Bytes gross wird
+
+24
+00:02:18,000 --> 00:02:25,900
+Die einzelnen Teildateien kann man auch wieder zusammenfuegen zu einer Datei
+
+25
+00:02:26,000 --> 00:02:49,900
+per cat xaa xab xac xad xae > dateiend ENTER
+
+26
+00:02:50,000 --> 00:02:57,900
+und das ist das Ergebnis - nur eine Datei
+
+27
+00:03:01,000 --> 00:03:03,900
+Tschau und viel Glueck
